@@ -1,0 +1,29 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:850dfe65a4b3302a634922be97cd47ec:12b9e5a24acd15d5541645cce65e61f9:6a04b7a098f4ecfe774bef9c0d52d428$
+#
+:format=40000
+:texture=always.png
+:size=1024x512
+
+bar_loading_big_1;573;289;88;30;0.5;0.5
+bar_loading_big_2;663;297;28;22;0.5;0.5
+bar_loading_big_3;799;338;38;33;0.5;0.5
+bg_common_02;481;235;90;206;0.5;0.5
+btn_common_sml_01;731;443;156;68;0.5;0.5
+btn_common_sml_02;695;373;156;68;0.5;0.5
+btn_equip_Square_01;889;415;98;96;0.5;0.5
+btn_msbook_1;573;321;120;120;0.5;0.5
+btn_zhuanpan_01;481;11;100;100;0.5;0.5
+event_icon_12;481;113;120;120;0.5;0.5
+icn_lock_close;695;307;50;64;0.5;0.5
+icn_lock_open;747;307;50;64;0.5;0.5
+icon_warning;573;240;55;47;0.5;0.5
+scgift_btn;481;443;248;68;0.5;0.5
+ui_zhizhen;853;382;32;59;0.5;0.5
+ui_zhuanpan;1;33;478;478;0.5;0.5
+xian;573;235;10;1;0.5;0.5

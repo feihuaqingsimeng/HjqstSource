@@ -1,0 +1,306 @@
+fileFormatVersion: 2
+guid: 27d3d867126c6984b8098baa908f7f93
+timeCreated: 1451898634
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bip001
+    100002: Bip001_bone01
+    100004: Bip001_bone02
+    100006: Bip001_bone03
+    100008: Bip001_bone04
+    100010: Bip001_bone05
+    100012: Bip001_bone06
+    100014: Bip001_bone07
+    100016: Bip001_bone08
+    100018: Bip001_bone09
+    100020: Bip001_bone10
+    100022: Bip001_bone11
+    100024: Bip001_bone12
+    100026: Bip001_bone13
+    100028: Bip001_bone14
+    100030: Bip001_bone15
+    100032: Bip001_bone16
+    100034: Bip001_bone17
+    100036: Bip001_bone18
+    100038: Bip001_bone19
+    100040: Bip001_bone20
+    100042: Bip001_bone21
+    100044: Bip001_bone22
+    100046: Bip001_bone23
+    100048: Bip001_bone24
+    100050: Bip001_bone25
+    100052: Bip001_bone26
+    100054: Bip001_bone27
+    100056: Bip001_bone28
+    100058: Bip001_bone29
+    100060: Bip001_bone30
+    100062: Bip001_bone31
+    100064: Bip001_bone32
+    100066: Bip001_bone33
+    100068: Bip001_bone34
+    100070: Bip001_bone35
+    100072: Bip001_bone36
+    100074: Bip001_bone37
+    100076: Bip001_bone38
+    100078: Bone002
+    100080: Bone002(mirrored)
+    100082: Bone006
+    100084: Bone006(mirrored)
+    100086: Bone013
+    100088: Bone020
+    100090: Bone027
+    100092: Bone034
+    100094: Bone041
+    100096: Bone043
+    100098: btn_book
+    100100: //RootNode
+    400000: Bip001
+    400002: Bip001_bone01
+    400004: Bip001_bone02
+    400006: Bip001_bone03
+    400008: Bip001_bone04
+    400010: Bip001_bone05
+    400012: Bip001_bone06
+    400014: Bip001_bone07
+    400016: Bip001_bone08
+    400018: Bip001_bone09
+    400020: Bip001_bone10
+    400022: Bip001_bone11
+    400024: Bip001_bone12
+    400026: Bip001_bone13
+    400028: Bip001_bone14
+    400030: Bip001_bone15
+    400032: Bip001_bone16
+    400034: Bip001_bone17
+    400036: Bip001_bone18
+    400038: Bip001_bone19
+    400040: Bip001_bone20
+    400042: Bip001_bone21
+    400044: Bip001_bone22
+    400046: Bip001_bone23
+    400048: Bip001_bone24
+    400050: Bip001_bone25
+    400052: Bip001_bone26
+    400054: Bip001_bone27
+    400056: Bip001_bone28
+    400058: Bip001_bone29
+    400060: Bip001_bone30
+    400062: Bip001_bone31
+    400064: Bip001_bone32
+    400066: Bip001_bone33
+    400068: Bip001_bone34
+    400070: Bip001_bone35
+    400072: Bip001_bone36
+    400074: Bip001_bone37
+    400076: Bip001_bone38
+    400078: Bone002
+    400080: Bone002(mirrored)
+    400082: Bone006
+    400084: Bone006(mirrored)
+    400086: Bone013
+    400088: Bone020
+    400090: Bone027
+    400092: Bone034
+    400094: Bone041
+    400096: Bone043
+    400098: btn_book
+    400100: //RootNode
+    4300000: btn_book
+    7400000: Idle_1
+    9500000: //RootNode
+    13700000: btn_book
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle_1
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 6
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001_bone06
+        weight: 1
+      - path: Bip001/Bip001_bone06/Bip001_bone05
+        weight: 1
+      - path: Bip001/Bip001_bone06/Bip001_bone05/Bip001_bone04
+        weight: 1
+      - path: Bip001/Bip001_bone06/Bip001_bone05/Bip001_bone04/Bip001_bone03
+        weight: 1
+      - path: Bip001/Bip001_bone06/Bip001_bone05/Bip001_bone04/Bip001_bone03/Bip001_bone02
+        weight: 1
+      - path: Bip001/Bip001_bone06/Bip001_bone05/Bip001_bone04/Bip001_bone03/Bip001_bone02/Bip001_bone01
+        weight: 1
+      - path: Bip001/Bip001_bone06/Bip001_bone05/Bip001_bone04/Bip001_bone03/Bip001_bone02/Bip001_bone01/Bone013
+        weight: 1
+      - path: Bip001/Bip001_bone12
+        weight: 1
+      - path: Bip001/Bip001_bone12/Bip001_bone11
+        weight: 1
+      - path: Bip001/Bip001_bone12/Bip001_bone11/Bip001_bone10
+        weight: 1
+      - path: Bip001/Bip001_bone12/Bip001_bone11/Bip001_bone10/Bip001_bone09
+        weight: 1
+      - path: Bip001/Bip001_bone12/Bip001_bone11/Bip001_bone10/Bip001_bone09/Bip001_bone08
+        weight: 1
+      - path: Bip001/Bip001_bone12/Bip001_bone11/Bip001_bone10/Bip001_bone09/Bip001_bone08/Bip001_bone07
+        weight: 1
+      - path: Bip001/Bip001_bone12/Bip001_bone11/Bip001_bone10/Bip001_bone09/Bip001_bone08/Bip001_bone07/Bone041
+        weight: 1
+      - path: Bip001/Bip001_bone18
+        weight: 1
+      - path: Bip001/Bip001_bone18/Bip001_bone17
+        weight: 1
+      - path: Bip001/Bip001_bone18/Bip001_bone17/Bip001_bone16
+        weight: 1
+      - path: Bip001/Bip001_bone18/Bip001_bone17/Bip001_bone16/Bip001_bone15
+        weight: 1
+      - path: Bip001/Bip001_bone18/Bip001_bone17/Bip001_bone16/Bip001_bone15/Bip001_bone14
+        weight: 1
+      - path: Bip001/Bip001_bone18/Bip001_bone17/Bip001_bone16/Bip001_bone15/Bip001_bone14/Bip001_bone13
+        weight: 1
+      - path: Bip001/Bip001_bone18/Bip001_bone17/Bip001_bone16/Bip001_bone15/Bip001_bone14/Bip001_bone13/Bone034
+        weight: 1
+      - path: Bip001/Bip001_bone24
+        weight: 1
+      - path: Bip001/Bip001_bone24/Bip001_bone23
+        weight: 1
+      - path: Bip001/Bip001_bone24/Bip001_bone23/Bip001_bone22
+        weight: 1
+      - path: Bip001/Bip001_bone24/Bip001_bone23/Bip001_bone22/Bip001_bone21
+        weight: 1
+      - path: Bip001/Bip001_bone24/Bip001_bone23/Bip001_bone22/Bip001_bone21/Bip001_bone20
+        weight: 1
+      - path: Bip001/Bip001_bone24/Bip001_bone23/Bip001_bone22/Bip001_bone21/Bip001_bone20/Bip001_bone19
+        weight: 1
+      - path: Bip001/Bip001_bone24/Bip001_bone23/Bip001_bone22/Bip001_bone21/Bip001_bone20/Bip001_bone19/Bone027
+        weight: 1
+      - path: Bip001/Bip001_bone30
+        weight: 1
+      - path: Bip001/Bip001_bone30/Bip001_bone29
+        weight: 1
+      - path: Bip001/Bip001_bone30/Bip001_bone29/Bip001_bone28
+        weight: 1
+      - path: Bip001/Bip001_bone30/Bip001_bone29/Bip001_bone28/Bip001_bone27
+        weight: 1
+      - path: Bip001/Bip001_bone30/Bip001_bone29/Bip001_bone28/Bip001_bone27/Bip001_bone26
+        weight: 1
+      - path: Bip001/Bip001_bone30/Bip001_bone29/Bip001_bone28/Bip001_bone27/Bip001_bone26/Bip001_bone25
+        weight: 1
+      - path: Bip001/Bip001_bone30/Bip001_bone29/Bip001_bone28/Bip001_bone27/Bip001_bone26/Bip001_bone25/Bone020
+        weight: 1
+      - path: Bip001/Bip001_bone31
+        weight: 1
+      - path: Bip001/Bip001_bone31/Bone002(mirrored)
+        weight: 1
+      - path: Bip001/Bip001_bone34
+        weight: 1
+      - path: Bip001/Bip001_bone34/Bip001_bone33
+        weight: 1
+      - path: Bip001/Bip001_bone34/Bip001_bone33/Bip001_bone32
+        weight: 1
+      - path: Bip001/Bip001_bone34/Bip001_bone33/Bip001_bone32/Bone006(mirrored)
+        weight: 1
+      - path: Bip001/Bip001_bone37
+        weight: 1
+      - path: Bip001/Bip001_bone37/Bip001_bone36
+        weight: 1
+      - path: Bip001/Bip001_bone37/Bip001_bone36/Bip001_bone35
+        weight: 1
+      - path: Bip001/Bip001_bone37/Bip001_bone36/Bip001_bone35/Bone006
+        weight: 1
+      - path: Bip001/Bip001_bone38
+        weight: 1
+      - path: Bip001/Bip001_bone38/Bone002
+        weight: 1
+      - path: Bip001/Bone043
+        weight: 1
+      - path: btn_book
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 30dda175a2ece0d4bb552b03be8f81a1,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

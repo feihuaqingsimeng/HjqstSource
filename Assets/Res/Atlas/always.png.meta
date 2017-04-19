@@ -1,0 +1,253 @@
+fileFormatVersion: 2
+guid: f3649114a5c764840bbb7254489ddbb4
+timeCreated: 1470365189
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bar_loading_big_1
+    21300002: bar_loading_big_2
+    21300004: bar_loading_big_3
+    21300006: btn_equip_Square_01
+    21300008: bg_common_02
+    21300010: btn_common_sml_01
+    21300012: btn_common_sml_02
+    21300014: icon_warning
+    21300016: xian
+    21300018: btn_zhuanpan_01
+    21300020: event_icon_12
+    21300022: ui_zhizhen
+    21300024: ui_zhuanpan
+    21300026: scgift_btn
+    21300028: btn_msbook_1
+    21300030: icn_lock_close
+    21300032: icn_lock_open
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 1
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: 34
+    compressionQuality: 100
+    allowsAlphaSplitting: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: 32
+    compressionQuality: 100
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: bar_loading_big_1
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 289
+        width: 88
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 20, y: 0, z: 20, w: 0}
+    - name: bar_loading_big_2
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 297
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 10, y: 0, z: 10, w: 0}
+    - name: bar_loading_big_3
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 338
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 10, y: 0, z: 10, w: 0}
+    - name: bg_common_02
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 235
+        width: 90
+        height: 206
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 30, y: 30, z: 30, w: 30}
+    - name: btn_common_sml_01
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 443
+        width: 156
+        height: 68
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_common_sml_02
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 373
+        width: 156
+        height: 68
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_equip_Square_01
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 415
+        width: 98
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_msbook_1
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 321
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_zhuanpan_01
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 11
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: event_icon_12
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 113
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icn_lock_close
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 307
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icn_lock_open
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 307
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_warning
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 240
+        width: 55
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: scgift_btn
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 443
+        width: 248
+        height: 68
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_zhizhen
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 382
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_zhuanpan
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 33
+        width: 478
+        height: 478
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xian
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 235
+        width: 10
+        height: 1
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: f1afba5d744679441ae7956b143aa880
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: js_skill01_smoke01
+    100002: js_skill01_swordtrail01
+    100004: js_skill01_whirlwind02
+    100006: js_skill01_whirlwind03
+    100008: js_skill01_whirlwind04
+    100010: //RootNode
+    100012: js_skill08_swordtrail01
+    100014: js_skill08_swordtrail02
+    100016: js_skill08_swordtrail03
+    100018: js_skill08_swordtrail04
+    100020: js_skill08_swordtrail05
+    100022: js_skill08_swordtrail06
+    100024: js_skill08_swordtrail07
+    100026: js_skill08_swordtrail08
+    100028: js_skill08_swordtrail09
+    100030: js_skill08_swordtrail10
+    100032: js_skill08_swordtrail11
+    100034: js_skill08_swordtrail12
+    100036: js_skill08_weapon01
+    100038: js_skill08_weapon02
+    100040: js_skill08_weapon03
+    100042: js_skill08_weapon04
+    100044: js_skill08_weapon05
+    100046: js_skill08_weapon06
+    100048: js_skill08_weapon07
+    100050: js_skill08_weapon08
+    100052: js_skill08_weapon09
+    100054: js_skill08_weapon10
+    100056: js_skill08_weapon11
+    400000: js_skill01_smoke01
+    400002: js_skill01_swordtrail01
+    400004: js_skill01_whirlwind02
+    400006: js_skill01_whirlwind03
+    400008: js_skill01_whirlwind04
+    400010: //RootNode
+    400012: js_skill08_swordtrail01
+    400014: js_skill08_swordtrail02
+    400016: js_skill08_swordtrail03
+    400018: js_skill08_swordtrail04
+    400020: js_skill08_swordtrail05
+    400022: js_skill08_swordtrail06
+    400024: js_skill08_swordtrail07
+    400026: js_skill08_swordtrail08
+    400028: js_skill08_swordtrail09
+    400030: js_skill08_swordtrail10
+    400032: js_skill08_swordtrail11
+    400034: js_skill08_swordtrail12
+    400036: js_skill08_weapon01
+    400038: js_skill08_weapon02
+    400040: js_skill08_weapon03
+    400042: js_skill08_weapon04
+    400044: js_skill08_weapon05
+    400046: js_skill08_weapon06
+    400048: js_skill08_weapon07
+    400050: js_skill08_weapon08
+    400052: js_skill08_weapon09
+    400054: js_skill08_weapon10
+    400056: js_skill08_weapon11
+    2300000: js_skill01_smoke01
+    2300002: js_skill01_swordtrail01
+    2300004: js_skill01_whirlwind02
+    2300006: js_skill01_whirlwind03
+    2300008: js_skill01_whirlwind04
+    2300010: js_skill08_swordtrail01
+    2300012: js_skill08_swordtrail02
+    2300014: js_skill08_swordtrail03
+    2300016: js_skill08_swordtrail04
+    2300018: js_skill08_swordtrail05
+    2300020: js_skill08_swordtrail06
+    2300022: js_skill08_swordtrail07
+    2300024: js_skill08_swordtrail08
+    2300026: js_skill08_swordtrail09
+    2300028: js_skill08_swordtrail10
+    2300030: js_skill08_swordtrail11
+    2300032: js_skill08_swordtrail12
+    3300000: js_skill01_smoke01
+    3300002: js_skill01_swordtrail01
+    3300004: js_skill01_whirlwind02
+    3300006: js_skill01_whirlwind03
+    3300008: js_skill01_whirlwind04
+    3300010: js_skill08_swordtrail01
+    3300012: js_skill08_swordtrail02
+    3300014: js_skill08_swordtrail03
+    3300016: js_skill08_swordtrail04
+    3300018: js_skill08_swordtrail05
+    3300020: js_skill08_swordtrail06
+    3300022: js_skill08_swordtrail07
+    3300024: js_skill08_swordtrail08
+    3300026: js_skill08_swordtrail09
+    3300028: js_skill08_swordtrail10
+    3300030: js_skill08_swordtrail11
+    3300032: js_skill08_swordtrail12
+    4300000: js_skill08_swordtrail01
+    4300002: js_skill08_swordtrail02
+    4300004: js_skill08_swordtrail03
+    4300006: js_skill08_swordtrail04
+    4300008: js_skill08_swordtrail05
+    4300010: js_skill08_swordtrail06
+    4300012: js_skill08_swordtrail07
+    4300014: js_skill08_swordtrail08
+    4300016: js_skill08_swordtrail09
+    4300018: js_skill08_swordtrail10
+    4300020: js_skill08_swordtrail11
+    4300022: js_skill01_whirlwind02
+    4300024: js_skill01_swordtrail01
+    4300026: js_skill01_whirlwind03
+    4300028: js_skill01_smoke01
+    4300030: js_skill01_whirlwind04
+    4300032: js_skill08_swordtrail12
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

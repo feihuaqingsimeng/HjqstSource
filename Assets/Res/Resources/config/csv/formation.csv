@@ -1,0 +1,5 @@
+id,name,des,p1,p2,p3,p4,p5,p6,p7,p8,p9,max_lv,upgrade_cost,upgrade_formula_a,upgrade_formula_b,upgrade_formula_c,upgrade_base_cost_a,upgrade_base_cost_b,formation_condition,unlock_cost
+1003,formation_name_1003,formation_des_1003,0,1,0,1,1,1,0,1,0,-1,8:0:1000:0,0,0.2,1,0.1,1,4003,9:0:980:0
+1004,formation_name_1004,formation_des_1004,1,0,1,1,0,1,0,1,0,-1,8:0:1000:0,0,0.2,1,0.1,1,4004,9:0:980:0
+1005,formation_name_1005,formation_des_1005,0,1,0,1,0,1,1,1,0,-1,8:0:1000:0,0,0.2,1,0.1,1,4005,9:0:980:0
+1009,formation_name_1009,formation_des_1009,0,1,0,1,1,0,1,0,1,-1,8:0:1000:0,0,0.2,1,0.1,1,4009,9:0:980:0

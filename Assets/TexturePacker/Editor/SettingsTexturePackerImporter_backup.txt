@@ -1,0 +1,74 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/Res/Atlas/map/map_02.tpsheet
+- Assets/Res/Atlas/map/map_01.tpsheet
+- Assets/Res/Atlas/map/map_04.tpsheet
+- Assets/Res/Atlas/map/map_101.tpsheet
+- Assets/Res/Atlas/skill_head.tpsheet
+- Assets/Res/Atlas/map/map_103.tpsheet
+- Assets/Res/Atlas/map/map_03.tpsheet
+- Assets/Res/Atlas/map/map_102.tpsheet
+- Assets/Res/Atlas/map/map_07.tpsheet
+- Assets/Res/Atlas/map/map_06.tpsheet
+- Assets/Res/Atlas/equipment_icon.tpsheet
+- Assets/Res/Atlas/map/map_104.tpsheet
+- Assets/Res/Atlas/task_icon.tpsheet
+- Assets/Res/Atlas/head_icon.tpsheet
+- Assets/Res/Atlas/dungeon_map.tpsheet
+- Assets/Res/Atlas/skill.tpsheet
+- Assets/Res/Atlas/num_skillcd.tpsheet
+- Assets/Res/Atlas/always.tpsheet
+- Assets/Res/Atlas/item_icon.tpsheet
+- Assets/Res/Atlas/main_ui.tpsheet
+- Assets/Res/Atlas/big_texture_2.tpsheet
+- Assets/Res/Atlas/big_texture_1.tpsheet
+- Assets/Res/Atlas/daily_dungeon_cards.tpsheet
+textureFileNames:
+- Assets/Res/Atlas/map/map_02.png
+- Assets/Res/Atlas/map/map_01.png
+- Assets/Res/Atlas/map/map_04.png
+- Assets/Res/Atlas/map/map_101.png
+- Assets/Res/Atlas/skill_head.png
+- Assets/Res/Atlas/map/map_103.png
+- Assets/Res/Atlas/map/map_03.png
+- Assets/Res/Atlas/map/map_102.png
+- Assets/Res/Atlas/map/map_07.png
+- Assets/Res/Atlas/map/map_06.png
+- Assets/Res/Atlas/equipment_icon.png
+- Assets/Res/Atlas/map/map_104.png
+- Assets/Res/Atlas/task_icon.png
+- Assets/Res/Atlas/head_icon.png
+- Assets/Res/Atlas/dungeon_map.png
+- Assets/Res/Atlas/skill.png
+- Assets/Res/Atlas/num_skillcd.png
+- Assets/Res/Atlas/always.png
+- Assets/Res/Atlas/item_icon.png
+- Assets/Res/Atlas/main_ui.png
+- Assets/Res/Atlas/big_texture_2.png
+- Assets/Res/Atlas/big_texture_1.png
+- Assets/Res/Atlas/daily_dungeon_cards.png
+normalmapFileNames:
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 

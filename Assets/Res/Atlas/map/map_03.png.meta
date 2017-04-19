@@ -1,0 +1,293 @@
+fileFormatVersion: 2
+guid: ef853a3fbf94e1648bac54fc02ba8db0
+timeCreated: 1462588323
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: map_03_ahead_01
+    21300002: map_03_ahead_02
+    21300004: map_03_ahead_03
+    21300006: map_03_ahead_04
+    21300008: map_03_ahead_05
+    21300010: map_03_behind_1
+    21300012: map_03_behind_2
+    21300014: map_03_behind_3
+    21300016: map_03_behind_4
+    21300018: map_03_between_01
+    21300020: map_03_between_02
+    21300022: map_03_between_03
+    21300024: map_03_between_04
+    21300026: map_03_between_05
+    21300028: map_03_between_06
+    21300030: map_03_between_07
+    21300032: map_03_between_08
+    21300034: map_03_between_09
+    21300036: map_03_between_10
+    21300038: map_03_effect_01
+    21300040: map_03_effect_02
+    21300042: map_03_ground_1
+    21300044: map_03_behind_3_1
+    21300046: map_03_behind_4_1
+    21300048: map_03_behind_1_1
+    21300050: map_03_behind_2_1
+    21300052: map_03_ground_1_1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: 34
+    compressionQuality: 100
+    allowsAlphaSplitting: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: 32
+    compressionQuality: 100
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: map_03_ahead_01
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 391
+        width: 163
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_03_ahead_02
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 226
+        width: 305
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_03_ahead_03
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 217
+        width: 175
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_03_ahead_04
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 103
+        width: 264
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_03_ahead_05
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 289
+        width: 227
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_03_behind_1_1
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 811
+        width: 420
+        height: 212
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_03_behind_2_1
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 612
+        width: 420
+        height: 197
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_03_behind_3_1
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 383
+        width: 400
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_03_behind_4_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 293
+        width: 400
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_03_between_01
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 152
+        width: 262
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_03_between_02
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 329
+        width: 230
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_03_between_03
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 177
+        width: 419
+        height: 271
+      alignment: 9
+      pivot: {x: .501193345, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_03_between_04
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 892
+        width: 116
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_03_between_05
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 36
+        width: 402
+        height: 139
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_03_between_06
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 555
+        width: 473
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_03_between_07
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 473
+        width: 446
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_03_between_08
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 752
+        width: 470
+        height: 270
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_03_between_09
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 39
+        width: 240
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_03_between_10
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 806
+        width: 120
+        height: 84
+      alignment: 9
+      pivot: {x: .5, y: .505952358}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_03_ground_1_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 450
+        width: 400
+        height: 300
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,231 @@
+fileFormatVersion: 2
+guid: 71ac5d16a4e26a24d949f4155bf7db84
+timeCreated: 1462432255
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: card_01
+    21300002: card_02
+    21300004: card_03
+    21300006: card_04
+    21300008: card_05
+    21300010: card_06
+    21300012: card_07
+    21300014: card_08
+    21300016: card_09
+    21300018: card_10
+    21300020: card_11
+    21300022: image_jobcard_00
+    21300024: image_jobcard_01
+    21300026: image_jobcard_02
+    21300028: image_jobcard_03
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: 34
+    compressionQuality: 100
+    allowsAlphaSplitting: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: 32
+    compressionQuality: 100
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: card_01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 473
+        width: 250
+        height: 392
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: card_02
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1261
+        width: 250
+        height: 392
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: card_03
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 79
+        width: 250
+        height: 392
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: card_04
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 867
+        width: 250
+        height: 392
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: card_05
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1655
+        width: 250
+        height: 392
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: card_06
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1655
+        width: 250
+        height: 392
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: card_07
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1261
+        width: 250
+        height: 392
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: card_08
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 867
+        width: 250
+        height: 392
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: card_09
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1655
+        width: 250
+        height: 392
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: card_10
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 79
+        width: 250
+        height: 392
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: card_11
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 473
+        width: 250
+        height: 392
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: image_jobcard_00
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 1885
+        width: 120
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: image_jobcard_01
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1303
+        width: 129
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: image_jobcard_02
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 1873
+        width: 129
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: image_jobcard_03
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1479
+        width: 129
+        height: 174
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

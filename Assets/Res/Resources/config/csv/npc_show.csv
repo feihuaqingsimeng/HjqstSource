@@ -1,0 +1,11 @@
+id,npc_name,face1,face2,face3,face4,face5,face_position
+nv_pu,image_npc_01,npc_01_face_1,npc_01_face_2,npc_01_face_3,npc_01_face_4,npc_01_face_5,152.9;430
+p_artillery,p_artillery,p_artillery,p_artillery,p_artillery,p_artillery,p_artillery,0;0
+52,52,52,52,52,52,52,0;0
+203,203,203,203,203,203,203,0;0
+27,27,27,27,27,27,27,0;0
+104,104,104,104,104,104,104,0;0
+121,121,121,121,121,121,121,0;0
+138,138,138,138,138,138,138,0;0
+129,129,129,129,129,129,129,0;0
+200,200,200,200,200,200,200,0;0

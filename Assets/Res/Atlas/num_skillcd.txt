@@ -1,0 +1,6 @@
+num_fight_cd_1;0,0,0,0
+num_fight_cd_2;0,0,0,0
+num_fight_cd_3;0,0,0,0
+num_fight_cd_4;0,0,0,0
+num_fight_cd_5;0,0,0,0
+num_fight_cd_6;0,0,0,0

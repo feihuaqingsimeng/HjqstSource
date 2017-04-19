@@ -1,0 +1,231 @@
+fileFormatVersion: 2
+guid: ff66f4c872afbcf46aa8e5908bcab09e
+timeCreated: 1479351705
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bg_tree_1
+    21300002: bg_tree_2
+    21300004: cloud_1
+    21300006: cloud_2
+    21300008: cloud_3
+    21300010: image_yuanzheng_01
+    21300012: image_yuanzheng_02
+    21300014: image_yuanzheng_03
+    21300016: image_yuanzheng_04
+    21300018: image_yuanzheng_05
+    21300020: image_yuanzheng_06
+    21300022: image_yuanzheng_bg_1
+    21300024: image_yuanzheng_bg_2
+    21300026: tree01
+    21300028: tree02
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: 34
+    compressionQuality: 100
+    allowsAlphaSplitting: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: 32
+    compressionQuality: 100
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: bg_tree_1
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1077
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bg_tree_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 928
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cloud_1
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1128
+        width: 220
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cloud_2
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1324
+        width: 270
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cloud_3
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1196
+        width: 226
+        height: 126
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: image_yuanzheng_01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 235
+        width: 434
+        height: 326
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: image_yuanzheng_02
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 1591
+        width: 452
+        height: 456
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: image_yuanzheng_03
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 245
+        width: 510
+        height: 582
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: image_yuanzheng_04
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1442
+        width: 832
+        height: 605
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: image_yuanzheng_05
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 1727
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: image_yuanzheng_06
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1643
+        width: 128
+        height: 124
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: image_yuanzheng_bg_1
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 829
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: image_yuanzheng_bg_2
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 563
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tree01
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1769
+        width: 724
+        height: 278
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tree02
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1343
+        width: 544
+        height: 424
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

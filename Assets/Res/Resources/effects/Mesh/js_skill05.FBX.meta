@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: 158b8c8b03194984c903cf2d635e987a
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: js_skill05_flare01
+    100004: js_skill05_flarelight01
+    100006: js_skill05_ring01
+    100008: js_skill05_ring02
+    100010: js_skill05_ring03
+    100012: js_skill05_ring04
+    100014: js_skill05_ringcircle01
+    100016: js_skill05_ringcircle02
+    100018: js_skill05_ringcircle03
+    100020: js_skill05_spark01
+    100022: js_skill05_spark02
+    100024: js_skill05_spark03
+    100026: monster_wdtjg_skill02_innergather01
+    100028: monster_wdtjg_skill02_innergather02
+    100030: monster_wdtjg_skill02_innergather03
+    400000: //RootNode
+    400002: js_skill05_flare01
+    400004: js_skill05_flarelight01
+    400006: js_skill05_ring01
+    400008: js_skill05_ring02
+    400010: js_skill05_ring03
+    400012: js_skill05_ring04
+    400014: js_skill05_ringcircle01
+    400016: js_skill05_ringcircle02
+    400018: js_skill05_ringcircle03
+    400020: js_skill05_spark01
+    400022: js_skill05_spark02
+    400024: js_skill05_spark03
+    400026: monster_wdtjg_skill02_innergather01
+    400028: monster_wdtjg_skill02_innergather02
+    400030: monster_wdtjg_skill02_innergather03
+    2300000: js_skill05_flare01
+    2300002: js_skill05_flarelight01
+    2300004: js_skill05_ring01
+    2300006: js_skill05_ring02
+    2300008: js_skill05_ring03
+    2300010: js_skill05_ring04
+    2300012: js_skill05_ringcircle01
+    2300014: js_skill05_ringcircle02
+    2300016: js_skill05_ringcircle03
+    2300018: js_skill05_spark01
+    2300020: js_skill05_spark02
+    2300022: js_skill05_spark03
+    2300024: monster_wdtjg_skill02_innergather01
+    2300026: monster_wdtjg_skill02_innergather02
+    2300028: monster_wdtjg_skill02_innergather03
+    3300000: js_skill05_flare01
+    3300002: js_skill05_flarelight01
+    3300004: js_skill05_ring01
+    3300006: js_skill05_ring02
+    3300008: js_skill05_ring03
+    3300010: js_skill05_ring04
+    3300012: js_skill05_ringcircle01
+    3300014: js_skill05_ringcircle02
+    3300016: js_skill05_ringcircle03
+    3300018: js_skill05_spark01
+    3300020: js_skill05_spark02
+    3300022: js_skill05_spark03
+    3300024: monster_wdtjg_skill02_innergather01
+    3300026: monster_wdtjg_skill02_innergather02
+    3300028: monster_wdtjg_skill02_innergather03
+    4300000: js_skill05_spark01
+    4300002: js_skill05_ring01
+    4300004: js_skill05_ring04
+    4300006: js_skill05_spark02
+    4300008: js_skill05_spark03
+    4300010: js_skill05_ringcircle01
+    4300012: js_skill05_ringcircle02
+    4300014: js_skill05_ringcircle03
+    4300016: js_skill05_flare01
+    4300018: monster_wdtjg_skill02_innergather01
+    4300020: monster_wdtjg_skill02_innergather02
+    4300022: monster_wdtjg_skill02_innergather03
+    4300024: js_skill05_ring02
+    4300026: js_skill05_ring03
+    4300028: js_skill05_flarelight01
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

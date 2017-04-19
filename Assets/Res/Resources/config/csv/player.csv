@@ -1,0 +1,5 @@
+id,hero_id,portrait,avatar,figureImage,offence,defence,task_condition,transfer_item,hopping,summonId,summonSkillId,summonMax,pet_breakthrough_item,pet_id
+200,200,image_jobcard_00,1,tyro,4,4,,4:52004:20:0,201;202;203,2013,20131,1000000,4:10200:1:0,1
+201,201,image_jobcard_01,4,artillery,4,4,,4:52015:20:0,200;202;203,2013,20131,1000000,4:10201:1:0,5
+202,202,image_jobcard_02,5,gunner,4,2,,4:52026:20:0,200;201;203,2013,20131,1000000,4:10202:1:0,4
+203,203,image_jobcard_03,6,warrior,4,4,,4:52036:20:0,200;201;202,2013,20131,1000000,4:10200:1:0,6

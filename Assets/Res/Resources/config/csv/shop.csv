@@ -1,0 +1,12 @@
+id,shop_type,sheet_name,vip_limit,item_list
+11,1,英雄,0,card_random
+13,1,钻石,0,diamond
+14,1,行动力,0,limit_item
+15,1,金币,0,limit_item
+16,1,其他,0,shop_goods
+21,2,vip3级开放,3,
+22,2,vip4级开放,4,
+23,2,vip5级开放,5,
+24,2,vip6级开放,6,
+25,2,vip7级开放,7,
+26,2,vip8级开放,8,

@@ -1,0 +1,260 @@
+fileFormatVersion: 2
+guid: 7d73350e29908a641b481ce2a4c4ffbd
+timeCreated: 1462588320
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: map_02_ahead_01
+    21300002: map_02_ahead_02
+    21300004: map_02_ahead_03
+    21300006: map_02_behind_1
+    21300008: map_02_behind_2
+    21300010: map_02_behind_3
+    21300012: map_02_behind_4
+    21300014: map_02_behind_5
+    21300016: map_02_between_01
+    21300018: map_02_between_02
+    21300020: map_02_between_03
+    21300022: map_02_between_04
+    21300024: map_02_between_05
+    21300026: map_02_between_06
+    21300028: map_02_effect_01
+    21300030: map_02_effect_02
+    21300032: map_02_effect_03
+    21300034: map_02_ground_1
+    21300036: map_02_ground_2
+    21300038: map_02_behind_1_1
+    21300040: map_02_behind_2_1
+    21300042: map_02_ground_1_1
+    21300044: map_02_ahead_03_1
+    21300046: map_02_between_04_1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: 34
+    compressionQuality: 100
+    allowsAlphaSplitting: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: 32
+    compressionQuality: 100
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: map_02_ahead_01
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 19
+        width: 456
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_02_ahead_02
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 11
+        width: 172
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_02_ahead_03_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 57
+        width: 247
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_02_behind_1_1
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 773
+        width: 420
+        height: 250
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_02_behind_2_1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 157
+        width: 420
+        height: 250
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_02_behind_3
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 57
+        width: 76
+        height: 39
+      alignment: 9
+      pivot: {x: .506578922, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_02_between_01
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 627
+        width: 129
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_02_between_02
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 14
+        width: 238
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_02_between_03
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 627
+        width: 208
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_02_between_04_1
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 409
+        width: 450
+        height: 216
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_02_between_05
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 409
+        width: 559
+        height: 184
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_02_between_06
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 179
+        width: 497
+        height: 228
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_02_effect_01
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 80
+        width: 137
+        height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_02_effect_02
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 476
+        width: 120
+        height: 117
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_02_effect_03
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 310
+        width: 84
+        height: 97
+      alignment: 9
+      pivot: {x: .488095224, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_02_ground_1_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 595
+        width: 600
+        height: 428
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: map_02_ground_2
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 98
+        width: 565
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

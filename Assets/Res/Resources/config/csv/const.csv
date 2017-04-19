@@ -1,0 +1,7 @@
+name,value,des
+skill_hurt_a,0.03,技能伤害公式系数。Hurt=basic*(1+(star_now-star_min)*skill_hurt_a)技能层数效果。一层的话，技能层数效果为1
+float_hurt_add,1,浮空伤害加成
+caron_hurt_add,0.01,连击伤害加成系数。连击伤害加成公式：caron_hurt_add*连击数
+caron_hurt_max,0.3,连击伤害加成的最大值。连击伤害不会大于这个值
+caron_hurt_time,5,连击间隔多少秒，才算连击。单位：秒
+ai_skill_round,1,AI释放技能时候，第几圈释放技能

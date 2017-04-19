@@ -1,0 +1,11 @@
+﻿id,callback,des
+1,http://api.huanji.yileweb.com/sw/sendgoods,顺网
+2,http://api.huanji.yileweb.com/vivo/sendgoods,vivo
+3,http://api.huanji.yileweb.com/360/sendgoods,qihoo360
+4,http://api.huanji.yileweb.com/hw/sendgoods,华为
+5,http://api.huanji.yileweb.com/oppo/sendgoods,oppo
+6,http://api.huanji.yileweb.com/uc/sendgoods,uc
+100,http://api.huanji.yileweb.com/getucacc,我方登陆验证服务器地址
+200,http://gmt.jizhan.yileweb.com/Api/Opera/get_status, ios请求服务器列表的web地址
+300,http://gmt.jizhan.yileweb.com/Api/Opera/get_status, android请求服务器列表的web地址
+400,http://gmt.jizhan.yileweb.com/Api/Opera/get_status, unity editor请求服务器列表的web地址

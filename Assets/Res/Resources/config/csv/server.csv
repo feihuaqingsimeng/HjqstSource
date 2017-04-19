@@ -1,0 +1,5 @@
+﻿sever_id,server_name,server_ip,server_port,inner,server_state,platform_id
+1,servername1,192.168.3.107,90,1,2,0
+2,servername2,192.168.3.114,90,1,2,0
+3,servername3,192.168.3.116,90,1,2,0
+200,2001name,139.196.254.76,468,0,1,-1

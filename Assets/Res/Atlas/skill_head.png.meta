@@ -1,0 +1,803 @@
+fileFormatVersion: 2
+guid: d8bb7d623d8e046478d75124ee8977ea
+timeCreated: 1462433518
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: h_102_aier_d
+    21300002: h_102_aier_e
+    21300004: h_102_aier_f
+    21300006: h_103_jingling4_d
+    21300008: h_103_jingling4_e
+    21300010: h_103_jingling4_f
+    21300012: h_104_droa_d
+    21300014: h_104_droa_e
+    21300016: h_104_droa_f
+    21300018: h_107_rose4_d
+    21300020: h_107_rose4_e
+    21300022: h_107_rose4_f
+    21300024: h_108_adair_d
+    21300026: h_108_adair_e
+    21300028: h_108_adair_f
+    21300030: h_109_guts_d
+    21300032: h_109_guts_e
+    21300034: h_109_guts_f
+    21300036: h_115_julia_d
+    21300038: h_115_julia_e
+    21300040: h_115_julia_f
+    21300042: h_117_lulu_d
+    21300044: h_117_lulu_e
+    21300046: h_117_lulu_f
+    21300048: h_119_lasser_d
+    21300050: h_119_lasser_e
+    21300052: h_119_lasser_f
+    21300054: h_124_ella_d
+    21300056: h_124_ella_e
+    21300058: h_124_ella_f
+    21300060: h_125_maid_d
+    21300062: h_125_maid_e
+    21300064: h_125_maid_f
+    21300066: h_129_xueli_d
+    21300068: h_129_xueli_e
+    21300070: h_129_xueli_f
+    21300072: h_130_ling_d
+    21300074: h_130_ling_e
+    21300076: h_130_ling_f
+    21300078: h_131_shixiang_d
+    21300080: h_131_shixiang_e
+    21300082: h_131_shixiang_f
+    21300084: h_133_jierjia_d
+    21300086: h_133_jierjia_e
+    21300088: h_133_jierjia_f
+    21300090: h_134_mayi_d
+    21300092: h_134_mayi_e
+    21300094: h_134_mayi_f
+    21300096: h_136_yingli_d
+    21300098: h_136_yingli_e
+    21300100: h_136_yingli_f
+    21300102: h_137_youyu_d
+    21300104: h_137_youyu_e
+    21300106: h_137_youyu_f
+    21300108: h_140_ailita_d
+    21300110: h_140_ailita_e
+    21300112: h_140_ailita_f
+    21300114: h_141_yilu_d
+    21300116: h_146_fei_d
+    21300118: h_146_fei_e
+    21300120: h_146_fei_f
+    21300122: h_147_miao_d
+    21300124: h_147_miao_e
+    21300126: h_147_miao_f
+    21300128: p_artillery
+    21300130: h_141_yilu_e
+    21300132: h_141_yilu_f
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: 34
+    compressionQuality: 100
+    allowsAlphaSplitting: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: 32
+    compressionQuality: 100
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: h_102_aier_d
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 813
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_102_aier_e
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1019
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_102_aier_f
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1431
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_103_jingling4_d
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 607
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_103_jingling4_e
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1637
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_103_jingling4_f
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 401
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_104_droa_d
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1225
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_104_droa_e
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 607
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_104_droa_f
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1637
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_107_rose4_d
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1843
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_107_rose4_e
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 195
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_107_rose4_f
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 195
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_108_adair_d
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 401
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_108_adair_e
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 813
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_108_adair_f
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1431
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_109_guts_d
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 34
+        width: 200
+        height: 159
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_109_guts_e
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 446
+        width: 200
+        height: 159
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_109_guts_f
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 1888
+        width: 200
+        height: 159
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_115_julia_d
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 813
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_115_julia_e
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1019
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_115_julia_f
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1431
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_117_lulu_d
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 34
+        width: 200
+        height: 159
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_117_lulu_e
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 34
+        width: 200
+        height: 159
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_117_lulu_f
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 34
+        width: 200
+        height: 159
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_119_lasser_d
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1843
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_119_lasser_e
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1843
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_119_lasser_f
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1637
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_124_ella_d
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1225
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_124_ella_e
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 607
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_124_ella_f
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1019
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_125_maid_d
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1225
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_125_maid_e
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1637
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_125_maid_f
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 401
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_129_xueli_d
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 1843
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_129_xueli_e
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 195
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_129_xueli_f
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1843
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_130_ling_d
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 607
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_130_ling_e
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 401
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_130_ling_f
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 195
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_131_shixiang_d
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 607
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_131_shixiang_e
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1019
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_131_shixiang_f
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1225
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_133_jierjia_d
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1637
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_133_jierjia_e
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 813
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_133_jierjia_f
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1431
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_134_mayi_d
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 813
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_134_mayi_e
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 195
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_134_mayi_f
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 607
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_136_yingli_d
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 401
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_136_yingli_e
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 195
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_136_yingli_f
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 1019
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_137_youyu_d
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 401
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_137_youyu_e
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 607
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_137_youyu_f
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1019
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_140_ailita_d
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1225
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_140_ailita_e
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1431
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_140_ailita_f
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1843
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_141_yilu_d
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1637
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_141_yilu_e
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 813
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_141_yilu_f
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1431
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_146_fei_d
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 1225
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_146_fei_e
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 1431
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_146_fei_f
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 813
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_147_miao_d
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 1637
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_147_miao_e
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1019
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: h_147_miao_f
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1225
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: p_artillery
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1843
+        width: 256
+        height: 204
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,57 @@
+﻿1.更改tolua的目录结构，修改了生成wrap文件和加载路径的方法
+2.去掉了debugger.dll，只取了可用的几个方法，在ExtensionMethods类下
+3.新加一个LuaScriptMgr类，作为管理类
+4.修改LuaFileUtils中的ReadFile方法，从Resources中load txt 脚本
+5.fixed LuaState to TableArray bug
+6.ToLuaExport.cs line 1022/line 1959 去掉1
+7.luafileutils.cs 
+	private TextAsset getasset(string name)
+    {
+        var paths = new string[] { "Lua/", "Lua/protobuf/", "Lua/user/", "Lua/user/procotol/", "config/lua/" };
+        name = name.Replace(".lua", string.Empty);
+        for (int i = 0, length = paths.Length; i < length; i++)
+        {
+            var path = paths[i] + name;
+            var t = Resources.Load<TextAsset>(path);
+            if (t != null)
+            {
+                //Debug.Log("get lua file:" + path);
+                return t;
+            }
+        }
+        Debugger.LogError("can not find {0},load lua txt error!", name);
+        return null;
+    }
+
+    public virtual byte[] ReadFile(string fileName)
+    {
+        TextAsset ta = getasset(fileName);
+        if (ta)
+            return ta.bytes;
+8.新增 LuaFileUtil 静态类，读取persistentDataPath路径下lua文件，支持gamedataTable.paths动态增加lua搜索路径，修改LuaState中DoFile方法，代码如下：
+	public object[] DoFile(string fileName)
+        {
+            if (!Path.HasExtension(fileName))
+            {
+                fileName += ".lua";
+            }
+	#if UNITY_EDITOR
+            byte[] buffer = null;
+            if (!Logic.Game.GameConfig.instance.loadLuaRemote)
+                buffer = LuaFileUtils.Instance.ReadFile(fileName);
+            else
+                buffer = LuaFileUtil.ReadFile(fileName);
+	#else
+             byte[] buffer = LuaFileUtil.ReadFile(fileName);
+	#endif
+            if (buffer == null)
+            {
+                throw new LuaException(string.Format("Load lua file failed: {0}", fileName));
+            }
+
+            return LuaLoadBuffer(buffer, fileName);
+        }
+
+9.第7条已经去掉，本地读取lua文件，不再使用txt方式读取，在LuaFileUtil中添加AddSearchPath方法，将所有目录添加到搜索路径中
+
+10.修改LuaFileUtils中ReadFile方法，ios平台和编辑器平台，lua解密

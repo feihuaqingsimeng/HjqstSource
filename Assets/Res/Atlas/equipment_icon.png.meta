@@ -1,0 +1,1213 @@
+fileFormatVersion: 2
+guid: a9def870b62e95744a4aadba11b61633
+timeCreated: 1462432762
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: t1_001_equip
+    21300002: t1_002_equip
+    21300004: t1_003_equip
+    21300006: t1_004_equip
+    21300008: t1_005_equip
+    21300010: t1_006_equip
+    21300012: t1_007_equip
+    21300014: t1_008_equip
+    21300016: t1_009_equip
+    21300018: t1_010_equip
+    21300020: t1_011_equip
+    21300022: t2_101_equip
+    21300024: t2_102_equip
+    21300026: t2_103_equip
+    21300028: t2_104_equip
+    21300030: t2_105_equip
+    21300032: t2_106_equip
+    21300034: t2_107_equip
+    21300036: t2_108_equip
+    21300038: t2_109_equip
+    21300040: t2_110_equip
+    21300042: t2_111_equip
+    21300044: t3_201_equip
+    21300046: t3_202_equip
+    21300048: t3_203_equip
+    21300050: t3_204_equip
+    21300052: t3_205_equip
+    21300054: t3_206_equip
+    21300056: t3_207_equip
+    21300058: t3_208_equip
+    21300060: t3_209_equip
+    21300062: t3_210_equip
+    21300064: t3_211_equip
+    21300066: t4_301_equip
+    21300068: t4_302_equip
+    21300070: t4_303_equip
+    21300072: t4_304_equip
+    21300074: t4_305_equip
+    21300076: t4_306_equip
+    21300078: t4_307_equip
+    21300080: t4_308_equip
+    21300082: t4_309_equip
+    21300084: t4_310_equip
+    21300086: t4_311_equip
+    21300088: fangyu_jie_1
+    21300090: fangyu_jie_2
+    21300092: fangyu_jie_3
+    21300094: fangyu_wuqi_1
+    21300096: fangyu_wuqi_2
+    21300098: fangyu_wuqi_3
+    21300100: fangyu_yi_1
+    21300102: fangyu_yi_2
+    21300104: fangyu_yi_3
+    21300106: fashi_jie_1
+    21300108: fashi_jie_2
+    21300110: fashi_jie_3
+    21300112: fashi_wuqi_1
+    21300114: fashi_wuqi_2
+    21300116: fashi_wuqi_3
+    21300118: fashi_yi_1
+    21300120: fashi_yi_2
+    21300122: fashi_yi_3
+    21300124: fuzhu_jie_1
+    21300126: fuzhu_jie_2
+    21300128: fuzhu_jie_3
+    21300130: fuzhu_yi_1
+    21300132: fuzhu_yi_2
+    21300134: fuzhu_yi_3
+    21300136: wuli_jie_1
+    21300138: wuli_jie_2
+    21300140: wuli_jie_3
+    21300142: wuli_wuqi_1
+    21300144: wuli_wuqi_2
+    21300146: wuli_wuqi_3
+    21300148: wuli_yi_1
+    21300150: wuli_yi_2
+    21300152: wuli_yi_3
+    21300154: zhufu_wuqi_1
+    21300156: zhufu_wuqi_2
+    21300158: zhufu_wuqi_3
+    21300160: zonghe_jie_1
+    21300162: zonghe_jie_2
+    21300164: zonghe_jie_3
+    21300166: zonghe_wuqi_1
+    21300168: zonghe_wuqi_2
+    21300170: zonghe_wuqi_3
+    21300172: zonghe_yi_1
+    21300174: zonghe_yi_2
+    21300176: zonghe_yi_3
+    21300178: fuzhu_wuqi_1
+    21300180: fuzhu_wuqi_2
+    21300182: fuzhu_wuqi_3
+    21300184: fangyu_jie_4
+    21300186: fangyu_wuqi_4
+    21300188: fangyu_yi_4
+    21300190: fashi_jie_4
+    21300192: fashi_wuqi_4
+    21300194: fashi_yi_4
+    21300196: fuzhu_jie_4
+    21300198: fuzhu_wuqi_4
+    21300200: fuzhu_yi_4
+    21300202: wuli_jie_4
+    21300204: wuli_wuqi_4
+    21300206: wuli_yi_4
+    21300208: zonghe_jie_4
+    21300210: zonghe_wuqi_4
+    21300212: zonghe_yi_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: 34
+    compressionQuality: 100
+    allowsAlphaSplitting: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: 32
+    compressionQuality: 100
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: fangyu_jie_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1947
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fangyu_jie_2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1947
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fangyu_jie_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1947
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fangyu_jie_4
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1947
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fangyu_wuqi_1
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1947
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fangyu_wuqi_2
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1947
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fangyu_wuqi_3
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1947
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fangyu_wuqi_4
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1947
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fangyu_yi_1
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1947
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fangyu_yi_2
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1947
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fangyu_yi_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1845
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fangyu_yi_4
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1845
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fashi_jie_1
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1845
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fashi_jie_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1845
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fashi_jie_3
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1845
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fashi_jie_4
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1845
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fashi_wuqi_1
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1845
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fashi_wuqi_2
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1845
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fashi_wuqi_3
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1845
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fashi_wuqi_4
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1845
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fashi_yi_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1743
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fashi_yi_2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1743
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fashi_yi_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1743
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fashi_yi_4
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1743
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fuzhu_jie_1
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1743
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fuzhu_jie_2
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1743
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fuzhu_jie_3
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1743
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fuzhu_jie_4
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1743
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fuzhu_wuqi_1
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1743
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fuzhu_wuqi_2
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1743
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fuzhu_wuqi_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1641
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fuzhu_wuqi_4
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1641
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fuzhu_yi_1
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1641
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fuzhu_yi_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1641
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fuzhu_yi_3
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1641
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fuzhu_yi_4
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1641
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t1_001_equip
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1641
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t1_002_equip
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1641
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t1_003_equip
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1641
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t1_004_equip
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1641
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t1_005_equip
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1539
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t1_006_equip
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1539
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t1_007_equip
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1539
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t1_008_equip
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1539
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t1_009_equip
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1539
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t1_010_equip
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1539
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t1_011_equip
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1539
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t2_101_equip
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1539
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t2_102_equip
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1539
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t2_103_equip
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1539
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t2_104_equip
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1437
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t2_105_equip
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1437
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t2_106_equip
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1437
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t2_107_equip
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1437
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t2_108_equip
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1437
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t2_109_equip
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1437
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t2_110_equip
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1437
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t2_111_equip
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1437
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t3_201_equip
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1437
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t3_202_equip
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1437
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t3_203_equip
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1335
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t3_204_equip
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1335
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t3_205_equip
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1335
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t3_206_equip
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1335
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t3_207_equip
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1335
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t3_208_equip
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1335
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t3_209_equip
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1335
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t3_210_equip
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1335
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t3_211_equip
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1335
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t4_301_equip
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1335
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t4_302_equip
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1233
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t4_303_equip
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1233
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t4_304_equip
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1233
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t4_305_equip
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1233
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t4_306_equip
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1233
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t4_307_equip
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1233
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t4_308_equip
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1233
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t4_309_equip
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1233
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t4_310_equip
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1233
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: t4_311_equip
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1233
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wuli_jie_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1131
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wuli_jie_2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1131
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wuli_jie_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1131
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wuli_jie_4
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1131
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wuli_wuqi_1
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1131
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wuli_wuqi_2
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1131
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wuli_wuqi_3
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1131
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wuli_wuqi_4
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1131
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wuli_yi_1
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1131
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wuli_yi_2
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1131
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wuli_yi_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1029
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: wuli_yi_4
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1029
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zonghe_jie_1
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1029
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zonghe_jie_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1029
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zonghe_jie_3
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1029
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zonghe_jie_4
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1029
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zonghe_wuqi_1
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1029
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zonghe_wuqi_2
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1029
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zonghe_wuqi_3
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1029
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zonghe_wuqi_4
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1029
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zonghe_yi_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 927
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zonghe_yi_2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 927
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zonghe_yi_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 927
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zonghe_yi_4
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 927
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

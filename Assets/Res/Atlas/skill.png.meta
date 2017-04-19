@@ -1,0 +1,3501 @@
+fileFormatVersion: 2
+guid: df310b80fc2e87c49a1bc5d5d8edbbcb
+timeCreated: 1474279304
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 99978
+    21300002: 99985
+    21300004: 99987
+    21300006: 99990
+    21300008: icon_skill
+    21300010: icon_skill_101
+    21300012: icon_skill_1011
+    21300014: icon_skill_1012
+    21300016: icon_skill_1015
+    21300018: icon_skill_102
+    21300020: icon_skill_1021
+    21300022: icon_skill_1022
+    21300024: icon_skill_1025
+    21300026: icon_skill_1031
+    21300028: icon_skill_1032
+    21300030: icon_skill_1035
+    21300032: icon_skill_1041
+    21300034: icon_skill_1042
+    21300036: icon_skill_1045
+    21300038: icon_skill_105
+    21300040: icon_skill_1051
+    21300042: icon_skill_1052
+    21300044: icon_skill_1055
+    21300046: icon_skill_1071
+    21300048: icon_skill_1072
+    21300050: icon_skill_1075
+    21300052: icon_skill_1081
+    21300054: icon_skill_1082
+    21300056: icon_skill_1085
+    21300058: icon_skill_1091
+    21300060: icon_skill_1092
+    21300062: icon_skill_1095
+    21300064: icon_skill_11
+    21300066: icon_skill_1101
+    21300068: icon_skill_1102
+    21300070: icon_skill_1105
+    21300072: icon_skill_111
+    21300074: icon_skill_112
+    21300076: icon_skill_1121
+    21300078: icon_skill_1122
+    21300080: icon_skill_1125
+    21300082: icon_skill_115
+    21300084: icon_skill_1151
+    21300086: icon_skill_1152
+    21300088: icon_skill_1155
+    21300090: icon_skill_1171
+    21300092: icon_skill_1172
+    21300094: icon_skill_1175
+    21300096: icon_skill_1191
+    21300098: icon_skill_1192
+    21300100: icon_skill_1195
+    21300102: icon_skill_1201
+    21300104: icon_skill_1202
+    21300106: icon_skill_1205
+    21300108: icon_skill_121
+    21300110: icon_skill_1211
+    21300112: icon_skill_1215
+    21300114: icon_skill_1221
+    21300116: icon_skill_1222
+    21300118: icon_skill_1225
+    21300120: icon_skill_1241
+    21300122: icon_skill_1242
+    21300124: icon_skill_1245
+    21300126: icon_skill_1251
+    21300128: icon_skill_1252
+    21300130: icon_skill_1255
+    21300132: icon_skill_1271
+    21300134: icon_skill_1272
+    21300136: icon_skill_1275
+    21300138: icon_skill_1281
+    21300140: icon_skill_1282
+    21300142: icon_skill_1285
+    21300144: icon_skill_1291
+    21300146: icon_skill_1292
+    21300148: icon_skill_1295
+    21300150: icon_skill_1301
+    21300152: icon_skill_1302
+    21300154: icon_skill_1305
+    21300156: icon_skill_131
+    21300158: icon_skill_1311
+    21300160: icon_skill_1312
+    21300162: icon_skill_1315
+    21300164: icon_skill_1331
+    21300166: icon_skill_1332
+    21300168: icon_skill_1335
+    21300170: icon_skill_1341
+    21300172: icon_skill_1342
+    21300174: icon_skill_1345
+    21300176: icon_skill_1361
+    21300178: icon_skill_1362
+    21300180: icon_skill_1365
+    21300182: icon_skill_1371
+    21300184: icon_skill_1372
+    21300186: icon_skill_1375
+    21300188: icon_skill_1381
+    21300190: icon_skill_1382
+    21300192: icon_skill_1385
+    21300194: icon_skill_1391
+    21300196: icon_skill_1392
+    21300198: icon_skill_1395
+    21300200: icon_skill_1401
+    21300202: icon_skill_1402
+    21300204: icon_skill_1405
+    21300206: icon_skill_141
+    21300208: icon_skill_1411
+    21300210: icon_skill_1412
+    21300212: icon_skill_1415
+    21300214: icon_skill_142
+    21300216: icon_skill_1431
+    21300218: icon_skill_1432
+    21300220: icon_skill_1435
+    21300222: icon_skill_145
+    21300224: icon_skill_1461
+    21300226: icon_skill_1462
+    21300228: icon_skill_1465
+    21300230: icon_skill_1471
+    21300232: icon_skill_1472
+    21300234: icon_skill_1475
+    21300236: icon_skill_161
+    21300238: icon_skill_162
+    21300240: icon_skill_165
+    21300242: icon_skill_171
+    21300244: icon_skill_172
+    21300246: icon_skill_175
+    21300248: icon_skill_181
+    21300250: icon_skill_182
+    21300252: icon_skill_185
+    21300254: icon_skill_231
+    21300256: icon_skill_235
+    21300258: icon_skill_241
+    21300260: icon_skill_245
+    21300262: icon_skill_271
+    21300264: icon_skill_272
+    21300266: icon_skill_275
+    21300268: icon_skill_291
+    21300270: icon_skill_295
+    21300272: icon_skill_301
+    21300274: icon_skill_305
+    21300276: icon_skill_31
+    21300278: icon_skill_311
+    21300280: icon_skill_315
+    21300282: icon_skill_32
+    21300284: icon_skill_321
+    21300286: icon_skill_322
+    21300288: icon_skill_325
+    21300290: icon_skill_331
+    21300292: icon_skill_332
+    21300294: icon_skill_335
+    21300296: icon_skill_341
+    21300298: icon_skill_345
+    21300300: icon_skill_35
+    21300302: icon_skill_351
+    21300304: icon_skill_352
+    21300306: icon_skill_355
+    21300308: icon_skill_361
+    21300310: icon_skill_365
+    21300312: icon_skill_371
+    21300314: icon_skill_375
+    21300316: icon_skill_41
+    21300318: icon_skill_421
+    21300320: icon_skill_422
+    21300322: icon_skill_425
+    21300324: icon_skill_431
+    21300326: icon_skill_435
+    21300328: icon_skill_45
+    21300330: icon_skill_51
+    21300332: icon_skill_591
+    21300334: icon_skill_595
+    21300336: icon_skill_601
+    21300338: icon_skill_605
+    21300340: icon_skill_611
+    21300342: icon_skill_615
+    21300344: icon_skill_631
+    21300346: icon_skill_81
+    21300348: icon_skill_85
+    21300350: icon_skill_91
+    21300352: icon_skill_95
+    21300354: icon_skill_cover
+    21300356: icon_skill_cover2
+    21300358: icon_skill_light2
+    21300360: icon_skill_none
+    21300362: num_skill_1
+    21300364: num_skill_2
+    21300366: num_skill_3
+    21300368: num_skill_4
+    21300370: num_skill_max
+    21300372: icon_skill_201
+    21300374: icon_skill_2011
+    21300376: icon_skill_2012
+    21300378: icon_skill_2015
+    21300380: icon_skill_2021
+    21300382: icon_skill_2022
+    21300384: icon_skill_2025
+    21300386: icon_skill_2001
+    21300388: icon_skill_2002
+    21300390: icon_skill_2005
+    21300392: icon_skill_2091
+    21300394: icon_skill_2092
+    21300396: icon_skill_2095
+    21300398: icon_skill_491
+    21300400: icon_skill_492
+    21300402: icon_skill_521
+    21300404: icon_skill_522
+    21300406: icon_skill_5311
+    21300408: icon_skill_532
+    21300410: icon_skill_581
+    21300412: icon_skill_531
+    21300414: icon_skill_651
+    21300416: icon_skill_652
+    21300418: icon_skill_661
+    21300420: 01
+    21300422: 02
+    21300424: 03
+    21300426: 04
+    21300428: 05
+    21300430: 06
+    21300432: 07
+    21300434: 08
+    21300436: 09
+    21300438: 10
+    21300440: 11
+    21300442: 12
+    21300444: 13
+    21300446: 14
+    21300448: 15
+    21300450: 16
+    21300452: 17
+    21300454: 18
+    21300456: 19
+    21300458: 20
+    21300460: 21
+    21300462: 22
+    21300464: 23
+    21300466: 24
+    21300468: 25
+    21300470: 26
+    21300472: 27
+    21300474: 28
+    21300476: 29
+    21300478: 30
+    21300480: 31
+    21300482: 32
+    21300484: 33
+    21300486: 34
+    21300488: 35
+    21300490: 36
+    21300492: 37
+    21300494: 38
+    21300496: 39
+    21300498: 40
+    21300500: 41
+    21300502: 42
+    21300504: 43
+    21300506: 44
+    21300508: 45
+    21300510: 46
+    21300512: 47
+    21300514: 48
+    21300516: 49
+    21300518: 50
+    21300520: 51
+    21300522: 52
+    21300524: 53
+    21300526: 54
+    21300528: 55
+    21300530: 56
+    21300532: 57
+    21300534: 58
+    21300536: 59
+    21300538: 60
+    21300540: 61
+    21300542: 62
+    21300544: 63
+    21300546: icon_skill_151
+    21300548: r_1
+    21300550: r_10
+    21300552: r_11
+    21300554: r_12
+    21300556: r_13
+    21300558: r_14
+    21300560: r_15
+    21300562: r_16
+    21300564: r_17
+    21300566: r_18
+    21300568: r_19
+    21300570: r_2
+    21300572: r_20
+    21300574: r_21
+    21300576: r_22
+    21300578: r_3
+    21300580: r_4
+    21300582: r_5
+    21300584: r_6
+    21300586: r_7
+    21300588: r_8
+    21300590: r_9
+    21300592: r_24
+    21300594: r_25
+    21300596: icon_skill_1481
+    21300598: icon_skill_1482
+    21300600: icon_skill_1485
+    21300602: icon_skill_1491
+    21300604: icon_skill_1492
+    21300606: icon_skill_1495
+    21300608: r_26
+    21300610: r_27
+    21300612: r_28
+    21300614: icon_skill_501
+    21300616: icon_skill_502
+    21300618: icon_skill_505
+    21300620: icon_skill_2031
+    21300622: icon_skill_2032
+    21300624: icon_skill_2035
+    21300626: icon_skill_495
+    21300628: ui_bar2_1
+    21300630: ui_bar2_2
+    21300632: icon_skill_1501
+    21300634: icon_skill_1502
+    21300636: icon_skill_1505
+    21300638: icon_skill_1511
+    21300640: icon_skill_1512
+    21300642: icon_skill_1515
+    21300644: icon_skill_1521
+    21300646: icon_skill_1522
+    21300648: icon_skill_1525
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: 34
+    compressionQuality: 100
+    allowsAlphaSplitting: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: 32
+    compressionQuality: 100
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: 01
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 61
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 02
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 161
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 03
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 195
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 04
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 297
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 05
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 229
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 06
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 263
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 07
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 157
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 08
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 95
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 09
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 191
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 10
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 11
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 61
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 12
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 117
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 13
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 123
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 14
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 117
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 15
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 16
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 151
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 17
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 461
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 18
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 67
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 19
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 393
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 20
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 427
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 21
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 529
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 22
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 67
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 23
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 495
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 24
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 293
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 25
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 225
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 26
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 259
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 27
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 331
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 28
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 133
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 29
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 151
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 30
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 95
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 31
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 127
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 32
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 15
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 33
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 29
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 34
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 29
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 35
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 29
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 36
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 29
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 37
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 29
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 38
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 29
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 39
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 40
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 29
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 41
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 29
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 42
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 15
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 43
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 15
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 44
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 15
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 45
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 21
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 46
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 15
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 47
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 21
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 48
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 29
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 49
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 29
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 50
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 27
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 51
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 27
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 52
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 55
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 53
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 93
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 54
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 49
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 55
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 49
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 56
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 55
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 57
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 33
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 58
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 29
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 59
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 29
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 60
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 21
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 61
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 15
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 62
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 21
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 63
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 15
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 941
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_101
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 629
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1011
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 629
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1012
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 621
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1015
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 629
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_102
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 629
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1021
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 629
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1022
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 629
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1025
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 549
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1031
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 629
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1032
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 629
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1035
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 629
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1041
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 629
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1042
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 527
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1045
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 615
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_105
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 761
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1051
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 695
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1052
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 695
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1055
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 695
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1071
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 695
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1072
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 695
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1075
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 695
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1081
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 615
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1082
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 593
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1085
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 827
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1091
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 695
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1092
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 761
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1095
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 549
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_11
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 555
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1101
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 263
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1102
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 395
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1105
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 629
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_111
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 461
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_112
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1121
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 329
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1122
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 197
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1125
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 351
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_115
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 417
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1151
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 131
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1152
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 483
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1155
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 65
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1171
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 695
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1172
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 827
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1175
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1191
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1192
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1195
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1201
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1202
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1205
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_121
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 761
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1211
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 893
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1215
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1221
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 695
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1222
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1225
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 483
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1241
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 893
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1242
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 747
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1245
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 813
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1251
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 813
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1252
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 725
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1255
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 879
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1271
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 659
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1272
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 747
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1275
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 681
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1281
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 893
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1282
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 893
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1285
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 681
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1291
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 893
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1292
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 885
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1295
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 791
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1301
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 893
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1302
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 959
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1305
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 959
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_131
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 959
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1311
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 879
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1312
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 959
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1315
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 959
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1331
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 959
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1332
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 959
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1335
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 959
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1341
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 959
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1342
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 959
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1345
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 285
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1361
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 959
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1362
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 695
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1365
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 761
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1371
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 761
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1372
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 827
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1375
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 827
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1381
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 761
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1382
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 827
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1385
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 827
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1391
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 695
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1392
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 687
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1395
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 761
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1401
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 761
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1402
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 827
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1405
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 761
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_141
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 761
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1411
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 819
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1412
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 893
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1415
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 893
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_142
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 893
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1431
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 893
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1432
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 893
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1435
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 827
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_145
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 827
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1461
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 827
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1462
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 753
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1465
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 761
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1471
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 827
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1472
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 563
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1475
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 431
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1481
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 827
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1482
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 761
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1485
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 365
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1491
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1492
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 299
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1495
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 233
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1501
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 431
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1502
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 299
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1505
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 431
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_151
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 233
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1511
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1512
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 365
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1515
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 431
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1521
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 431
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1522
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 233
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_1525
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 365
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_161
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 299
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_162
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_165
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 365
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_171
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_172
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 299
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_175
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 299
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_181
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 365
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_182
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 101
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_185
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 101
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_2001
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 365
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_2002
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 431
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_2005
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 233
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_201
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 365
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_2011
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_2012
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 299
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_2015
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 101
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_2021
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_2022
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 233
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_2025
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 299
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_2031
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 93
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_2032
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 233
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_2035
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 365
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_231
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_235
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 101
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_241
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 101
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_245
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_271
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_272
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 299
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_275
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 233
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_291
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 101
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_295
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 101
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_301
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 233
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_305
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 431
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_31
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 87
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_311
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 87
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_315
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 285
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_32
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 219
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_321
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 153
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_322
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 489
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_325
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 497
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_331
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 423
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_332
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 497
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_335
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 351
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_341
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 417
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_345
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 351
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_35
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 87
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_351
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 219
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_352
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 153
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_355
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 417
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_361
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 285
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_365
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 483
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_371
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 219
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_375
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 153
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_41
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 431
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_421
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 357
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_422
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 299
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_425
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 365
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_431
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 431
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_435
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 233
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_45
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 365
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_491
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 365
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_492
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 431
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_495
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 101
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_501
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 365
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_502
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 431
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_505
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 233
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_51
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 299
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_521
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 299
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_522
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 497
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_531
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 219
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_532
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 365
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_581
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_591
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 159
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_595
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 225
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_601
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 497
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_605
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 497
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_611
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 497
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_615
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 497
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_631
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 497
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_651
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 761
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_652
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 893
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_661
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 555
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_81
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 497
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_85
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 291
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_91
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 497
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_95
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 497
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_cover
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 945
+        width: 78
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 22, y: 15, z: 24, w: 18}
+    - name: icon_skill_cover2
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 951
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_none
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 857
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: r_1
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 63
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: r_10
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 63
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: r_11
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 49
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: r_12
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 49
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: r_13
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 63
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: r_14
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 55
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: r_15
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 63
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: r_16
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 63
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: r_17
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 63
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: r_18
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 63
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: r_19
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 63
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: r_2
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 63
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: r_20
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 63
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: r_21
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 55
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: r_22
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 185
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: r_24
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 223
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: r_25
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 327
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: r_26
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 27
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: r_27
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 129
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: r_28
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 987
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: r_3
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 261
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: r_4
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 49
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: r_5
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 49
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: r_6
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 49
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: r_7
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 261
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: r_8
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 185
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: r_9
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 223
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_bar2_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 733
+        width: 29
+        height: 122
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_bar2_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 615
+        width: 23
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

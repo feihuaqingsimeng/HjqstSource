@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: 3db01c2602081b446ba26cdce3f6ea9e
+timeCreated: 1454382927
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bip001
+    100002: Bip001 HeadNub
+    100004: Bip001 L Finger0Nub
+    100006: Bip001 L Finger1Nub
+    100008: Bip001 L Finger2Nub
+    100010: Bip001 L Toe0Nub
+    100012: Bip001 R Finger0Nub
+    100014: Bip001 R Finger1Nub
+    100016: Bip001 R Finger2Nub
+    100018: Bip001 R Toe0Nub
+    100020: Bip001 Wp02
+    100022: Bip001_thruster_01
+    100024: Bip001_thruster_02
+    100026: Bip001_unused_01
+    100028: Bip001_unused_02
+    100030: Bip001_unused_03
+    100032: Bip001_unused_04
+    100034: Bip001_unused_05
+    100036: Bip001_unused_06
+    100038: Bip001_unused_07
+    100040: Bip001_unused_08
+    100042: Bip001_unused_09
+    100044: Bip001_unused_10
+    100046: Bip001_unused_11
+    100048: Bip001_unused_12
+    100050: Bip001_unused_13
+    100052: Bip001_unused_14
+    100054: Bip001_unused_15
+    100056: Bip001_unused_16
+    100058: Bip001_unused_17
+    100060: Bip001_unused_18
+    100062: Bip001_unused_19
+    100064: Bip001_unused_20
+    100066: Bip001_unused_21
+    100068: Bip001_unused_22
+    100070: Bip001_unused_23
+    100072: Bip001_unused_24
+    100074: Bip001_unused_25
+    100076: Bip001_unused_26
+    100078: Bip001_unused_27
+    100080: Bip001_unused_28
+    100082: Bip001_unused_29
+    100084: Bip001_unused_30
+    100086: Bip001_unused_31
+    100088: Bip001_unused_32
+    100090: Bip001_unused_33
+    100092: Bip001_unused_34
+    100094: Bip001_unused_35
+    100096: Bip001_unused_36
+    100098: Bip001_unused_37
+    100100: Bip001_unused_38
+    100102: Bip001_unused_40
+    100104: Bip001_unused_41
+    100106: Bip001_unused_42
+    100108: Bip001_unused_43
+    100110: Bip001_unused_44
+    100112: Bip001_unused_45
+    100114: Bip001_unused_46
+    100116: Camera_pre
+    100118: Camera_pre.Target
+    100120: Effect_camera_pre
+    100122: Effect_camera_root
+    100124: Effect_center
+    100126: Effect_eyeleft
+    100128: Effect_eyeright
+    100130: Effect_footleft
+    100132: Effect_footright
+    100134: Effect_handleft
+    100136: Effect_handright
+    100138: Effect_head
+    100140: Effect_mouth
+    100142: Effect_spine
+    100144: Effect_weapon01
+    100146: Effect_weapon02
+    100148: Effect_weapon03
+    100150: Effect_weapon04
+    100152: //RootNode
+    100154: p_artillery_wp
+    400000: Bip001
+    400002: Bip001 HeadNub
+    400004: Bip001 L Finger0Nub
+    400006: Bip001 L Finger1Nub
+    400008: Bip001 L Finger2Nub
+    400010: Bip001 L Toe0Nub
+    400012: Bip001 R Finger0Nub
+    400014: Bip001 R Finger1Nub
+    400016: Bip001 R Finger2Nub
+    400018: Bip001 R Toe0Nub
+    400020: Bip001 Wp02
+    400022: Bip001_thruster_01
+    400024: Bip001_thruster_02
+    400026: Bip001_unused_01
+    400028: Bip001_unused_02
+    400030: Bip001_unused_03
+    400032: Bip001_unused_04
+    400034: Bip001_unused_05
+    400036: Bip001_unused_06
+    400038: Bip001_unused_07
+    400040: Bip001_unused_08
+    400042: Bip001_unused_09
+    400044: Bip001_unused_10
+    400046: Bip001_unused_11
+    400048: Bip001_unused_12
+    400050: Bip001_unused_13
+    400052: Bip001_unused_14
+    400054: Bip001_unused_15
+    400056: Bip001_unused_16
+    400058: Bip001_unused_17
+    400060: Bip001_unused_18
+    400062: Bip001_unused_19
+    400064: Bip001_unused_20
+    400066: Bip001_unused_21
+    400068: Bip001_unused_22
+    400070: Bip001_unused_23
+    400072: Bip001_unused_24
+    400074: Bip001_unused_25
+    400076: Bip001_unused_26
+    400078: Bip001_unused_27
+    400080: Bip001_unused_28
+    400082: Bip001_unused_29
+    400084: Bip001_unused_30
+    400086: Bip001_unused_31
+    400088: Bip001_unused_32
+    400090: Bip001_unused_33
+    400092: Bip001_unused_34
+    400094: Bip001_unused_35
+    400096: Bip001_unused_36
+    400098: Bip001_unused_37
+    400100: Bip001_unused_38
+    400102: Bip001_unused_40
+    400104: Bip001_unused_41
+    400106: Bip001_unused_42
+    400108: Bip001_unused_43
+    400110: Bip001_unused_44
+    400112: Bip001_unused_45
+    400114: Bip001_unused_46
+    400116: Camera_pre
+    400118: Camera_pre.Target
+    400120: Effect_camera_pre
+    400122: Effect_camera_root
+    400124: Effect_center
+    400126: Effect_eyeleft
+    400128: Effect_eyeright
+    400130: Effect_footleft
+    400132: Effect_footright
+    400134: Effect_handleft
+    400136: Effect_handright
+    400138: Effect_head
+    400140: Effect_mouth
+    400142: Effect_spine
+    400144: Effect_weapon01
+    400146: Effect_weapon02
+    400148: Effect_weapon03
+    400150: Effect_weapon04
+    400152: //RootNode
+    400154: p_artillery_wp
+    2300000: p_artillery_wp
+    2300002: //RootNode
+    3300000: p_artillery_wp
+    3300002: //RootNode
+    4300000: p_artillery_wp
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

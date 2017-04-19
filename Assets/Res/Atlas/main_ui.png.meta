@@ -1,0 +1,5894 @@
+fileFormatVersion: 2
+guid: 02db61877188ec24eb411d3550f7e701
+timeCreated: 1482736726
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: baikuang
+    21300002: bar_1
+    21300004: bar_bg_2
+    21300006: bar_bg_yellow_01
+    21300008: bar_blue_big_1
+    21300010: bar_exp_blue_sml
+    21300012: bar_exp_green_sml
+    21300014: bar_exp_purple_sml
+    21300016: bar_line_01
+    21300018: bar_line_02
+    21300020: bar_line_03
+    21300022: bar_loading_big_1
+    21300024: bar_loading_big_2
+    21300026: bar_loading_big_3
+    21300028: bar_yellow_01
+    21300030: bg_bar_1
+    21300032: bg_bar_big_1
+    21300034: bg_common_01
+    21300036: bg_common_02
+    21300038: bg_common_02_sml
+    21300040: bg_common_03
+    21300042: bg_common_04
+    21300044: bg_common_04_2
+    21300046: bg_common_05
+    21300048: bg_common_06
+    21300050: bg_common_06_sml
+    21300052: bg_common_07_sml
+    21300054: bg_common_08
+    21300056: bg_common_09
+    21300058: bg_common_10
+    21300060: bg_common_11
+    21300062: bg_common_12_2
+    21300064: bg_common_13
+    21300066: bg_exp_blue_sml_2
+    21300068: bg_exp_green_sml_2
+    21300070: bg_exp_sml
+    21300072: bg_exp_sml_2
+    21300074: bg_fight
+    21300076: bg_fight_2
+    21300078: bg_items_01
+    21300080: bg_lattice_01
+    21300082: bg_number_frame_small
+    21300084: bg_option_onoff
+    21300086: bg_talk_1
+    21300088: bg_talk_2
+    21300090: bg_talk_black
+    21300092: bg_talk_brown
+    21300094: bg_talk_font
+    21300096: bg_team_1
+    21300098: bg_team_2
+    21300100: bg_team_3
+    21300102: bg_team_4
+    21300104: bg_tips_01
+    21300106: bg_top
+    21300108: bg_ui_equip_box
+    21300110: bg_ui_team
+    21300112: bg_unit_01
+    21300114: bg_unit_02
+    21300116: box_name_01
+    21300118: btn_arrange_1
+    21300120: btn_arrange_2
+    21300122: btn_arrow_01
+    21300124: btn_arrow_02
+    21300126: btn_arrow_03
+    21300128: btn_auto_normal
+    21300130: btn_auto_selected
+    21300132: btn_back
+    21300134: btn_bg_common
+    21300136: btn_blackmarket
+    21300138: btn_book
+    21300140: btn_brown_01
+    21300142: btn_buy
+    21300144: btn_checkin
+    21300146: btn_close_2
+    21300148: btn_common
+    21300150: btn_common_02
+    21300152: btn_common_sml_01
+    21300154: btn_common_sml_02
+    21300156: btn_compose
+    21300158: btn_day
+    21300160: btn_dice
+    21300162: btn_double_normal
+    21300164: btn_double_selected
+    21300166: btn_equip_Square_01
+    21300168: btn_equip_Square_02
+    21300170: btn_equip_ascending
+    21300172: btn_equipments
+    21300174: btn_friend
+    21300176: btn_handbook
+    21300178: btn_help
+    21300180: btn_home
+    21300182: btn_info
+    21300184: btn_info_01
+    21300186: btn_jobcard_normal
+    21300188: btn_jobcard_selected
+    21300190: btn_mail
+    21300192: btn_option_continue
+    21300194: btn_option_onoff
+    21300196: btn_option_push
+    21300198: btn_option_quit
+    21300200: btn_option_sound_close
+    21300202: btn_option_sound_open
+    21300204: btn_option_volume_close
+    21300206: btn_option_volume_open
+    21300208: btn_page_2_normal
+    21300210: btn_page_2_selectedl
+    21300212: btn_page_3_normal
+    21300214: btn_page_normal
+    21300216: btn_page_selectedl
+    21300218: btn_pause_2
+    21300220: btn_purple_01
+    21300222: btn_pvp
+    21300224: btn_recommend
+    21300226: btn_renovate
+    21300228: btn_reward
+    21300230: btn_spread_01
+    21300232: btn_start_adventure
+    21300234: btn_talk
+    21300236: btn_talk_enter
+    21300238: btn_team
+    21300240: btn_train
+    21300242: daily_dungeon_reward_card_back
+    21300244: destypeicon1
+    21300246: destypeicon10
+    21300248: destypeicon2
+    21300250: destypeicon3
+    21300252: destypeicon4
+    21300254: destypeicon5
+    21300256: destypeicon6
+    21300258: destypeicon7
+    21300260: destypeicon8
+    21300262: destypeicon9
+    21300264: effect_equip_box_sml
+    21300266: effect_light_2
+    21300268: effect_lost_wing
+    21300270: effect_win_laurel-
+    21300272: effect_win_laurel_2
+    21300274: effect_win_wing
+    21300276: fight_bg
+    21300278: fight_bg2
+    21300280: fight_blue_decorate
+    21300282: fight_red_decorate
+    21300284: halo_01
+    21300286: icon_1st
+    21300288: icon_2st
+    21300290: icon_3st
+    21300292: icon_Checkpoint_02
+    21300294: icon_action_1
+    21300296: icon_action_2
+    21300298: icon_action_3
+    21300300: icon_badge_01
+    21300302: icon_badge_02
+    21300304: icon_badge_03
+    21300306: icon_bg_checkpoint_02_01
+    21300308: icon_bg_checkpoint_02_02
+    21300310: icon_big_role_type_defence
+    21300312: icon_big_role_type_mage
+    21300314: icon_big_role_type_mighty
+    21300316: icon_big_role_type_offence
+    21300318: icon_big_role_type_support
+    21300320: icon_box_1_big
+    21300322: icon_box_3_1
+    21300324: icon_box_3_2
+    21300326: icon_checkpoint_01
+    21300328: icon_checkpoint_02_01
+    21300330: icon_checkpoint_02_02
+    21300332: icon_chest_1_2_big
+    21300334: icon_chest_1_big
+    21300336: icon_chest_1_sml
+    21300338: icon_coin_small
+    21300340: icon_coin_small_02
+    21300342: icon_dps
+    21300344: icon_ead
+    21300346: icon_equip
+    21300348: icon_exp
+    21300350: icon_expedition_small
+    21300352: icon_friendly_1
+    21300354: icon_friendly_2
+    21300356: icon_friendly_3
+    21300358: icon_gem_small
+    21300360: icon_hand
+    21300362: icon_head_box
+    21300364: icon_head_box_big
+    21300366: icon_head_box_big_back
+    21300368: icon_hero
+    21300370: icon_hint
+    21300372: icon_hint_3
+    21300374: icon_honor_small
+    21300376: icon_key_small
+    21300378: icon_leader
+    21300380: icon_lock_sml_01
+    21300382: icon_lock_sml_02
+    21300384: icon_lock_sml_03
+    21300386: icon_lock_sml_04
+    21300388: icon_map_boss
+    21300390: icon_monster
+    21300392: icon_package_1
+    21300394: icon_package_2
+    21300396: icon_package_3
+    21300398: icon_present
+    21300400: icon_rmb_sml
+    21300402: icon_role_1
+    21300404: icon_role_2
+    21300406: icon_shop
+    21300408: icon_skill_lock
+    21300410: icon_skill_top
+    21300412: icon_skill_top_2
+    21300414: icon_skill_top_sml
+    21300416: icon_skill_type_1
+    21300418: icon_skill_type_2
+    21300420: icon_skill_type_3
+    21300422: icon_skill_type_4
+    21300424: icon_small_role_type_defence
+    21300426: icon_small_role_type_defence_2
+    21300428: icon_small_role_type_mage
+    21300430: icon_small_role_type_mage_2
+    21300432: icon_small_role_type_mighty
+    21300434: icon_small_role_type_mighty_2
+    21300436: icon_small_role_type_offence
+    21300438: icon_small_role_type_offence_2
+    21300440: icon_small_role_type_support
+    21300442: icon_small_role_type_support_2
+    21300444: icon_star
+    21300446: icon_star2_big
+    21300448: icon_star2_big_disable
+    21300450: icon_star2_sml
+    21300452: icon_star_big
+    21300454: icon_star_disable
+    21300456: icon_sweep
+    21300458: icon_talk_info
+    21300460: icon_test_01
+    21300462: icon_test_02
+    21300464: icon_test_03
+    21300466: icon_test_04
+    21300468: icon_test_05
+    21300470: icon_type_01
+    21300472: icon_type_sml_06
+    21300474: icon_unknown
+    21300476: icon_up
+    21300478: icon_vip_02
+    21300480: icon_warning
+    21300482: input_bg
+    21300484: login_frame_title__bottom_bar
+    21300486: login_frame_title__top_bar
+    21300488: mask1
+    21300490: mask2
+    21300492: num_cardlv_lv
+    21300494: num_cardlv_new
+    21300496: ui_arrow_02
+    21300498: ui_arrow_03
+    21300500: ui_arrow_choose_
+    21300502: ui_arrow_spread
+    21300504: ui_bar_green_1
+    21300506: ui_bar_green_1_sml
+    21300508: ui_bar_green_2
+    21300510: ui_bar_green_2_sml
+    21300512: ui_bar_green_hit
+    21300514: ui_bar_purple_1
+    21300516: ui_bar_purple_2
+    21300518: ui_bar_purple_2_sml
+    21300520: ui_base_pvp
+    21300522: ui_black
+    21300524: ui_check_02
+    21300526: ui_checkin_1
+    21300528: ui_combo
+    21300530: ui_equip_box_big
+    21300532: ui_equip_box_sml
+    21300534: ui_equip_shop_1
+    21300536: ui_equip_shop_2
+    21300538: ui_equip_shop_3
+    21300540: ui_equip_shop_4
+    21300542: ui_equip_shop_5
+    21300544: ui_equip_shop_6
+    21300546: ui_icon_name
+    21300548: ui_icon_task_01
+    21300550: ui_icon_task_02
+    21300552: ui_items_01_selected
+    21300554: ui_items_02
+    21300556: ui_items_03
+    21300558: ui_join_2
+    21300560: ui_leader_head
+    21300562: ui_loading_01
+    21300564: ui_login_frame_title
+    21300566: ui_max_02
+    21300568: ui_miss
+    21300570: ui_pause
+    21300572: ui_pause_1
+    21300574: ui_plus_01
+    21300576: ui_shadow
+    21300578: ui_shop_box_down
+    21300580: ui_shop_box_top
+    21300582: ui_skill_head
+    21300584: ui_skill_head_a
+    21300586: ui_team_3
+    21300588: ui_title_name_01
+    21300590: ui_title_name_02
+    21300592: ui_title_name_03
+    21300594: ui_title_name_03_2
+    21300596: ui_title_name_04
+    21300598: ui_title_name_05_1
+    21300600: ui_title_name_05_2
+    21300602: ui_title_name_06
+    21300604: ui_title_skill_01
+    21300606: ui_vip_01
+    21300608: world_tree_action_1
+    21300610: world_tree_action_2
+    21300612: world_tree_action_3
+    21300614: world_tree_dungeon_button
+    21300616: world_tree_fruit
+    21300618: btn_blackmarket_1
+    21300620: btn_book_1
+    21300622: btn_equipments_1
+    21300624: btn_friend_1
+    21300626: btn_mail_1
+    21300628: btn_shop_1
+    21300630: btn_signin_1
+    21300632: btn_task_1
+    21300634: btn_team_1
+    21300636: btn_train_1
+    21300638: btn_consortia
+    21300640: btn_pvp_1
+    21300642: icon_bg_checkpoint_02_01_1
+    21300644: icon_bg_checkpoint_02_02_1
+    21300646: icon_fumo_01
+    21300648: icon_gem_01
+    21300650: icon_gem_02
+    21300652: ui_arrow_04
+    21300654: ui_arrow_05
+    21300656: ui_check_03
+    21300658: ui_check_04
+    21300660: ui_item_shadow
+    21300662: btn_page_4_normal
+    21300664: btn_page_4_selected
+    21300666: icon_page_chongzhu
+    21300668: icon_page_coin
+    21300670: icon_page_fumo
+    21300672: icon_page_gonghui
+    21300674: icon_page_jifensai
+    21300676: icon_page_jinjie
+    21300678: icon_page_jjc
+    21300680: icon_page_qianghua
+    21300682: icon_page_rongyu
+    21300684: icon_page_shengxing
+    21300686: icon_page_shimo
+    21300688: icon_page_tupo
+    21300690: icon_page_xiangqian
+    21300692: icon_page_zhanli
+    21300694: icon_page_zhuangbei
+    21300696: icon_gem_03
+    21300698: ui_quality_01
+    21300700: ui_quality_02
+    21300702: ui_quality_03
+    21300704: ui_quality_04
+    21300706: ui_quality_05
+    21300708: ui_quality_06
+    21300710: ui_title_name_07
+    21300712: bar_bg_3
+    21300714: btn_activity
+    21300716: btn_rank
+    21300718: btn_hero
+    21300720: ui_completion
+    21300722: ui_activate
+    21300724: btn_change
+    21300726: btn_page_normal_1
+    21300728: btn_page_selectedl_1
+    21300730: bar_bg_g_2
+    21300732: bar_purple_big_1
+    21300734: bg_common_05_2
+    21300736: bg_common_11_2
+    21300738: btn_equip_square_03
+    21300740: icon_g_01
+    21300742: icon_g_02
+    21300744: icon_g_03
+    21300746: icon_g_04
+    21300748: icon_g_05
+    21300750: icon_g_06
+    21300752: icon_g_07
+    21300754: icon_g_08
+    21300756: icon_g_09
+    21300758: icon_g_10
+    21300760: icon_page_g
+    21300762: icon_page_gshop
+    21300764: icon_page_info
+    21300766: icon_unknown_2
+    21300768: ui_bg_g_1
+    21300770: ui_bg_g_2
+    21300772: ui_bg_g_team
+    21300774: ui_bg_gicon
+    21300776: ui_g_gaoji
+    21300778: ui_g_leader
+    21300780: ui_g_putong
+    21300782: ui_lost
+    21300784: ui_vs
+    21300786: ui_win
+    21300788: btn_activity_1
+    21300790: btn_dispatch_1
+    21300792: btn_rank_1
+    21300794: destypeicon11
+    21300796: destypeicon12
+    21300798: destypeicon13
+    21300800: image_pig_1
+    21300802: image_pig_2
+    21300804: image_pig_3
+    21300806: bg_exp_green_sml_3
+    21300808: bg_exp_sml_3
+    21300810: ui_title_lost
+    21300812: ui_title_win
+    21300814: effect_lvup
+    21300816: icon_lock_big_01
+    21300818: icon_lock_big_02
+    21300820: icon_page_friendly
+    21300822: logo
+    21300824: btn_option_effect_close
+    21300826: btn_option_effect_open
+    21300828: btn_option_push_close
+    21300830: btn_option_push_open
+    21300832: ui_checkin_2
+    21300834: icon_head_box_big_back2
+    21300836: logo_dun
+    21300838: logo_jian
+    21300840: logo_zi
+    21300842: icon_location
+    21300844: ui_award
+    21300846: icon_box_1_big_open
+    21300848: icon_honor_2_small
+    21300850: event_icon_1
+    21300852: event_icon_3
+    21300854: event_icon_4
+    21300856: event_icon_5
+    21300858: event_icon_6
+    21300860: event_icon_7
+    21300862: event_icon_8
+    21300864: btn_option_txiao_close_2
+    21300866: btn_option_txiao_open_2
+    21300868: destypeicon14
+    21300870: icon_jifensai
+    21300872: icon_page_hero
+    21300874: icon_page_other
+    21300876: npc_cat
+    21300878: ui_mission_1
+    21300880: ui_mission_2
+    21300882: btn_page_5_normal
+    21300884: btn_three_selected
+    21300886: destypeicon15
+    21300888: destypeicon16
+    21300890: icon_equip_type_1
+    21300892: icon_equip_type_2
+    21300894: icon_equip_type_3
+    21300896: icon_info_2
+    21300898: icon_patch
+    21300900: ui_shop_sale
+    21300902: ui_vip_02
+    21300904: icon_hint_new
+    21300906: bg_notice
+    21300908: btn_arrow_04
+    21300910: btn_close_3
+    21300912: icon_hint_4
+    21300914: btn_bag
+    21300916: bg_signin_1
+    21300918: bg_signin_2
+    21300920: box_name_02
+    21300922: ui_checkin_3
+    21300924: effect_lvup_1
+    21300926: icon_anvil
+    21300928: icon_page_piece
+    21300930: bg_exp_blue_sml_4
+    21300932: btn_arrow_04_2
+    21300934: icon_key_pvp_small
+    21300936: btn_pve_easy
+    21300938: btn_pve_hard
+    21300940: btn_pve_hell
+    21300942: btn_pve_normal
+    21300944: icon_exp_green
+    21300946: ui_items_02_lv1
+    21300948: ui_items_02_lv2
+    21300950: ui_items_02_lv3
+    21300952: ui_items_02_lv4
+    21300954: image_ore_1
+    21300956: image_ore_2
+    21300958: image_ore_3
+    21300960: image_ore_4
+    21300962: image_ore_5
+    21300964: bg_exp_blue_sml_3
+    21300966: btn_change_2
+    21300968: btn_change_2_2
+    21300970: ui_zhuangshi_1
+    21300972: destypeicon17
+    21300974: destypeicon18
+    21300976: effect_chuizi
+    21300978: effect_tietai
+    21300980: 26
+    21300982: 27
+    21300984: 28
+    21300986: btn_daytask
+    21300988: effect_fazhen
+    21300990: btn_group
+    21300992: bg_common_01_sml
+    21300994: image_card_01
+    21300996: image_card_02
+    21300998: image_card_03
+    21301000: image_card_04
+    21301002: image_card_2_01
+    21301004: image_card_2_02
+    21301006: image_card_2_03
+    21301008: image_card_2_04
+    21301010: image_card_blue
+    21301012: image_card_green
+    21301014: image_card_orange
+    21301016: image_card_purple
+    21301018: image_card_red
+    21301020: image_card_bg
+    21301022: image_card_2_blue
+    21301024: image_card_2_green
+    21301026: image_card_2_orange
+    21301028: image_card_2_purple
+    21301030: image_card_2_red
+    21301032: btn_card_orange
+    21301034: icon_worldtree
+    21301036: btn_page_5
+    21301038: ui_dialog_01
+    21301040: ui_dialog_02
+    21301042: ui_dialog_entry
+    21301044: btn_close_3_sml
+    21301046: ui_checkin_1_sml
+    21301048: icon_exp_green_sml
+    21301050: icon_exp_sml
+    21301052: rank_a
+    21301054: rank_b
+    21301056: rank_bg
+    21301058: rank_c
+    21301060: rank_s
+    21301062: rank_ss
+    21301064: warrior_01
+    21301066: warrior_02
+    21301068: warrior_03
+    21301070: warrior_04
+    21301072: icon_c
+    21301074: icon_complete
+    21301076: ui_check_05
+    21301078: bar_exp_star
+    21301080: bg_exp_star
+    21301082: btn_page_qitian_1
+    21301084: btn_page_qitian_2
+    21301086: event_icon_10
+    21301088: event_icon_11
+    21301090: event_icon_9
+    21301092: icon_baoji_2
+    21301094: icon_baoji_5
+    21301096: icon_bg_checkpoint_03_01
+    21301098: icon_bg_checkpoint_03_02
+    21301100: icon_bg_checkpoint_04_01
+    21301102: icon_bg_checkpoint_04_02
+    21301104: icon_jijin
+    21301106: icon_page_hunqi
+    21301108: icon_page_shijieboss
+    21301110: jdtbox1_1
+    21301112: jdtbox1_2
+    21301114: jdtbox2_1
+    21301116: jdtbox2_2
+    21301118: jdtbox3_1
+    21301120: jdtbox3_2
+    21301122: jdtbox4_1
+    21301124: jdtbox4_2
+    21301126: ui_title_name_04_2
+    21301128: 24
+    21301130: 25
+    21301132: day30
+    21301134: qipao
+    21301136: 10000
+    21301138: "TXT\u51FA\u6218"
+    21301140: "TXT\u7F81\u7ECA"
+    21301142: TXTchuzhan
+    21301144: TXTjiban
+    21301146: horsetail1
+    21301148: horsetail2
+    21301150: horsetail3
+    21301152: horsetail4
+    21301154: short1
+    21301156: short2
+    21301158: short3
+    21301160: short4
+    21301162: shoulder1
+    21301164: shoulder2
+    21301166: shoulder3
+    21301168: shoulder4
+    21301170: waist1
+    21301172: waist2
+    21301174: waist3
+    21301176: waist4
+    21301178: icon_rank_defence
+    21301180: icon_rank_mage
+    21301182: icon_rank_mighty
+    21301184: icon_rank_offence
+    21301186: icon_rank_support
+    21301188: btn_three_normal
+    21301190: num_rank_bg
+    21301192: head_bg_1
+    21301194: head_bg_2
+    21301196: btn_page_b_normal
+    21301198: btn_page_b_selected
+    21301200: icn_lock_close
+    21301202: icn_lock_open
+    21301204: ui_equip_shop_7
+    21301206: ui_equip_shop_8
+    21301208: ui_equip_shop_10
+    21301210: ui_equip_shop_11
+    21301212: ui_equip_shop_9
+    21301214: ui_head_change
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: 4
+    compressionQuality: 100
+    allowsAlphaSplitting: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -3
+    compressionQuality: 100
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: 10000
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 428
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 24
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 435
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 25
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 365
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 26
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 423
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 27
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 385
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 28
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 347
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TXTchuzhan
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 805
+        width: 58
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TXTjiban
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 805
+        width: 58
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: baikuang
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 1699
+        width: 180
+        height: 190
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bar_1
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1687
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 6, y: 0, z: 6, w: 0}
+    - name: bar_bg_2
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 886
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 16, y: 16, z: 16, w: 16}
+    - name: bar_bg_3
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 844
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 15, y: 15, z: 15, w: 14}
+    - name: bar_bg_g_2
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1811
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 3, y: 3, z: 3, w: 3}
+    - name: bar_bg_yellow_01
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 149
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 10, y: 10, z: 10, w: 10}
+    - name: bar_blue_big_1
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1005
+        width: 54
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 8, y: 10, z: 16, w: 10}
+    - name: bar_exp_blue_sml
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 1951
+        width: 188
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 5, y: 0, z: 5, w: 0}
+    - name: bar_exp_green_sml
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 1951
+        width: 188
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 5, y: 0, z: 5, w: 0}
+    - name: bar_exp_purple_sml
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 1939
+        width: 188
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 6, y: 0, z: 6, w: 0}
+    - name: bar_exp_star
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 1036
+        width: 138
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 74, y: 0, z: 3, w: 0}
+    - name: bar_line_01
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 1653
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 10, y: 0, z: 10, w: 0}
+    - name: bar_line_02
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 2035
+        width: 502
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bar_line_03
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1921
+        width: 2
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 2, z: 0, w: 2}
+    - name: bar_loading_big_1
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 273
+        width: 88
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 25, y: 0, z: 25, w: 0}
+    - name: bar_loading_big_2
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 163
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 10, y: 0, z: 10, w: 0}
+    - name: bar_loading_big_3
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 472
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 10, y: 0, z: 10, w: 0}
+    - name: bar_purple_big_1
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1873
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 3, y: 3, z: 3, w: 3}
+    - name: bar_yellow_01
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 2019
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 2, y: 7, z: 2, w: 7}
+    - name: bg_bar_1
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1849
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 5, y: 2, z: 5, w: 2}
+    - name: bg_bar_big_1
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 259
+        width: 63
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 15, y: 15, z: 15, w: 15}
+    - name: bg_common_01
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1274
+        width: 90
+        height: 206
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 35, y: 50, z: 35, w: 50}
+    - name: bg_common_01_sml
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 4
+        width: 70
+        height: 160
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 28, y: 32, z: 28, w: 28}
+    - name: bg_common_02
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1066
+        width: 90
+        height: 206
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 40, y: 40, z: 40, w: 40}
+    - name: bg_common_02_sml
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1859
+        width: 59
+        height: 133
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 23, y: 26, z: 23, w: 27}
+    - name: bg_common_03
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1341
+        width: 192
+        height: 128
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bg_common_04
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1254
+        width: 56
+        height: 83
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+    - name: bg_common_04_2
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 1565
+        width: 52
+        height: 106
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 19, y: 26, z: 20, w: 19}
+    - name: bg_common_05
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 1955
+        width: 62
+        height: 92
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+    - name: bg_common_05_2
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 1861
+        width: 62
+        height: 92
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 17, y: 24, z: 17, w: 24}
+    - name: bg_common_06
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2039
+        width: 508
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 236, y: 0, z: 236, w: 0}
+    - name: bg_common_06_sml
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 150
+        width: 69
+        height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+    - name: bg_common_07_sml
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 365
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bg_common_08
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 261
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 14, y: 22, z: 14, w: 22}
+    - name: bg_common_11
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1625
+        width: 46
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 21, y: 27, z: 21, w: 27}
+    - name: bg_common_11_2
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 467
+        width: 100
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 29, y: 29, z: 29, w: 29}
+    - name: bg_common_12_2
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1827
+        width: 157
+        height: 206
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 55, y: 74, z: 56, w: 63}
+    - name: bg_common_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 657
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 12, y: 12, z: 12, w: 12}
+    - name: bg_exp_blue_sml_2
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 2022
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 3, y: 3, z: 3, w: 3}
+    - name: bg_exp_blue_sml_3
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1985
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bg_exp_blue_sml_4
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 2009
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 4, y: 4, z: 4, w: 4}
+    - name: bg_exp_green_sml_2
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1784
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 3, y: 3, z: 3, w: 3}
+    - name: bg_exp_green_sml_3
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1975
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 2, y: 2, z: 2, w: 2}
+    - name: bg_exp_sml
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 2001
+        width: 230
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 76, y: 0, z: 76, w: 0}
+    - name: bg_exp_sml_2
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1771
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 3, y: 3, z: 3, w: 3}
+    - name: bg_exp_sml_3
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1995
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 3, y: 3, z: 3, w: 3}
+    - name: bg_exp_star
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 1305
+        width: 150
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 100, y: 0, z: 20, w: 0}
+    - name: bg_fight
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 908
+        width: 72
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 30, y: 0, z: 30, w: 0}
+    - name: bg_fight_2
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 2009
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bg_items_01
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 897
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bg_lattice_01
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 634
+        width: 60
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bg_notice
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1797
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 5, y: 5, z: 5, w: 5}
+    - name: bg_number_frame_small
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 1619
+        width: 154
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 20, y: 0, z: 20, w: 0}
+    - name: bg_option_onoff
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 593
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 13, y: 14, z: 13, w: 14}
+    - name: bg_signin_2
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 1757
+        width: 180
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 44, y: 44, z: 43, w: 45}
+    - name: bg_talk_1
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 2
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 10, y: 7, z: 10, w: 7}
+    - name: bg_talk_2
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 2
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 11, y: 7, z: 11, w: 8}
+    - name: bg_talk_black
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 238
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bg_talk_brown
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 157
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bg_talk_font
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 321
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 21, y: 0, z: 22, w: 0}
+    - name: bg_team_1
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 1759
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bg_team_2
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 1651
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bg_team_3
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 1994
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bg_team_4
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 710
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bg_tips_01
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1642
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 5, y: 5, z: 5, w: 5}
+    - name: bg_top
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1502
+        width: 20
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bg_ui_equip_box
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 150
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bg_ui_team
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 102
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bg_unit_01
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1267
+        width: 192
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bg_unit_02
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1155
+        width: 192
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: box_name_01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 504
+        width: 90
+        height: 68
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 35, y: 0, z: 35, w: 0}
+    - name: box_name_02
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 366
+        width: 88
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 29, y: 0, z: 30, w: 0}
+    - name: btn_activity_1
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1512
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_arrange_1
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 959
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_arrange_2
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 627
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_arrow_01
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 1773
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_arrow_02
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 1685
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_arrow_03
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 461
+        width: 36
+        height: 69
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_arrow_04
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 1430
+        width: 104
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_arrow_04_2
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 1392
+        width: 104
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_auto_normal
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 430
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_auto_selected
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 333
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_back
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 248
+        width: 90
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_bag
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 1151
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_bg_common
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 980
+        width: 130
+        height: 114
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 42, y: 36, z: 36, w: 36}
+    - name: btn_blackmarket_1
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 1029
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_book_1
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 907
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_brown_01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1471
+        width: 238
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_buy
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 336
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_card_orange
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 1183
+        width: 142
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_change
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 104
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_change_2
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 1226
+        width: 44
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_change_2_2
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 959
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_checkin
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 872
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_close_2
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 1559
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_close_3
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1793
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_close_3_sml
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 275
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_common
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1915
+        width: 300
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 125, y: 0, z: 125, w: 0}
+    - name: btn_common_02
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1943
+        width: 331
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 122, y: 0, z: 122, w: 0}
+    - name: btn_common_sml_01
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1757
+        width: 156
+        height: 68
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 72, y: 0, z: 72, w: 0}
+    - name: btn_common_sml_02
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1687
+        width: 156
+        height: 68
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 60, y: 25, z: 60, w: 25}
+    - name: btn_consortia
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 931
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_day
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1288
+        width: 104
+        height: 137
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_daytask
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 858
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_dice
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 1419
+        width: 66
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_dispatch_1
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 800
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_double_normal
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 328
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_double_selected
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 325
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_equip_Square_01
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 224
+        width: 98
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 40, y: 25, z: 40, w: 25}
+    - name: btn_equip_Square_02
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 126
+        width: 98
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 40, y: 40, z: 40, w: 40}
+    - name: btn_equip_ascending
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 104
+        width: 72
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 30, y: 0, z: 30, w: 0}
+    - name: btn_equip_square_03
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 14
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_equipments_1
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 899
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_friend_1
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 785
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_group
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 833
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_handbook
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 983
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_help
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 309
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_hero
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 777
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_info
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 453
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_info_01
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1825
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 5, y: 6, z: 5, w: 6}
+    - name: btn_jobcard_normal
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 990
+        width: 72
+        height: 223
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 25, y: 50, z: 25, w: 50}
+    - name: btn_jobcard_selected
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 765
+        width: 72
+        height: 223
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_mail_1
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 663
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_option_continue
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1725
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_option_effect_close
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 447
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_option_effect_open
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 411
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_option_onoff
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 229
+        width: 58
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 20, y: 16, z: 19, w: 16}
+    - name: btn_option_push_close
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 375
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_option_push_open
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 361
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_option_quit
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 1625
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_option_sound_close
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 1493
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_option_sound_open
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 438
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_option_txiao_close_2
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 504
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_option_txiao_open_2
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_option_volume_close
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 8
+        width: 68
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_option_volume_open
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 8
+        width: 68
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_page_2_normal
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 713
+        width: 108
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 28, y: 17, z: 23, w: 16}
+    - name: btn_page_2_selectedl
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 724
+        width: 108
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 12, y: 13, z: 10, w: 46}
+    - name: btn_page_3_normal
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 656
+        width: 108
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_page_4_normal
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 851
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 19, y: 22, z: 21, w: 19}
+    - name: btn_page_4_selected
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 852
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 19, y: 17, z: 18, w: 16}
+    - name: btn_page_5
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 100
+        width: 86
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_page_5_normal
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 795
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_page_b_normal
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 805
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_page_b_selected
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 320
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_page_normal
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1921
+        width: 200
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 80, y: 0, z: 81, w: 0}
+    - name: btn_page_qitian_1
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 1891
+        width: 184
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_page_qitian_2
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 1879
+        width: 184
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_page_selectedl
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1839
+        width: 200
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 81, y: 0, z: 82, w: 0}
+    - name: btn_pause_2
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1011
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_purple_01
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1703
+        width: 238
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 98, y: 0, z: 100, w: 0}
+    - name: btn_pve_easy
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 223
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_pve_hard
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 805
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_pve_hell
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 729
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_pve_normal
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 703
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_pvp_1
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1417
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_rank_1
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 809
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_recommend
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 237
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_renovate
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 366
+        width: 95
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_reward
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1160
+        width: 111
+        height: 118
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_shop_1
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 736
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_signin_1
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 711
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_spread_01
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 186
+        width: 66
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 25, y: 0, z: 25, w: 0}
+    - name: btn_talk
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 104
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_talk_enter
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1439
+        width: 106
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 25, y: 0, z: 25, w: 0}
+    - name: btn_task_1
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 687
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_team_1
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 655
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_three_normal
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 627
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_three_selected
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 601
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn_train_1
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 589
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: day30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 309
+        width: 60
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: destypeicon10
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 201
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: destypeicon11
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 165
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: destypeicon12
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 129
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: destypeicon13
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 186
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: destypeicon14
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 150
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: destypeicon15
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 273
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: destypeicon16
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 329
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: destypeicon17
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 329
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: destypeicon18
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 187
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: destypeicon6
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 187
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: destypeicon7
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 187
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: destypeicon8
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 6
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: destypeicon9
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 6
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: effect_chuizi
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 525
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: effect_equip_box_sml
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 127
+        width: 96
+        height: 94
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: effect_light_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1247
+        width: 192
+        height: 92
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: effect_lvup
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 1319
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: effect_lvup_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1695
+        width: 256
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: effect_tietai
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 462
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: event_icon_1
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 611
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: event_icon_10
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 499
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: event_icon_11
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 509
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: event_icon_3
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 650
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: event_icon_4
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 423
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: event_icon_5
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 554
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: event_icon_6
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 407
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: event_icon_7
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 397
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: event_icon_8
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 472
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: event_icon_9
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 452
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: head_bg_1
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 1507
+        width: 172
+        height: 190
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: head_bg_2
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1569
+        width: 172
+        height: 190
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: horsetail1
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 805
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: horsetail2
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 780
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: horsetail3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 928
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: horsetail4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 713
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icn_lock_close
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 5
+        width: 71
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icn_lock_open
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 5
+        width: 71
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_1st
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1283
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_2st
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 1169
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_3st
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 884
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_action_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 13
+        width: 95
+        height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_action_2
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 1053
+        width: 110
+        height: 114
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_action_3
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 914
+        width: 127
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_anvil
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 769
+        width: 86
+        height: 92
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_badge_01
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 1586
+        width: 105
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_badge_02
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 1527
+        width: 105
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_badge_03
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 1468
+        width: 105
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_baoji_2
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 249
+        width: 76
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_baoji_5
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 249
+        width: 76
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_bg_checkpoint_02_01
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 567
+        width: 76
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_bg_checkpoint_02_02
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 519
+        width: 76
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_bg_checkpoint_03_01
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 471
+        width: 76
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_bg_checkpoint_03_02
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 423
+        width: 76
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_bg_checkpoint_04_01
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 911
+        width: 76
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_bg_checkpoint_04_02
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 863
+        width: 76
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_big_role_type_defence
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 309
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_big_role_type_mage
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 132
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_big_role_type_mighty
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 94
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_big_role_type_offence
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 56
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_big_role_type_support
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 18
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_box_1_big
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1093
+        width: 190
+        height: 172
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_box_1_big_open
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1169
+        width: 196
+        height: 206
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_box_3_1
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1661
+        width: 84
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_box_3_2
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1583
+        width: 84
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_c
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1745
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_chest_1_2_big
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1407
+        width: 122
+        height: 132
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_chest_1_big
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1273
+        width: 122
+        height: 132
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_chest_1_sml
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 100
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_coin_small
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1487
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_coin_small_02
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 299
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_complete
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1519
+        width: 92
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_dps
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 266
+        width: 64
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_equip_type_1
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 372
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_equip_type_2
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 306
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_equip_type_3
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 6
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_exp
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 560
+        width: 102
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_exp_green
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 530
+        width: 102
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_exp_green_sml
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1427
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_exp_sml
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 409
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_expedition_small
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1673
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_friendly_1
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 95
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_friendly_2
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 65
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_friendly_3
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 35
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_fumo_01
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 684
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_g_01
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 581
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_g_02
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 275
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_g_03
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 263
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_g_04
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 177
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_g_05
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 222
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_g_06
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 150
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_g_07
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 150
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_g_08
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 2
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_g_09
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 2
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_g_10
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 6
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_gem_01
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 658
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_gem_02
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 632
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_gem_03
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 606
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_gem_small
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 1178
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_hand
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 458
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_head_box
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 1280
+        width: 103
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_head_box_big
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 1345
+        width: 150
+        height: 160
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_hint
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 191
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_hint_3
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 125
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_hint_4
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 661
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 13, y: 27, z: 40, w: 16}
+    - name: icon_hint_new
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 296
+        width: 62
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_honor_2_small
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1695
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_honor_small
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1645
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_info_2
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 615
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_jifensai
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 370
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_jijin
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 350
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_key_pvp_small
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1427
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_key_small
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1799
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_leader
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 585
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_location
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1685
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_lock_big_01
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 1088
+        width: 65
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_lock_big_02
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 998
+        width: 65
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_lock_sml_01
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 805
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_lock_sml_02
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 104
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_lock_sml_03
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 163
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_lock_sml_04
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1841
+        width: 48
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_map_boss
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1360
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_page_chongzhu
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 773
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_page_coin
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 717
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_page_friendly
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 695
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_page_fumo
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 639
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_page_g
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 617
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_page_gonghui
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 561
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_page_gshop
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 539
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_page_hero
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 483
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_page_hunqi
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 461
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_page_info
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 170
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_page_jifensai
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 383
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_page_jinjie
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 305
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_page_jjc
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 227
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_page_other
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 149
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_page_piece
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 71
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_page_qianghua
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 71
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_page_rongyu
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 72
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_page_shengxing
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 72
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_page_shijieboss
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 72
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_page_shimo
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 72
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_page_tupo
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 176
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_page_xiangqian
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 176
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_page_zhanli
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 184
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_page_zhuangbei
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 106
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_patch
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 6
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_present
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 5
+        width: 73
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_rank_defence
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 1351
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_rank_mage
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 1283
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_rank_mighty
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 1215
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_rank_offence
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 840
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_rank_support
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 3
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_rmb_sml
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 173
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_role_1
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 543
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_role_2
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 365
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_lock
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1499
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_top
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 989
+        width: 80
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_top_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 430
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_top_sml
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 1344
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_type_1
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 7
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_type_2
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 7
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_type_3
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 237
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_skill_type_4
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 273
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_small_role_type_defence
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 309
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_small_role_type_defence_2
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 309
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_small_role_type_mage
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 132
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_small_role_type_mage_2
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 132
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_small_role_type_mighty
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 94
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_small_role_type_mighty_2
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 94
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_small_role_type_offence
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 56
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_small_role_type_offence_2
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 56
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_small_role_type_support
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 18
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_small_role_type_support_2
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 18
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_star
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1741
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_star2_big
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1181
+        width: 104
+        height: 105
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_star2_big_disable
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1074
+        width: 104
+        height: 105
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_star2_sml
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 150
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_star_big
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 1594
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_star_disable
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1074
+        width: 104
+        height: 105
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_sweep
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1575
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_talk_info
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 562
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_test_05
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 534
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_type_01
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1038
+        width: 110
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_type_sml_06
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 493
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_unknown
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 574
+        width: 60
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_unknown_2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 574
+        width: 60
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_up
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 208
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_vip_02
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1073
+        width: 80
+        height: 94
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_warning
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1033
+        width: 55
+        height: 47
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: icon_worldtree
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 929
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: image_card_2_blue
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 153
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 10, y: 10, z: 10, w: 10}
+    - name: image_card_2_green
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 189
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 10, y: 10, z: 10, w: 10}
+    - name: image_card_2_orange
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 119
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 10, y: 10, z: 10, w: 10}
+    - name: image_card_2_purple
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 241
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 10, y: 10, z: 10, w: 10}
+    - name: image_card_2_red
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 155
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 10, y: 10, z: 10, w: 10}
+    - name: image_card_bg
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1687
+        width: 50
+        height: 184
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 20, y: 0, z: 20, w: 0}
+    - name: image_card_red
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 1077
+        width: 140
+        height: 184
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: image_ore_1
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 537
+        width: 119
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: image_ore_2
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 545
+        width: 119
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: image_ore_3
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 532
+        width: 119
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: image_ore_4
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 427
+        width: 119
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: image_ore_5
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1051
+        width: 119
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: image_pig_1
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 1455
+        width: 152
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: image_pig_2
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1295
+        width: 140
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: image_pig_3
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1208
+        width: 140
+        height: 150
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: input_bg
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1196
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 20, y: 0, z: 20, w: 0}
+    - name: jdtbox1_1
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 356
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jdtbox1_2
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 268
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jdtbox2_1
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 326
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jdtbox2_2
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 254
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jdtbox3_1
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 305
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jdtbox3_2
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 273
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jdtbox4_1
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 248
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jdtbox4_2
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 166
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: login_frame_title__bottom_bar
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 2020
+        width: 492
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: login_frame_title__top_bar
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2003
+        width: 499
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 180, y: 0, z: 172, w: 0}
+    - name: mask1
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 2003
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mask2
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1879
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: npc_cat
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 2
+        width: 71
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: num_cardlv_lv
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 163
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: num_cardlv_new
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 582
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: num_rank_bg
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 179
+        width: 74
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: qipao
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 223
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rank_a
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1153
+        width: 140
+        height: 140
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rank_b
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1066
+        width: 140
+        height: 140
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rank_bg
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 964
+        width: 90
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rank_c
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1011
+        width: 140
+        height: 140
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rank_s
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 1129
+        width: 140
+        height: 140
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rank_ss
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1082
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: short1
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 713
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: short2
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 713
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: short3
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 688
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: short4
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 596
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoulder1
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 504
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoulder2
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 412
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoulder3
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 320
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: shoulder4
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 391
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_activate
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 483
+        width: 98
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_arrow_02
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 596
+        width: 109
+        height: 89
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_arrow_03
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 1693
+        width: 173
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_arrow_04
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1749
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_arrow_05
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1665
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_arrow_choose_
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1339
+        width: 56
+        height: 106
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_arrow_spread
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 1000
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_award
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 576
+        width: 88
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_bar_green_1
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1629
+        width: 124
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_bar_green_1_sml
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 1682
+        width: 156
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 10, y: 0, z: 10, w: 0}
+    - name: ui_bar_green_2
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1607
+        width: 124
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_bar_green_2_sml
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 1671
+        width: 156
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_bar_green_hit
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1585
+        width: 124
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_bar_purple_1
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1563
+        width: 124
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_bar_purple_2
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 1541
+        width: 124
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_bar_purple_2_sml
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 1660
+        width: 156
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 10, y: 0, z: 10, w: 0}
+    - name: ui_base_pvp
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 1271
+        width: 150
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_bg_g_1
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 792
+        width: 116
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_bg_g_2
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 678
+        width: 116
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_bg_g_team
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 299
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_bg_gicon
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 772
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 32, y: 30, z: 32, w: 29}
+    - name: ui_black
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1641
+        width: 250
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_check_02
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1138
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 20, y: 20, z: 20, w: 20}
+    - name: ui_check_03
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 507
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 13, y: 13, z: 13, w: 13}
+    - name: ui_check_04
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 2
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 14, y: 12, z: 14, w: 12}
+    - name: ui_check_05
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 661
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_checkin_1
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 564
+        width: 60
+        height: 68
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_checkin_1_sml
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 189
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_checkin_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 930
+        width: 82
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_combo
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1020
+        width: 188
+        height: 133
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_completion
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1617
+        width: 236
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_dialog_01
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 71
+        width: 90
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 8, y: 8, z: 21, w: 22}
+    - name: ui_dialog_02
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 262
+        width: 90
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 21, y: 8, z: 9, w: 23}
+    - name: ui_dialog_entry
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 373
+        width: 100
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 20, y: 10, z: 20, w: 10}
+    - name: ui_equip_box_big
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 322
+        width: 98
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_equip_box_sml
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 679
+        width: 86
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_equip_shop_10
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1599
+        width: 196
+        height: 238
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_equip_shop_11
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1761
+        width: 196
+        height: 238
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_equip_shop_2
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 149
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 10, y: 10, z: 10, w: 10}
+    - name: ui_equip_shop_6
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1664
+        width: 196
+        height: 238
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_equip_shop_7
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1447
+        width: 196
+        height: 238
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_equip_shop_8
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1377
+        width: 196
+        height: 238
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_equip_shop_9
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1359
+        width: 196
+        height: 238
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_g_gaoji
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 1873
+        width: 32
+        height: 68
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 6, y: 4, z: 6, w: 5}
+    - name: ui_g_leader
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 331
+        width: 66
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_g_putong
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1
+        width: 32
+        height: 68
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_head_change
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 662
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_icon_name
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 150
+        width: 71
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 29, y: 0, z: 30, w: 0}
+    - name: ui_item_shadow
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 273
+        width: 90
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_items_01_selected
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 1867
+        width: 94
+        height: 94
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+    - name: ui_items_02
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 964
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 22, y: 22, z: 22, w: 22}
+    - name: ui_items_02_lv1
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 941
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 22, y: 22, z: 22, w: 22}
+    - name: ui_items_02_lv2
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 873
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_items_02_lv3
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 831
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 22, y: 22, z: 22, w: 22}
+    - name: ui_items_02_lv4
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 781
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 22, y: 22, z: 22, w: 22}
+    - name: ui_items_03
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 1021
+        width: 140
+        height: 160
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_join_2
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 504
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_leader_head
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 626
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 24, y: 27, z: 24, w: 20}
+    - name: ui_loading_01
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 891
+        width: 118
+        height: 118
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_login_frame_title
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 689
+        width: 72
+        height: 74
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 20, y: 20, z: 20, w: 20}
+    - name: ui_lost
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 739
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_max_02
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1397
+        width: 106
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_miss
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1482
+        width: 91
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_mission_1
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 1963
+        width: 236
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_mission_2
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 1963
+        width: 236
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_pause
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 1371
+        width: 150
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_pause_1
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 225
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_plus_01
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 430
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_quality_01
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_quality_02
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 265
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_quality_03
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 231
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_quality_04
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 87
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_quality_05
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 53
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_quality_06
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 19
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_shadow
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 1335
+        width: 150
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_shop_box_down
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1547
+        width: 54
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 21, y: 0, z: 21, w: 0}
+    - name: ui_shop_box_top
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 203
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 10, y: 20, z: 10, w: 20}
+    - name: ui_shop_sale
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 398
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 25, y: 0, z: 25, w: 0}
+    - name: ui_team_3
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 640
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_title_name_01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1757
+        width: 284
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 108, y: 0, z: 108, w: 0}
+    - name: ui_title_name_02
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 1096
+        width: 135
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_title_name_03
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1885
+        width: 298
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 70, y: 0, z: 67, w: 0}
+    - name: ui_title_name_03_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1857
+        width: 298
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 128, y: 0, z: 128, w: 0}
+    - name: ui_title_name_04
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 1445
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 19, y: 20, z: 19, w: 20}
+    - name: ui_title_name_04_2
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 1387
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 20, y: 20, z: 8, w: 20}
+    - name: ui_title_name_06
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1785
+        width: 284
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_title_name_07
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1553
+        width: 242
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 228, y: 0, z: 0, w: 0}
+    - name: ui_title_skill_01
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1904
+        width: 233
+        height: 114
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_vip_01
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 34
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_vip_02
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 574
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_vs
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 187
+        width: 60
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_win
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 673
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_zhuangshi_1
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 237
+        width: 70
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: waist1
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 207
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: waist2
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 115
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: waist3
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 71
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: waist4
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 12
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: warrior_01
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 114
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: warrior_02
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 42
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: warrior_03
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 115
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: warrior_04
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 43
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: world_tree_action_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 907
+        width: 95
+        height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: world_tree_action_2
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 922
+        width: 110
+        height: 114
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: world_tree_action_3
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 955
+        width: 127
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: world_tree_dungeon_button
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 1263
+        width: 144
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: world_tree_fruit
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1739
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: atlas/main_ui
+  assetBundleVariant: ab
