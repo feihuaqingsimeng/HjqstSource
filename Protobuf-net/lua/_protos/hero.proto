@@ -1,0 +1,175 @@
+package hero;
+option java_package = "com.game.server.jimy.common.netdata";  
+option java_outer_classname = "HeroProto";
+
+// 0x0601请求所有英雄信息(C->S)
+message GetAllHeroReq {
+}
+
+// 英雄羁绊信息
+message HeroRelationProto {
+	// 关系id
+	required int32 id = 1;
+	// 羁绊的英雄id集合
+	repeated int32 friends = 2;
+}
+
+// 英雄信息
+message HeroProtoData {
+	// id
+	required int32 id = 1;
+	// 英雄模型id
+	optional int32 modelId = 2;
+	// 等级
+	optional int32 lv = 3;
+	// 经验
+	optional int32 exp = 4[default = -1];
+	// 星级
+	optional int32 star = 5;
+	// 强化等级
+	optional int32 aggrLv = 6[default = -1];
+	// 强化经验
+	optional int32 aggrExp = 7[default = -1];
+	// 突破到几层
+	optional int32 breakLayer = 8;
+	// 装备的装备集合
+	repeated int32 wearEquips = 9;
+	// 羁绊信息集合
+	repeated HeroRelationProto relations  = 10;
+	// 是否更新羁绊信息
+	optional bool isUpRelations = 11;
+}
+
+//0x0602响应所有英雄信息(S->C)
+message GetAllHeroResp {
+	// 伙伴英雄集合
+	repeated HeroProtoData heros = 1;
+	// 锁定中的英雄
+	repeated int32 lockHeros = 2;
+}
+
+//0x0603英雄信息变更(S->C)
+message HeroUpdateResp {
+	// 增加的英雄
+	repeated HeroProtoData addHeros = 1;
+	// 删除的英雄
+	repeated int32 delHeros = 2;
+	// 变更的英雄
+	repeated HeroProtoData updateHeros = 3;
+}
+
+// 0x0605请求英雄强化(C->S)
+message HeroAggrReq {
+	// 被强化的英雄id
+	required int32 aggredId = 1;
+	// 被吃掉的英雄id
+	repeated int32 consumeIds = 2;
+}
+
+// 0x0606响应英雄强化(S->C)
+message HeroAggrResp {
+	// 是否触发暴击
+	required bool isCrit = 1;
+}
+
+// 0x0607请求英雄突破(C->S)
+message HeroBreakReq {
+	// 被突破的英雄id
+	required int32 breakedId = 1;
+	// 选择材料的下标位置
+	required int32 costIndex = 2;
+}
+
+// 0x0608响应英雄突破(S->C)
+message HeroBreakResp {
+}
+
+// 英雄合成数据信息
+message HeroComposeProtoData {
+	// 类型
+	required int32 type = 1;
+	// ID
+	required int32 id = 2;
+}
+
+// 0x0609请求英雄合成(C->S)
+message HeroComposeReq {
+	// 合成目标的ID
+	required int32 composeNo = 1;
+	// 合成的消耗材料
+	repeated HeroComposeProtoData composeData = 2;
+}
+
+// 0x0610响应英雄合成(S->C)
+message HeroComposeResp {
+	// 成功or失败(1成功，0失败)
+	required int32 result = 1;
+	// 合成的英雄id
+	required int32 newHero = 2;
+}
+
+// 0x0611请求英雄进阶(C->S)
+message HeroAdvanceReq {
+	// 英雄id
+	required int32 heroId = 1;
+	// 材料类型（0：基础材料，1：通用材料）
+	optional int32 materialType = 2;
+}
+
+// 0x0612响应英雄进阶(S->C)
+message HeroAdvanceResp {
+	// 成功or失败(1成功，0失败)
+	optional int32 result = 1[default = 1];
+}
+
+// 0x0613请求英雄羁绊(C->S)
+message HeroRelationReq {
+	// 关系id
+	required int32 id = 1;
+	// 主英雄id
+	required int32 heroId = 2;
+	// 激活or取消激活 1激活 0取消激活
+	optional int32 activeFlag = 3;
+	// 伙伴英雄id集合
+	repeated int32 friends = 4;
+}
+
+// 0x0614响应英雄进阶(S->C)
+// 消息号HeroRelationResp
+
+// 0x0615请求英雄碎片合成
+// 消息号HeroPieceComposeReq
+// 消息体IntProto  (value 合成ID)
+
+// 0x0616响应英雄合成
+// 消息号HeroPieceComposeResp
+// 消息体IntProto (合成英雄的模型ID)
+
+// 0x0617请求英雄分解
+// 消息号HeroDeComposeReq
+// 消息体DoubleIntProto (英雄ID   是否使用钻石 0不使用 1使用)
+
+// 0x0618响应英雄分解
+// 消息号HeroDeComposeResp
+// 消息体StringProto(碎片四段式)
+
+// 0x0619请求锁定英雄
+// 消息号HeroLockReq
+// 消息体IntProto (英雄实例ID)
+
+// 0x0620响应锁定英雄ID
+// 消息号HeroLockResp
+// 消息体 空 
+
+// 0x0621请求解锁英雄
+// 消息号HeroUnLockReq
+// 消息体IntProto (英雄实例ID)
+
+// 0x0622响应解锁英雄ID
+// 消息号HeroUnLockResp
+// 消息体 空 
+
+// 0x0624同步玩家锁定英雄ID(C->S)
+message SendHeroLockId {
+	repeated int32 lockHeros = 1;
+}

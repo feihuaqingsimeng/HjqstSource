@@ -1,0 +1,33 @@
+package common;
+option java_package = "com.game.server.jimy.common.netdata";  
+option java_outer_classname = "CommonProto";
+
+// 单个int型字段
+message IntProto {
+	// int值
+	optional int32 value = 1;
+}
+
+// 2个int型字段
+message DoubleIntProto {
+	// int值1
+	optional int32 value1 = 1;
+	// int值2
+	optional int32 value2 = 2;
+}
+
+// 3个int型字段
+message TripleIntProto {
+	// int值1
+	optional int32 value1 = 1;
+	// int值2
+	optional int32 value2 = 2;
+	// int值3
+	optional int32 value3 = 3;
+}
+
+// 单个string型字段
+message StringProto {
+	// string值
+	optional string value = 1;
+}

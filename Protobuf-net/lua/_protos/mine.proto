@@ -1,0 +1,163 @@
+package mine;
+option java_package = "com.game.server.jimy.common.netdata";  
+option java_outer_classname = "MineProto";
+
+import "team.proto";
+
+// 0x1901请求矿战大地图信息(C->S)
+// 消息号GetMineMapReq
+
+// 矿信息
+message MineProtoData {
+	// 矿No
+	required int32 mineNo = 1;
+	// 当前占据人数
+	required int32 occNum = 2;
+}
+
+// 0x1902响应大地图信息(S->C)
+message GetMineMapResp {
+	// 今日剩余占领次数
+	required int32 occTime = 1;
+	// 今日剩余掠夺次数
+	required int32 plunderTime = 2;
+	// 当前占领矿ID
+	optional int32 ownMineNo = 3;
+	// 当前占领剩余时间（-1:占领结束 0:未占领）
+	optional int64 endTime = 4;
+	// 当前占领收益
+	optional int32 inCome = 5;
+	// 矿点信息
+	repeated MineProtoData mines = 6;
+}
+
+// 0x1903请求矿点信息(C->S)
+// 消息号GetMineInfoReq
+// 消息体IntProto（矿No）
+
+// 占领玩家简略信息
+message MineOccData{
+	// 玩家ID
+	required int32 roleId = 1;
+	// 玩家名字
+	required string roleName = 2;
+	// 玩家战力
+	required int32 fightingPower = 3;
+	// 占领剩余时间
+	required int64 endTime = 4;
+	// 玩家头像
+	required int32 headNo =5;
+	// 玩家等级
+	required int32 roleLv =6;
+}
+
+// 0x1904响应请求矿点信息(S->C)
+message GetMineInfoResp {
+	// 占领玩家信息
+	repeated MineOccData occRoles = 1;
+	// 当前占领人数
+	optional int32 occNum = 2;
+}
+
+// 0x1905请求占领玩家详细信息(C->S)
+// 消息号GetOccRoleInfoReq
+// 消息体DoubleIntProto(第一个int:矿No，第二个int:玩家ID)
+
+// 0x1906响应占领玩家详细信息(S->C)
+message GetOccRoleInfoResp {
+	// 对手阵型
+	required team.TeamDetailProtoData team = 1;
+	// 保护时间
+	required int64 lastPlunderTime = 2;
+	// 累计金币
+	required int32 inCome = 3;
+	// 使用阵型编号
+	required int32 lineNo = 4;
+}
+
+// 0x1907请求自有矿信息(C->S)
+// 消息号GetOwnInfoReq
+
+// 日志信息
+message LogProto {
+	// 类型
+	required int32 type = 1;
+	// 时间
+	required int64 time = 2;
+	// 参数
+	repeated string params = 3;
+}
+
+// 0x1908响应自有矿信息(S->C)
+message GetOwnInfoResp {
+	// 当前占领收益
+	required int32 inCome = 1;
+	// 日志
+	repeated LogProto logList = 2;
+}
+
+// 0x1909请求占领矿(C->S)
+// 消息号OccMineReq
+// 消息体IntProto（矿No）
+
+// 0x1910响应占领矿(S->C)
+// 消息号OccMineResp
+
+// 0x1911请求放弃矿(C->S)
+// 消息号AbandonMineReq
+
+
+// 0x1912响应放弃矿(S->C)
+// 消息号AbandonMineResp
+
+// 0x1913请求抢占矿(C->S)
+// 消息号RobMineReq
+// 消息体DoubleIntProto(第一个int:矿No，第二个int:玩家ID)
+
+// 战斗具体内容
+message FightData {
+	// 自己队伍战斗信息
+	required team.TeamFightProtoData selfTeamData = 1;
+	// 对手队伍战斗信息
+	required team.TeamFightProtoData opponentTeamData = 2;
+}
+
+// 0x1914响应抢占矿(S->C)
+message RobMineResp {
+	required FightData fightData = 1;
+}
+
+
+// 0x1915请求掠夺矿(C->S)
+// 消息号PlunderMineReq
+// 消息体DoubleIntProto(第一个int:矿No，第二个int:玩家ID)
+
+// 0x1916响应掠夺矿(S->C)
+message PlunderMineResp {
+	required FightData fightData = 1;
+}
+
+// 0x1917请求领取矿奖励(C->S)
+// 消息号GetMineAwardReq
+
+// 0x1918响应领取矿奖励(S->C)
+// 消息号GetMineAwardResp
+
+// 0x1919请求换一批(C->S)
+// 消息号ChangeMineInfoReq
+// 消息体IntProto（矿No）
+
+// 0x1920响应换一批(S->C)
+// 消息号ChangeMineInfoResp
+
+// 0x1921请求战斗结算(C->S)
+message MineFightOverReq {
+	// 结果0失败1胜利
+	required int32 result = 1;
+}
+
+// 0x1922响应战斗结算(S->C)
+message MineFightOverResp {
+	// 掠夺到的金币
+	optional int32 inCome = 1;
+}

@@ -1,0 +1,271 @@
+package shopping;
+option java_package = "com.game.server.jimy.common.netdata";  
+option java_outer_classname = "ShoppingProto";
+
+// 0x0201请求购买商品(C->S)
+message PurchaseGoodsReq {
+	// 商品类型
+	required int32 goodsType = 1;
+	// 商品编号
+	required int32 goodsNo = 2;
+	// 花费类型0：免费
+	optional int32 costType = 3;
+}
+
+// 0x0202响应购买商品(C->S)
+message PurchaseGoodsResp {
+	// 商品类型
+	optional int32 goodsType = 1;
+	// 商品编号
+	optional int32 goodsNo = 2;
+	// 花费类型0：免费
+	optional int32 costType = 3;
+}
+
+// 抽卡掉落物品
+message DrawCardDropProto {
+	// 物品编号
+	required int32 no = 1;
+	// 物品星级
+	optional int32 star = 2;
+	// 物品实例id
+	optional int32 instanceId = 3;
+	// 道具类型
+	optional int32 type = 4;
+	// 数量
+	optional int32 num = 5;
+}
+
+// 0x0204响应抽卡(C->S)
+message PurchaseDrawCardGoodsResp {
+	// 商品编号
+	required int32 goodsNo = 1;
+	// 特殊抽卡商品
+	optional DrawCardDropProto specialGoods = 2;
+	// 正常抽卡商品
+	repeated DrawCardDropProto commonGoods = 3;
+}
+
+// 0x0211请求抽卡商品信息(C->S)
+message DrawCardGoodsReq {
+}
+
+// 抽卡商品信息
+message DrawCardGoodsProto {
+	// 商品编号
+	required int32 goodsNo = 1;
+	// 剩余免费次数 -1不限次数
+	optional int32 remainFreeTimes = 2[default = -1];
+	// 免费抽冷却结束时间(ms)
+	optional int64 freeDrawCoolingOverTime = 3;
+}
+
+// 0x0212响应抽卡商品信息(C->S)
+message DrawCardGoodsResp {
+	// 抽卡商品集合
+	repeated DrawCardGoodsProto goods = 1;
+	// 是否首抽
+	//optional bool isFirstDraw = 2;
+	// 付费抽卡积分
+	optional int32 purchaseDrawCredit = 3;
+}
+
+// 0x0214更新抽卡商品信息(C->S)
+message DrawCardGoodsUpdateResp {
+	// 更新的商品信息
+	required DrawCardGoodsProto updateGoods = 1;
+}
+
+// 0x0215请求限售类商品信息(C->S)
+message LimitGoodsReq {
+}
+
+// 限售类商品信息
+message LimitGoodsProto {
+	// 商品编号
+	required int32 goodsNo = 1;
+	// 剩余购买次数 -1不限次数
+	optional int32 remianPurchaseTimes = 2[default = -1];
+}
+
+// 0x0216响应限售类商品信息(C->S)
+message LimitGoodsResp {
+	// 限售类商品集合
+	repeated LimitGoodsProto goods = 1;
+}
+
+//0x0218更新限售类商品信息(S->C)
+message LimitGoodsUpdateResp {
+	// 增加的商品
+	repeated LimitGoodsProto addGoods = 1;
+	// 删除的商品
+	optional int32 delGoods = 2;
+	// 变更的商品
+	optional LimitGoodsProto updateGoods = 3;
+}
+
+// 0x0219请求其他类商品信息(C->S)
+message OtherGoodsReq {
+}
+
+// 其他类商品信息
+message OtherGoodsProto {
+	// 商品编号
+	required int32 goodsNo = 1;
+	// 剩余购买次数 -1不限次数
+	optional int32 remianPurchaseTimes = 2[default = -1];
+}
+
+// 0x0220响应其他类商品信息(C->S)
+message OtherGoodsResp {
+	// 其他类商品集合
+	repeated OtherGoodsProto goods = 1;
+}
+
+//0x0222更新其他类商品信息(S->C)
+message OtherGoodsUpdateResp {
+	// 变更的商品
+	optional OtherGoodsProto updateGoods = 1;
+}
+
+// 0x0223请求黑市商品信息(C->S)
+message BlackMarketReq {
+}
+
+// 黑市商品信息
+message BlackMarketGoodsProto {
+	// market id
+	required int32 marketId = 1;
+	// 具体商品编号
+	optional int32 goodsNo = 2;
+	// 剩余购买次数  -1不限次数
+	optional int32 remainBuyTimes = 3[default = -1];
+}
+
+// 黑市标签
+message BlackMarketTabProto{
+	// 标签类型
+	required int32 type = 1;
+	// 商品信息
+	repeated BlackMarketGoodsProto goods = 2;
+	// 下次刷新时间
+	required int64 nextRefreshTime = 3;
+	// 当日刷新次数(-1 为不可手动刷新)
+	required int32 dailyRefreshTimes = 4;
+}
+
+// 0x0224响应黑市商品信息(C->S)
+message BlackMarketResp {
+	// 商品集合
+	repeated BlackMarketTabProto tabs = 1;
+}
+
+// 0x0226黑市商品信息更新(S->C)
+message BlackMarketUpdateResp {
+	// 更新的商品信息
+	required BlackMarketTabProto tab = 1;
+}
+
+// 0x0227请求购买黑市商品(C->S)
+message PurchaseBlackGoodsReq {
+	// 标签type
+	required int32 type = 1;
+	// 黑市marketId
+	required int32 marketId = 2;
+}
+
+// 0x0228响应购买黑市商品(C->S)
+message PurchaseBlackGoodsResp {
+}
+
+// 0x0229请求手动刷新黑市商品(C->S)
+// 消息号RefreshBlackMarketReq
+// 消息体IntProto（typeNo）
+
+// 0x0230响应刷手动新黑市商品(S->C)
+// 消息号RefreshBlackMarketResp
+
+// 0x0231请求钻石商品信息(C->S)
+// 消息号DiamondGoodsReq
+// 消息体空
+
+// 0x0232响应钻石商品信息(S->C)
+message DiamondGoodsResp {
+	// 已首冲的商品编号
+	repeated int32 firstChargeGoodsList = 1;
+}
+
+// 0x0233 请求验证苹果商品订单(C->S)
+message AppStoreVerifyReq {
+	// 订单信息
+	required string orderId = 1;
+	// 苹果验证信息
+	required string info = 2;
+	// 商品编号
+	required int32 goodsNo = 3;
+}
+
+// 0x0234响应验证苹果商品订单(S->C)
+// 消息号AppStoreVerifyResp
+// 消息体StringProto(状态码)
+
+// 0x0235请求领取付费抽卡积分奖励(C->S)
+// 消息号PurchaseDrawAwardReq
+// 消息体空
+
+// 0x0236响应领取付费抽卡积分奖励(C->S)
+// 消息号PurchaseDrawAwardResp
+// 消息体DoubleIntProto，第一个int 获得的卡牌id，第二个int剩余积分点
+
+
+// 0x0237 请求查询腾讯应用宝账户信息(C->S)
+message CheckBalanceMidasReq {
+	// 手q = openid  微信 = hy_gameid
+	required string sessionId = 1;
+	// 手q = kp_actoken 微信 = wc_actoken
+	required string sessionType = 2;
+	// 登录时获取的openid
+	required string openId = 3;
+	// 手q = paytoken 微信 = access_token
+	required string openKey = 4;
+	// 应用id
+	required string appId = 5;
+	// 平台来源 登录获取
+	required string pf = 6;
+	// 登录获取
+	required string pfKey = 7;
+	// 账户分区id
+	required string zoneid = 8;
+	// 是否需要持续查询
+	required bool needContinue = 9;
+	// 平台手Q 或者 微信
+	required string partnerName = 10;
+	// 渠道ID
+	required int32 partnerId = 11;
+}
+
+// 0x0238 响应查询腾讯应用宝账户信息(S->C)
+// 消息号 CheckBalanceMidasResp
+// 消息体 空
+
+// 0x0239 请求点金手信息(C->S)
+// 消息号 GoldHandInfoReq
+// 消息体 空
+
+// 0x0240 响应点金手信息(S->C)
+message GoldHandInfoResp {
+	// 点金手信息
+	repeated string infos = 1;
+}
+
+// 0x0241 请求点金手(C->S)
+// 消息号 GoldHandUseReq
+// 消息体 空
+
+// 0x0242 响应点金手(C->S)
+// 消息号 GoldHandUseResp
+// 消息体 GoldHandInfoResp
+
+// 0x0244 响应月卡信息
+// 消息号 MonthsCardInfoResp
+// 消息体 DoubleIntProto (月卡剩余天数  超级月卡剩余天数) 

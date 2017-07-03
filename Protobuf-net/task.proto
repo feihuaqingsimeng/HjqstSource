@@ -1,0 +1,69 @@
+package task;
+option java_package = "com.game.server.jimy.common.netdata";  
+option java_outer_classname = "TaskProto";
+
+// 0x0901请求任务信息(C->S)
+message GetTasksReq {
+}
+
+// 任务条件
+message TaskConditionProtoData {
+	// 条件id
+	required int32 id = 1;
+	// 进度值
+	required int32 value = 2;
+}
+
+// 任务协议信息
+message TaskProtoData {
+	// id
+	required int32 id = 1;
+	// 是否已完成
+	optional bool completed = 2;
+	// 奖励是否已领取
+	optional bool getReward = 3;
+	// 条件进度
+	repeated TaskConditionProtoData conditions = 4;
+}
+
+//0x0902响应任务信息(S->C)
+message GetTasksResp {
+	// 道具集合
+	repeated TaskProtoData tasks = 1;
+	// 每日活跃度
+	required int32 dailyLiveness = 2;
+	// 每日已领取活跃度
+	repeated int32 dailyLivenessAwards = 3;
+}
+
+//0x0904任务更新(S->C)
+message TaskUpdateResp {
+	// 增加的任务
+	repeated TaskProtoData addTasks = 1;
+	// 删除的任务
+	repeated int32 delTasks = 2;
+	// 变更的任务
+	repeated TaskProtoData updateTasks = 3;
+}
+
+// 0x0905请求领取任务奖励(C->S)
+message GetTaskRewardReq {
+	// 任务id
+	required int32 id = 1;
+}
+
+//0x0906响应领取任务奖励(S->C)
+message GetTaskRewardResp {
+	// 每日活跃度
+	required int32 dailyLiveness = 1;
+	// 每日已领取活跃度
+	repeated int32 dailyLivenessAwards = 2;
+}
+
+// 0x0907请求领取每日活跃度奖励
+// 消息号 GetLivenessAwardReq
+// 消息体 IntProto (奖励编号)
+
+// 0x0908响应领取每日活跃度奖励
+// 消息号 GetLivenessAwardResp
+// 消息体 空

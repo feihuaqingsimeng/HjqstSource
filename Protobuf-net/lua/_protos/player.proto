@@ -1,0 +1,175 @@
+package player;
+option java_package = "com.game.server.jimy.common.netdata";  
+option java_outer_classname = "PlayerProto";
+
+import "hero.proto";
+
+// 0x0101请求所有主角信息(C->S)
+message GetAllPlayerReq {
+}
+
+// 使魔天赋
+message TalentProto {
+	// 天赋编号
+	required int32 no = 1;
+	// 天赋等级0表示未激活
+	optional int32 lv = 2 [default = 0];
+	// 经验，不超过最大经验值
+	optional int32 exp = 3;
+}	
+
+// 主角信息
+message PlayerProtoData {
+	// id
+	required int32 id = 1;
+	// 模型id
+	optional int32 modelId = 2;
+	// 等级
+	optional int32 lv = 3;
+	// 经验
+	optional int32 exp = 4;
+	// 发型
+	optional int32 hairCutId = 5;
+	// 发色
+	optional int32 hairColorId = 6;
+	// 脸型
+	optional int32 faceId = 7;
+	// 装备的装备集合
+	repeated int32 wearEquips = 8;
+	// 星级
+	optional int32 star = 9;
+	// 强化等级
+	optional int32 aggrLv = 10[default = -1];
+	// 强化经验
+	optional int32 aggrExp = 11[default = -1];
+	// 突破层数
+	optional int32 breakLayer = 12;
+	// 天赋集合
+	repeated TalentProto talnets = 13;
+	// 选择的主动天赋
+	repeated int32 selectedTalnet = 14;
+	// 羁绊信息集合
+	repeated hero.HeroRelationProto relations  = 15;
+	// 服装
+	optional int32 skinId = 16;
+}
+
+//0x0102响应所有主角信息(S->C)
+message GetAllPlayerResp {
+	// 当前选择的主角id
+	required int32 currPlayerId = 1;
+	// 主英雄集合
+	repeated PlayerProtoData players = 2;	
+}
+
+//0x0103主角信息变更(S->C)
+message PlayerUpdateResp {
+	// 主英雄
+	required PlayerProtoData player = 1;	
+}
+
+// 0x0105请求转职(C->S)
+message PlayerTransferReq {
+	// 目标职业模型id
+	required int32 desProfessionId = 1;
+	// 使用通用材料代替的原始材料编号
+	repeated int32 srcMaterialNos = 2;
+}
+
+// 0x0106响应转职(S->C)
+message PlayerTransferResp {
+	// 新的目标职业数据
+	required PlayerProtoData newPlayer = 1;
+}
+
+// 0x0107请求切换职业(C->S)
+message PlayerChangeReq {
+	// 目标职业实例id
+	required int32 desInstanceId = 1;
+}
+
+// 0x0108响应切换职业(S->C)
+message PlayerChangeResp {
+	// 目标职业实例id
+	required int32 desInstanceId = 1;
+	// 新的目标职业数据
+	required PlayerProtoData newPlayer = 2;
+}
+
+// 0x0109请求使魔强化(C->S)
+message PlayerAggrReq {
+	// 被强化的使魔id
+	required int32 playerId = 1;
+	// 被吃掉的英雄id
+	repeated int32 consumeIds = 2;
+}
+
+// 0x0110响应使魔强化(S->C)
+message PlayerAggrResp {
+	// 是否触发暴击
+	required bool isCrit = 1;
+}
+
+// 0x0111请求使魔突破(C->S)
+message PlayerBreakReq {
+	// 选择材料的下标位置
+	required int32 costIndex = 1;
+}
+
+// 0x0112响应使魔突破(S->C)
+message PlayerBreakResp {
+}
+
+// 0x0113请求激活天赋(C->S)
+message TalentActivateReq {
+	// 天赋编号
+	required int32 no = 1;
+}
+
+// 0x0114响应激活天赋(S->C)
+message TalentActivateResp {
+	// 天赋编号
+	required int32 no = 1;
+}
+
+// 0x0115请求升级天赋(C->S)
+message TalentUpgradeReq {
+	// 天赋编号
+	required int32 no = 1;
+}
+
+// 0x0116响应升级天赋(S->C)
+message TalentUpgradeResp {
+	// 天赋编号
+	required int32 no = 1;
+}
+
+// 0x0117请求变更主动天赋(C->S)
+message TalentChooseRep {
+	// 选择的主动天赋
+	repeated int32 selectedTalnet = 1;
+}
+
+// 0x0118响应变更主动天赋(S->C)
+message TalentChooseResp {
+	// 选择的主动天赋
+	repeated int32 selectedTalnet = 1;
+}
+
+// 0x0120同步天赋变化(S->C)
+message TalentSynResp {
+	// 天赋集合(原集合中已有的天赋，则变化；没有的，则新加)
+	repeated TalentProto talnets = 1;
+}
+
+// 0x0121请求使魔进阶(C->S)
+message PlayerAdvanceReq {
+	// 使魔id
+	required int32 playerId = 1;
+}
+
+// 0x0122响应使魔进阶(S->C)
+message PlayerAdvanceResp {
+	// 成功or失败(1成功，0失败)
+	optional int32 result = 1[default = 1];
+}

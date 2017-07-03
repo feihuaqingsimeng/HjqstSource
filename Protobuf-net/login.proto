@@ -1,0 +1,226 @@
+package login;
+option java_package = "com.game.server.jimy.common.netdata";  
+option java_outer_classname = "LoginProto";
+
+// 0x0001登陆包(C->S)
+message LoginReq {
+	// 账号
+	required string account = 1;
+	// 密码
+	optional string password = 2;
+	// 设备号
+	optional string devicesId = 3;
+	// 设备类型  1:ios,2:android
+	optional int32 devicesType = 4;
+	// 应用程序唯一标识  IOS设备:证书名称ANDROID:包路径
+	optional string appPackage = 5;
+	//平台签名（根据不同平台要求传送不同值）
+	optional string token = 6;
+	// 渠道ID
+	optional int32 partnerId = 7;
+	// u8 token
+	optional string u8token = 8;
+	// u8 userID
+	optional string u8userID = 9;
+	// 是否是u8登录
+	optional bool isU8 = 10;
+}
+
+//0x0002登陆返回包(S->C)
+message LoginResp {
+	// 服务器时间戳(ms)
+	required int64 serverTime = 1;
+	//角色id
+	required int32 roleId = 2;
+	//角色名
+	required string roleName = 3;
+	//账号
+	required string account = 4;
+	// 设备号
+	optional string devicesId = 5;
+	// 设备类型  1:ios,2:android
+	optional int32 devicesType = 6;
+	// 应用程序唯一标识  IOS设备:证书名称ANDROID:包路径
+	optional string appPackage = 7;
+	//等级
+	required int32 lv = 8;
+	//经验
+	required int32 exp = 9;
+	// 头像编号
+	optional int32 headNo = 10;
+	// 引导编号
+	optional int32 guideNo = 11;
+	// 引导编号
+	optional int32 guideNo2 = 12;
+	// 服务器编号
+	optional int32 serverId = 13;
+}
+
+//0x0003创建角色(C->S)
+message CreateRoleReq {
+	// 账号
+	required string account = 1;
+	// 密码
+	optional string password = 2;
+	// 设备号
+	optional string devicesId = 3;
+	// 设备类型  1:ios,2:android
+	optional int32 devicesType = 4;
+	// 应用程序唯一标识  IOS设备:证书名称ANDROID:包路径
+	optional string appPackage = 5;
+	//角色名
+	required string roleName = 6;
+	//主角id
+	required int32 playerId = 7;
+	//发型
+	required int32 hairCutId = 8;
+	//发色
+	required int32 hairColorId = 9;
+	//脸型
+	required int32 faceId = 10;
+	//皮肤
+	required int32 skinId = 11;
+	// 渠道ID
+	optional int32 partnerId = 12;
+}
+
+//0x0004创建角色返回(S->C)
+message CreateRoleResp {
+
+}
+
+//0x0005通知创建角色(S->C)
+message PlayerRoleResp {
+	// 是否需要激活码
+	optional bool isNeedCDKey = 1;
+}
+
+//0x0007客户端准备完成(C->S)
+message ClientReadyReq {
+}
+
+// 基础资源信息
+message BaseResourceInfo {
+	// 资源类型
+	required int32 type = 1;
+	// 值
+	required int32 value = 2;
+}
+
+// 0x0011请求验证激活码(C->S)
+message VerifyCDKEYReq {
+	// 账号
+	required string account = 1;
+	// 渠道ID
+	optional int32 partnerId = 2;
+	// 激活码
+	required string cdkey = 3;
+}
+
+// 0x0012响应验证激活码(C->S)
+// 消息号VerifyCDKEYResp
+// 消息体空
+
+//0x0020角色基础资源同步(S->C)
+message BaseResourceSyn {
+	// 多个基础资源信息
+	repeated BaseResourceInfo resourceInfos = 1;
+}
+
+//0x0021角色等级经验同步(S->C)
+message RoleLvAndExpResp {
+	// 等级
+	required int32 lv = 1;
+	// 经验
+	required int32 exp = 2;
+}
+
+// 0x0022红点提示(S->C)
+message RedPointPromptResp {
+	// 功能id
+	required int32 funcId = 1;
+	// 子功能id
+	optional int32 subFuncId = 2;
+}
+
+// 0x0023请求替换角色头像(S->C)
+message RoleHeadReq {
+	// 头像编号
+	required int32 headNo = 1;
+}
+
+// 0x0024响应替换角色头像(S->C)
+message RoleHeadResp {
+	// 头像编号
+	required int32 headNo = 1;
+}
+
+// 0x0025请求更改角色名称(S->C)
+message RoleNameReq {
+	// 角色名称
+	required string roleName = 1;
+}
+
+// 0x0026响应更改角色名称(S->C)
+message RoleNameResp {
+	// 角色名称
+	required string roleName = 1;
+}
+
+// 0x0027请求更新新手引导编号(S->C)
+message GuideReq {
+	// 编号
+	required int32 no = 1;
+	// 编号2
+	optional int32 guideNo2 = 2;
+}
+
+// 0x0028响应更新新手引导编号(S->C)
+
+// 0x0029请求获取充值订单号(C->S)
+message PayOrderNoReq{
+	//商品名字
+	optional string productName = 1;
+	//商品描述
+	optional string productDes = 2;
+	//商品标题
+	optional string productTitle = 3;
+	//配置表id
+	optional int32 productNo = 4;
+	//充值金额，单位fen
+	optional int32 money = 5;
+	//自定义参数
+	optional string extension = 6;
+}
+// 0x0030响应获取充值订单号(S->C)
+message PayOrderNoResp{
+	// 状态码
+	optional int32 stateCode = 1;
+	//订单号
+	optional string orderID = 2;
+	//SDK返回的扩展参数
+	optional string extension = 3;
+}
+
+// 0x0031请求角色创建时间(C->S)
+message GetCreateTimeReq{
+	
+}
+
+// 0x0032请求角色创建时间(C->S)
+message GetCreateTimeResp{
+	//创建角色时间
+	required string creatTime = 1;
+}
+
+// 0xFFFA请求断线重连(S->C)
+message ReconnectReq {
+}
+
+// 0xFFFB响应断线重连(S->C)
+message ReconnectResp {
+}
+
+// 0xFFFF游戏客户端定时激活连接(S->C)
+message ClientActiveReq {
+}

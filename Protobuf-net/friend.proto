@@ -1,0 +1,277 @@
+package friend;
+option java_package = "com.game.server.jimy.common.netdata";  
+option java_outer_classname = "FriendProto";
+
+import "pve.proto";
+import "team.proto";
+import "equip.proto";
+
+// 0x1301请求好友列表(C->S)
+message FriendListReq {
+}
+
+// 好友具体内容 
+message FriendProtoData {
+	// 好友角色id
+	required int32 id = 1;
+	// 用户名
+	optional string roleName = 2;
+	// 等级
+	optional int32 lv = 3[default = -1];	
+	// 主角模型编号
+	optional int32 playerNo = 4[default = -1];
+	// 战斗力
+	optional int32 combat = 5[default = -1];
+	// 发型
+	optional int32 hairCutId = 6[default = -1];
+	// 发色
+	optional int32 hairColorId = 7[default = -1];
+	// 脸型
+	optional int32 faceId = 8[default = -1];
+	// 是否双方认证
+	optional bool isBothAuth = 9;
+	// 上次登录时间-1表示当前在线
+	optional int64 lastLoginTime = 10[default = -1];
+	// 是否已赠送过行动力
+	optional bool isPresent = 11;
+	// 是否可领取被赠的行动力
+	optional bool isPresented = 12;
+	// 头像
+	optional int32 headNo = 13;
+	// 服装
+	optional int32 skinId = 14;
+	// vip等级
+	optional int32 vipLv = 15;
+}
+
+// 0x1302响应好友列表(S->C)
+message FriendListResp {
+	// 好友列表
+	repeated FriendProtoData friendList = 1;
+	// 好友个数上限
+	required int32 friendListNumUpLimit = 2;
+	// 已领取行动力次数
+	optional int32 getFriendVimTimes = 3;
+	// 总共领取行动力次数
+	optional int32 totalGetVimTimes = 4;
+	
+}
+
+// 0x1303请求推荐好友列表(C->S)
+message FriendRecommendListReq {
+	// 是否换一批
+	optional bool isRefresh = 1;
+}
+
+// 0x1304响应推荐好友列表(S->C)
+message FriendRecommendListResp {
+	// 好友列表
+	repeated FriendProtoData friendList = 1;
+}
+
+// 0x1305请求添加好友(C->S)
+message FriendAddReq {
+	// 好友角色名称
+	required string roleName = 1;
+}
+
+// 0x1306响应添加好友(S->C)
+message FriendAddResp {
+	// 新增的好友
+	optional FriendProtoData newFriend = 1;
+}
+
+// 0x1307请求添加好友应答(C->S)
+message FriendAddAnswerReq {
+	// 是否一键操作
+	optional bool isClick = 1; 
+	// 是否同意
+	optional bool isAgree = 2;
+	// 好友角色id（一键操作则不需要填）
+	optional int32 id = 3;
+}
+
+// 0x1308响应添加好友应答(S->C)
+message FriendAddAnswerResp {
+	// 是否一键操作
+	optional bool isClick = 1; 
+	// 是否同意
+	optional bool isAgree = 2;
+	// 添加成功的好友id集合
+	repeated int32 newFriendId = 3;
+	// 新添加的好友集合
+	repeated FriendProtoData newFriendList = 4;
+	// 拒绝的好友角色id（一键操作则不需要填）
+	optional int32 rejectId = 5;
+}
+
+// 0x1309请求删除好友(C->S)
+message FriendDelReq {
+	// 好友角色id
+	required int32 id = 1;
+}
+
+// 0x1310响应删除好友(S->C)
+message FriendDelResp {
+	// 好友角色id
+	required int32 id = 1;
+}
+
+// 0x1311请求赠送行动力(C->S)
+message FriendPresentVimReq {
+	// 好友角色id,单个赠送时
+	optional int32 id = 1;
+}
+
+// 0x1312响应赠送行动力(S->C)
+message FriendPresentVimResp {
+	// 好友角色id,单个赠送时
+	repeated int32 id = 1;
+}
+
+// 0x1313请求领取行动力(C->S)
+message FriendGetVimReq {
+	// 是否一键赠送
+	optional bool isClick = 1;
+	// 当前所在界面功能id(一键领取时需要传)
+	required int32 subFuncId = 2;
+	// 好友角色id,单个领取时
+	optional int32 id = 3;
+}
+
+// 0x1314响应领取行动力(S->C)
+message FriendGetVimResp {
+	// 是否一键赠送
+	optional bool isClick = 1;
+	// 当前所在界面功能id(一键领取时需要传)
+	required int32 subFuncId = 2;
+	// 已领取的好友id集合
+	repeated int32 friendIdList = 3;
+}
+
+// 0x1315请求领取好友礼包(C->S)
+message FriendGiftBagReq {
+}
+
+// 0x1316响应领取好友礼包(S->C)
+message FriendGiftBagResp {
+	// 剩余总共已领取行动力次数
+	optional int32 remainTimes = 1;
+	// 掉落物品
+	repeated pve.DropItem dropItems = 2;
+}
+
+// 0x1317请求查看好友阵型(C->S)
+message FriendLookUpTeamReq {
+	// 好友角色id
+	required int32 id = 1;
+	// 当前所在界面功能id
+	required int32 subFuncId = 2;
+}
+
+// 0x1318响应查看好友阵型(S->C)
+message FriendLookUpTeamResp {
+	// 好友角色id
+	required int32 id = 1;
+	// 好友阵型
+	required team.TeamDetailProtoData team = 2;
+}
+
+// 0x1319请求好友消息列表(C->S)
+message FriendMsgListReq {
+}
+
+// 0x1320响应好友消息列表(S->C)
+message FriendMsgListResp {
+	// 好友消息列表
+	repeated FriendProtoData friendMsgList = 1;
+}
+
+// 0x1321请求好友切磋(C->S)
+// 消息号 FriendFightReq
+// 消息体 IntProto(好友ID)
+
+// 0x1322响应好友切磋(S->C)
+message FriendFightResp {
+	// 自己队伍战斗信息
+	required team.TeamFightProtoData selfTeamData = 1;
+	// 对手队伍战斗信息
+	required team.TeamFightProtoData opponentTeamData = 2;
+}
+
+// 0x1323请求查看玩家阵型(C->S)
+// 消息号 RoleInfoLookUpReq
+// 消息体 IntProto(玩家ID 机器人也要填)
+
+// 队伍查看主角信息
+message RolePlayerProtoData {
+	// id
+	required int32 id = 1;
+	// 站位
+	optional int32 posIndex = 2;
+	// 主角模型编号
+	optional int32 playerNo = 3;
+	// 等级
+	optional int32 lv = 4[default = 1];
+	// 星级
+	optional int32 star = 5;
+	// 强化等级
+	optional int32 aggrLv = 6[default = -1];
+	// 突破到几层
+	optional int32 breakLayer = 7;
+	// 装备信息
+	repeated equip.Equip equips = 8;
+}
+
+// 队伍查看英雄信息
+message RoleHeroProtoData {
+	// id
+	required int32 id = 1;
+	// 站位
+	optional int32 posIndex = 2;
+	// 模型编号
+	optional int32 heroNo = 3;
+	// 等级
+	optional int32 lv = 4[default = 1];
+	// 星级
+	optional int32 star = 5;
+	// 强化等级
+	optional int32 aggrLv = 6[default = -1];
+	// 突破到几层
+	optional int32 breakLayer = 7;
+	// 装备信息
+	repeated equip.Equip equips = 8;
+}
+
+
+// 查看玩家阵型信息数据
+message RoleDetInfoProto {
+	// 阵型信息
+	required team.LineupProtoData lineup = 1;
+	// 主角信息
+	required RolePlayerProtoData player = 2;
+	// 英雄信息
+	repeated RoleHeroProtoData heros = 3;
+	// 皮肤
+	optional int32 skinId = 4;
+	// 发型
+	optional int32 hairCutId = 5;
+	// 发色
+	optional int32 hairColorId = 6;
+	// 脸型
+	optional int32 faceId = 7;
+	// 头像
+	optional int32 headNo = 8;
+	// 等级
+	optional int32 lv =9;
+	// 名字
+	optional string name = 10;
+}
+
+// 0x1324响应查看玩家阵型(S->C)
+message RoleInfoLookUpResp {
+	// 好友角色id
+	required int32 id = 1;
+	// 好友阵型
+	required RoleDetInfoProto info = 2;
+}

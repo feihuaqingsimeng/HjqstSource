@@ -1,0 +1,77 @@
+package mail;
+option java_package = "com.game.server.jimy.common.netdata";  
+option java_outer_classname = "MailProto";
+
+//邮件
+message MailProtoData {
+	// 邮件ID
+	required int32 id = 1;
+	// 邮件状态(0未领取,1已领取)
+	optional int32 state = 2[default=0];
+	// 邮件编号
+	optional int32 mailNo = 3;
+	// 邮件图片路径
+	optional string picPath = 4;
+	// 邮件头参数集合
+	repeated string headParams = 5;
+	// 邮件内容参数集合
+	repeated string contentParams = 6;
+	// 邮件创建时间
+	optional int64 createTime = 7;
+	// 附件
+	optional string attachment = 8;
+}
+
+// 0x1101请求邮件(C->S)
+message MailReq {
+}
+
+//0x1102响应邮件(S->C)
+message MailResp {
+	repeated MailProtoData mails = 1;
+}
+
+// 0x1103请求领取邮件附件(C->S)
+message MailAttachmentReq {
+	// 是否一键领取
+	optional bool isGetAll = 1;
+	// 邮件id
+	optional int32 mailId = 2;
+}
+
+//0x1104响应领取邮件附件(S->C)
+message MailAttachmentResp {
+	// 是否一键领取
+	optional bool isGetAll = 1;
+}
+
+// 0x1105请求删除邮件(C->S)
+message MailDelReq {
+	// 是否一键删除,删除已领取的邮件
+	optional bool isDelAll = 1;
+	// 邮件id
+	optional int32 mailId = 2;
+}
+
+//0x1106响应删除邮件(S->C)
+message MailDelResp {
+}
+
+//0x1108同步邮件(S->C)
+message MailSynResp {
+	// 新增的邮件
+	repeated MailProtoData newMails = 1;
+	// 更新的邮件
+	repeated MailProtoData updateMails = 2;
+	// 删除的邮件
+	repeated int32 delMails = 3;
+}
+
+//0x1109请求标记已读邮件(C->S)
+//消息号 MailReadReq
+//消息体 IntProto（邮件ID）
+
+//0x1110响应标记已读邮件(S->C)
+//消息号 MailReadResp
+//消息体 空
+

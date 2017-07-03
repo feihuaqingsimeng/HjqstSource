@@ -1,0 +1,56 @@
+package pvp;
+option java_package = "com.game.server.jimy.common.netdata";  
+option java_outer_classname = "PvpProto";
+
+import "team.proto";
+
+
+// 0x3101请求积分赛信息(C->S)
+message GetPvpInfoReq {
+}
+
+//0x3102响应积分赛信息(S->C)
+message GetPvpInfoResp {
+	// 积分
+	required int32 point =1;
+	// 胜利场次
+	required int32 winTimes =2;
+	// 失败场次
+	required int32 loseTimes = 3;
+	// 记录（对手名字，胜败，积分）
+	repeated string rec =4;
+	// 今日已匹配次数
+	required int32 useTimes = 5;
+	// 现在活动状态
+	required bool isOpen = 6;
+	// 时间戳(当活动为开启状态 此时间戳为结束的时间  当活动为关闭状态 此时间戳为下次开启的时间)
+	required int64 time = 7;
+}
+
+
+// 0x3103请求匹配积分赛(C->S)
+// 消息号PointPvpChallengeReq
+// 消息体空
+
+
+// 0x3104响应匹配积分赛(S->C)
+message PointPvpChallengeResp {
+	// 自己队伍战斗信息
+	required team.TeamFightProtoData selfTeamData = 1;
+	// 对手队伍战斗信息
+	required team.TeamFightProtoData opponentTeamData = 2;
+}
+
+// 0x3105请求积分赛结算(C->S)
+message PointPvpSettleReq {
+	// 结果0失败1胜利
+	required int32 result = 1;
+}
+
+// 0x3106响应积分赛结算(S->C)
+message PointPvpSettleResp {
+	// 获得积分
+	required int32 point = 1;
+	// 连胜场次
+	required int32 keepWinTimes = 2;
+}

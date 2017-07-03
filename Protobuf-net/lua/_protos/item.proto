@@ -1,0 +1,74 @@
+package item;
+option java_package = "com.game.server.jimy.common.netdata";  
+option java_outer_classname = "ItemProto";
+
+import "pve.proto";
+
+// 0x0701请求所有道具信息(C->S)
+message GetAllItemReq {
+}
+
+// 道具信息
+message ItemProtoData {
+	// id
+	required int32 id = 1;
+	// 模型id
+	optional int32 modelId = 2;
+	// 道具数量
+	optional int32 num = 3;
+}
+
+//0x0702响应所有道具信息(S->C)
+message GetAllItemResp {
+	// 道具集合
+	repeated ItemProtoData items = 1;
+}
+
+//0x0703道具信息变更(S->C)
+message ItemUpdateResp {
+	// 增加的道具
+	repeated ItemProtoData addItems = 1;
+	// 删除的道具
+	repeated int32 delItems = 2;
+	// 变更的道具
+	repeated ItemProtoData updateItems = 3;
+}
+
+
+// 0x0705请求使用经验药水(C->S)
+message ExpPotionReq {
+	// 英雄id
+	required int32 heroId = 1;
+	// 药水编号
+	required int32 potionNo = 2;
+	// 个数
+	required int32 num = 3;
+}
+
+//0x0706响应使用经验药水(S->C)
+message ExpPotionResp {
+	// 使用的经验药水ID
+	required int32 potionNo = 1;
+}
+
+// 0x0707请求打开礼包(C->S)
+message OpenGiftBagReq {
+	// 礼包编号(配置表中的id)
+	required int32 giftBagNo = 1;
+}
+
+//0x0708响应打开礼包(S->C)
+message OpenGiftBagResp {
+	// 礼包编号(配置表中的id)
+	required int32 giftBagNo = 1;
+	// 掉落物品
+	repeated pve.DropItem dropItems = 2;
+}
+
+// 0x0709请求快速购买扫荡券(C->S)
+// 消息号BuySweepCouponsReq
+// 消息体IntProto(购买数量)
+
+// 0x0710响应快速购买扫荡券(S->C)
+// 消息号BuySweepCouponsResp
+// 消息体空

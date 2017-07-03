@@ -1,0 +1,301 @@
+package guild;
+option java_package = "com.game.server.jimy.common.netdata";  
+option java_outer_classname = "GuildProto";
+
+// 0x3001请求公会信息(C->S)
+// 消息号GuildReq
+// 空消息体
+
+// 公会日志信息
+message GuildLogProto {
+	// 类型
+	required int32 type = 1;
+	// 时间
+	required int64 time = 2;
+	// 参数
+	repeated string params = 3;
+}
+
+// 角色公会信息
+message GuildRoleProto {
+	// 剩余捐赠次数
+	required int32 remainPresentTimes = 1[default = -1];
+	// 今日是否已签到
+	optional bool isSign = 2;
+	// 玩家贡献
+	required int32 devote =3;
+}
+
+// 公会信息
+message GuildInfoProto {
+	// 编号
+	optional int32 no = 1;
+	// 头像
+	optional int32 headNo = 2;
+	// 名称
+	optional string name = 3;
+	// 等级
+	optional int32 lv = 4;
+	// 会长
+	optional string presidentName = 5;
+	// 当前人数
+	optional int32 currNum = 6;
+	// 最大人数
+	optional int32 maxNum = 7;
+	// 公告
+	optional string notice = 8;
+	// 经验
+	optional int32 exp = 9[default = -1];
+	// 日志
+	repeated GuildLogProto logList = 10;
+	// 玩家个人公会信息
+	optional GuildRoleProto roleGuild = 11;
+}
+
+//0x3002响应公会信息(S->C)
+message GuildResp {
+	// 信息
+	required GuildInfoProto guildInfo = 1;
+}
+
+//0x3004响应公会列表(S->C)
+message GuildListResp {
+	// 列表信息
+	repeated GuildInfoProto guildList = 1;
+	// 已申请的公会ID集合
+	repeated int32 alreadyApplys = 2;
+}
+
+//0x3005请求成员列表(C->S)
+// 消息号GuildMemberListReq
+// 消息体空
+
+message GuildMemberProto {
+	// 玩家id
+	required int32 id = 1;	
+	// 用户名
+	required string roleName = 2;
+	// 等级
+	required int32 lv = 3;	
+	// 头像
+	required int32 headNo = 4;
+	// 上次登录时间-1表示当前在线
+	optional int64 lastLoginTime = 5[default = -1];
+	// 职务0成员1会长
+	optional int32 job = 6;
+	// 贡献
+	optional int32 devot = 7;
+}
+
+//0x3006响应成员列表(S->C)
+message GuildMemberListResp {
+	// 列表信息
+	repeated GuildMemberProto memberList = 1;
+} 
+
+//0x3007请求申请列表(C->S)
+// 消息号GuildReqListReq
+// 消息体空
+
+//0x3008响应申请列表(S->C)
+// 消息号GuildReqListResp
+// 消息体GuildMemberListResp
+
+
+//0x3009请求创建公会(C->S)
+message GuildCreateReq {
+	// 名称
+	required string name = 1;
+	// 头像
+	required int32 headNo = 2;
+} 
+
+//0x3010响应创建公会(S->C)
+// 消息号GuildCreateResp
+// 消息体GuildResp
+
+//0x3011请求解散公会(C->S)
+// 消息号GuildDismissReq
+// 消息体空
+
+//0x3012响应解散公会(S->C)
+// 消息号GuildDismissResp
+// 消息体空
+
+//0x3013请求申请加入公会(C->S)
+// 消息号GuildAddReq
+// 消息体IntProto(公会编号)
+
+//0x3014响应申请加入公会(S->C)
+// 消息号GuildAddResp
+// 消息体IntProto(申请的ID)
+
+//0x3015请求批准加入公会(C->S)
+// 消息号GuildAnswerReq
+// 消息体DoubleProto(第一个int：请求的角色id，第二个int：批准or拒绝 0 拒绝 1批准)
+
+//0x3016响应批准加入公会(S->C)
+// 消息号GuildAnswerResp
+// 消息体空DoubleProto(第一个int：请求的角色id，第二个int：批准or拒绝 0 拒绝 1批准)
+
+//0x3017请求踢出公会(C->S)
+// 消息号GuildKickReq
+// 消息体IntProto(成员角色id)
+
+//0x3018响应踢出公会(S->C)
+// 消息号GuildKickResp
+// 消息体空
+
+//0x3019请求退出公会(C->S)
+// 消息号GuildExitReq
+// 消息体空
+
+//0x3020响应退出公会(S->C)
+// 消息号GuildExitResp
+// 消息体空
+
+//0x3021请求修改公告(C->S)
+// 消息号GuildNoticeReq
+// 消息体StringProto(公告内容)
+
+//0x3022响应修改公告(S->C)
+// 消息号GuildNoticeResp
+// 消息体空
+
+//0x3023请求签到(C->S)
+// 消息号GuildSignReq
+// 消息体空
+
+//0x3024响应签到(S->C)
+// 消息号GuildSignResp
+// 消息体空
+
+//0x3025请求捐赠(C->S)
+// 消息号GuildPresentReq
+// 消息体IntProto(捐赠的类型)
+
+//0x3026响应捐赠(S->C)
+// 消息号GuildPresentResp
+// 消息体空
+
+//0x3028同步公会信息(S->C)
+// 消息号GuildSynResp
+// 消息体GuildResp
+
+//0x3030同步被踢信息(S->C)
+// 消息号KickSynResp
+// 消息体空
+
+//0x3031请求公会商店信息(C->S)
+// 消息号GuildShopInfoReq
+// 消息体空
+
+message GuildShopGood {
+	// 格子
+	required int32 type = 1;
+	// 编号
+	required int32 no = 2;
+}
+
+//0x3032响应公会商店信息(C->S)
+message GuildShopInfoResp {
+	// 当前已经购买的格子
+	repeated int32 hasBuy = 1;
+	// 商品信息 （value1 格子 value2 csv编号）
+	repeated GuildShopGood guildShopInfo = 2;
+} 
+
+//0x3033请求购买公会商品(C->S)
+// 消息号GuildShopBuyReq
+// 消息体IntProto(格子号)
+
+//0x3034响应购买公会商品(S->C)
+// 消息号GuildShopBuyResp
+// 消息体空
+
+//0x3036同步公会商品信息(S->C)
+// 消息号GuildShopSynInfoResp
+// 消息体GuildShopInfoResp
+
+//0x3037请求设置公会自动通过(C->S)
+message GuildAutoPassReq {
+	// 是否开启 （0关闭 1开启）
+	required int32 autoAgree = 1;
+	// 等级
+	optional int32 autoAgreeLv = 2;
+	// 战力
+	optional int32 autoAgreeCombat = 3;
+} 
+
+//0x3038响应设置公会自动通过(S->C)
+// GuildAutoPassResp
+// 消息体空
+
+//0x3039请求公会自动通过信息(C->S)
+// GuildAutoPassInfoReq
+// 消息体空
+
+//0x3040响应公会自动通过信息(S->C)
+// GuildAutoPassInfoResp
+// 消息体 TripleIntProto  (value1 是否开启 value2 等级 value3 战力)
+
+//0x3041请求公会战信息(C->S)
+// GuildFightInfoReq
+// 消息体空
+
+message GuildPvpInfoProto {
+	// 公会编号
+	required int32 guildNo = 1;
+	// 公会名字
+	required string guildName = 2;
+	// 公会图标
+	optional int32 headNo = 3;
+	// 排名
+	optional int32 rankNo = 4;
+	// 胜场
+	optional int32 winTimes = 5;
+	// 积分
+	optional int32 points = 6;
+}
+
+//0x3042响应公会战信息(C->S)
+message GuildFightInfoResp {
+	// 上赛季前三名
+	repeated GuildPvpInfoProto lastTimeWin = 1;
+}
+
+//0x3043请求本赛季公会战排行信息(C->S)
+// GuildFightRankReq
+// 消息体空
+
+//0x3044响应公会战信息(C->S)
+message GuildFightRankResp {
+	// 公会会战排行信息
+	repeated GuildPvpInfoProto guildFightRank = 1;
+}
+
+// 0x3045请求个人公会技能信息(C->S)
+// GuildSkillInfoReq
+// 消息体 空
+
+message GuildSkillProto {
+	// 公会技能类型
+	required int32 type = 1;
+	// 工会技能Id
+	required int32 skillId = 2;
+}
+
+// 0x3046响应个人公会技能信息(C->S)
+message GuildSkillInfoResp {
+	repeated GuildSkillProto guildSkills = 1;
+} 
+
+// 0x3047请求升级个人公会技能(C->S)
+// GuildSkillUpReq
+// 消息体 DoubleProto (公会技能type , 技能ID)
+
+// 0x3048响应升级个人公会技能(S->C)
+message GuildSkillUpResp {
+	// 公会会战排行信息
+	repeated GuildSkillProto guildSkills = 1;
+}

@@ -1,0 +1,49 @@
+package rankList;
+option java_package = "com.game.server.jimy.common.netdata";  
+option java_outer_classname = "RankListProto";
+
+import "team.proto";
+
+// 0x1801请求排行榜数据(C->S)
+// 消息号RankListReq
+// 消息体IntProto 排行榜类型1:战力；2：金币；3：荣誉；4；竞技场；5：世界树
+
+
+// 排行榜玩家信息
+message RankRoleProto {
+	// 玩家id
+	required int32 id = 1;	
+	// 用户名
+	required string roleName = 2;
+	// 等级
+	required int32 lv = 3;	
+	// 头像
+	required int32 headNo = 4;
+	// 排名
+	required int32 rankNo = 5;	
+	// 阵型
+	optional team.TeamDetailProtoData team = 6;
+	// 战斗力
+	required int32 combat = 7;
+	// 金币
+	optional int32 gold = 8;
+	// 荣誉
+	optional int32 honor = 9;
+	// 上次世界树通过的副本id
+	optional int32 worldTreeDungeon = 10;
+	// 玩家vip等级
+	optional int32 vipLv = 11;
+	
+}
+
+// 0x1802响应排行榜数据(S->C)
+message RankListResp {
+	// 排行榜玩家集合
+	repeated RankRoleProto list = 1;
+	// 当前排名
+	required int32 currRankNo = 2;
+	// 上次排名
+	required int32 lastRankNo = 3;
+	// 玩家自己的战力
+	required int32 combat = 4;
+}

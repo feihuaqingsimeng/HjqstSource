@@ -1,0 +1,551 @@
+package pve;
+option java_package = "com.game.server.jimy.common.netdata";  
+option java_outer_classname = "PveProto";
+
+import "team.proto";
+import "common.proto";
+
+// 0x0401请求pve行动力同步(C->S)
+message SynPveActionReq {
+}
+
+// 0x0402响应pve行动力同步(S->C)
+message SynPveActionResp {
+	// 当前行动力
+	required int32 pveAction = 1;
+	// 正常恢复行动力上限
+	required int32 pveActionMax = 2;
+	// 下次恢复时间（秒）
+	required int32 nextRecoverTime = 3;
+}
+
+// 0x0403请求pve信息(C->S)
+message PveInfoReq {
+}
+
+// 副本星级评价
+message DungeonStarInfo {
+	// 副本id
+	required int32 dungeonId = 1;
+	// 副本星级
+	required int32 star = 2;
+}
+
+// 0x0404响应pve信息(S->C)
+//	message PveInfoResp {
+//		// 最后解锁的简单副本id
+//		required int32 lastUnLockEasyDungeonId = 1;
+//		// 最后解锁的普通副本id
+//		optional int32 lastUnLockNormalDungeonId = 2;
+//		// 最后解锁的困难副本id
+//		optional int32 lastUnLockHardDungeonId = 3;
+//		// 副本星级评价
+//		repeated DungeonStarInfo dungeonStars = 4;
+//		// 当前pve战斗队伍编号
+//		required int32 pveTeamNo = 5;
+//		// 副本每日挑战次数(第一个int:副本id,第二个int:今日已挑战次数)
+//		repeated common.DoubleIntProto challengeTimes = 6;
+//	}
+
+// 2个int型字段
+message DailyChallengeTimes {
+	// int值1
+	optional int32 value1 = 1;
+	// int值2
+	optional int32 value2 = 2;
+}
+
+// 0x0404响应pve信息(S->C)
+message PveInfoResp {
+	// 最后解锁的副本集合
+	repeated int32 lastUnLockDungeons = 1;
+	// 副本星级评价
+	repeated DungeonStarInfo dungeonStars = 2;
+	// 副本每日挑战次数(第一个int:副本id,第二个int:今日已挑战次数)
+	repeated DailyChallengeTimes challengeTimes = 3;
+	// 副本每日购买次数 (第一个int:副本ID,第二个int:今日已购买次数)
+	repeated DailyChallengeTimes dayRefreshTimes =4;
+}
+
+// 0x0405请求pve战斗(C->S)
+message PveFightReq {
+	// 副本id
+	required int32 dungeonId = 1;
+}
+
+// 掉落物品
+message DropItem {
+	// 物品类型
+	required int32 itemType = 1;
+	// 物品编号
+	optional int32 itemNo = 2;
+	// 星级(英雄用到)
+	optional int32 heroStar = 3;
+	// 数量
+	required int32 itemNum = 4;
+}
+
+// 0x0406响应pve战斗(S->C)
+message PveFightResp {
+	// 副本id
+	required int32 dungeonId = 1;
+	// 队伍战斗信息
+	required team.TeamFightProtoData teamFightData = 2;
+	// 掉落物品
+	repeated DropItem dropItems = 3;
+}
+
+// 0x0407请求pve战斗结束(C->S)
+message PveFightOverReq {
+	// 副本id
+	required int32 dungeonId = 1;
+	// 结果0失败1胜利
+	required int32 result = 2;
+	// 添加评价相关字段
+	// 我方阵亡人数
+	optional int32 dieNum = 3;
+	// 通关时间（s）
+	optional int32 passTime = 4;
+	// 队伍剩余血量百分比
+	optional int32 remainHpPercent = 5;
+	// 输出伤害
+	optional int32 outDamage = 6;
+	// 连击数
+	optional int32 combo = 7;
+	// 死亡英雄id
+	repeated int32 dieHeroIds = 8;
+}
+
+// 0x0408响应pve战斗结束
+message PveFightOverResp {
+	// 本次战斗星级评价
+	required int32 evaluateStar = 1;
+}
+
+// 0x0409请求活动副本信息(C->S)预留，目前不用
+message ActivityPveReq {
+}
+
+// 活动章节协议对象
+message ActivityPveProto {
+	// id
+	required int32 id = 1;
+	// 剩余挑战次数
+	required int32 remainChallengeTimes = 2;
+	// 上一次挑战的副本，当日未挑战为0
+	optional int32 lastChallengeDungeon = 3[default = 0]; 
+	// 已挑战过的副本id
+	repeated int32 passDungeonId = 4;
+	// vip已购买挑战次数
+	optional int32 vipBuyTimes = 5;
+}
+
+// 0x0410响应活动副本信息(S->C)
+message ActivityPveResp {
+	// 开放的章节信息
+	repeated ActivityPveProto openPves = 1;
+}
+
+// 0x0411请求挑战活动副本(C->S)
+message ActivityPveChallengeReq {
+	// 副本id
+	required int32 dungeonId = 1;
+	// 免费还是付费 true 付费 false 免费
+	optional bool isPaid = 2;
+}
+
+// 0x0412响应挑战活动副本(S->C)
+message ActivityPveChallengeResp {
+	// 副本id
+	required int32 dungeonId = 1;
+	// 队伍战斗信息
+	required team.TeamFightProtoData teamFightData = 2;
+}
+
+// 0x0413请求活动副本结算(C->S)
+message ActivityPveOverReq {
+	// 副本id
+	required int32 dungeonId = 1;
+	// 结果0失败1胜利
+	required int32 result = 2;
+	// 添加评价相关字段
+	// 我方阵亡人数
+	optional int32 dieNum = 3;
+	// 通关时间（s）
+	optional int32 passTime = 4;
+	// 队伍剩余血量百分比
+	optional int32 remainHpPercent = 5;
+	// 输出伤害
+	optional int32 outDamage = 6;
+	// 连击数
+	optional int32 combo = 7;
+	// 死亡英雄id
+	repeated int32 dieHeroIds = 8;
+}
+
+// 0x0414响应活动副本结算(S->C)
+message ActivityPveOverResp {
+	// 固定奖励
+	repeated DropItem fixedDrops = 1;
+	// 翻牌奖励
+	//repeated DropItem drawDrops = 2;
+}
+
+// 0x0415请求活动副本奖励翻番(C->S)
+// 消息号ActivityPveAwardReq
+// 消息体IntProto(翻倍编号：从左边第1个位置为0往后开始)
+
+
+// 0x0416响应活动副本奖励翻番(S->C)
+// 消息号ActivityPveAwardResp
+// 消息体空
+
+// 0x0417请求Pve扫荡(C->S)
+message PveMopUpReq {
+	// 副本id
+	required int32 dungeonId = 1;
+}
+
+// 0x0418响应Pve扫荡(S->C)
+message PveMopUpResp {
+	// 副本id
+	required int32 dungeonId = 1;
+	// 掉落物品
+	repeated DropItem dropItems = 2;
+}
+
+// 0x0419请求远征信息(C->S)
+message ExpeditionReq {
+}
+
+// 远征英雄信息
+message ExpeditionHeroProto {
+	// 英雄id，主角跟英雄id肯定不重复，所以放一起
+	required int32 heroId = 1;
+	// 剩余血量万分比
+	required int32 hpPercent = 2;
+}
+
+// 0x0420响应远征信息(C->S)
+message ExpeditionResp {
+	// 上次通关记录,-1表示从第一关开始打
+	required int32 lastPassDungeon = 1[default = -1];
+	// 英雄信息
+	repeated ExpeditionHeroProto heros = 2;
+	// 剩余重置次数
+	required int32 remainRefreshTimes = 3;
+	// 已领取奖励的副本
+	repeated int32 getRewardDungeonIds = 4;
+	// vip已购买重置次数
+	optional int32 vipBuyTimes = 5;
+}
+
+// 0x0421请求挑战远征副本(C->S)
+message ExpeditionChallengeReq {
+	// 副本id
+	required int32 dungeonId = 1;
+}
+
+// 0x0422响应挑战远征副本(S->C)
+message ExpeditionChallengeResp {
+	// 副本id
+	required int32 dungeonId = 1;
+	// 自己队伍战斗信息
+	required team.TeamFightProtoData selfTeamData = 2;
+	// 对手队伍战斗信息
+	required team.TeamFightProtoData opponentTeamData = 3;
+}
+
+// 0x0425请求远征结算(C->S)
+message ExpeditionSettleReq {
+	// 副本id
+	required int32 dungeonId = 1;
+	// 结果0失败1胜利
+	required int32 result = 2;
+	// 我方英雄信息
+	repeated ExpeditionHeroProto heros = 3;
+	// 对手英雄信息
+	repeated ExpeditionHeroProto opponentHeros = 4;
+}
+
+// 0x0426响应远征结算(S->C)
+message ExpeditionSettleResp {
+	// 掉落物品
+	repeated DropItem dropItems = 1;
+}
+
+// 0x0427请求领取远征奖励(C->S)
+message GetExpeditionRewardReq {
+	// 宝箱id
+	required int32 id = 1;
+}
+
+//0x0428响应领取远征奖励((S->C)
+message GetExpeditionRewardResp {
+}
+
+// 0x0429请求重置远征副本(C->S)
+message ResetExpeditionReq {
+	// 免费还是付费 true 付费 false 免费
+	optional bool isPaid = 1;
+}
+
+//0x0432同步远征信息((S->C)
+message SynExpeditionResp {
+	// 上次通关记录,-1表示从第一关开始打
+	required int32 lastPassDungeon = 1[default = -1];
+	// 新领取的宝箱
+	optional int32 newGetRewardDungeon = 2;
+}
+
+// 0x0433请求世界树信息(C->S)
+message WorldTreeReq {
+}
+
+// 0x0434响应世界树信息(S->C)
+message WorldTreeResp {
+	// 最后通关的副本id，0表示1层未通过，-1不更新当前值
+	optional int32 lastPassDungeon = 1[default = -1];
+	// 果实已购买次数
+	optional int32 fruitPurchasedTimes = 2[default = -1];
+	// 当前关卡失败次数
+	optional int32 failTimes = 3[default = -1];
+}
+
+// 0x0435请求世界树果实同步(C->S)
+message WorldTreeFruitSynReq {
+}
+
+// 0x0436响应世界树果实同步(S->C)
+message WorldTreeFruitSynResp {
+	// 当前果实个数
+	required int32 fruit = 1;
+	// 正常恢复行动力上限
+	required int32 fruitUpperLimit = 2;
+	// 下次恢复时间（时间戳）
+	required int64 nextRecoverTime = 3;
+}
+
+// 0x0437请求挑战世界树副本(C->S)
+message WorldTreeChallengeReq {
+	// 副本id
+	required int32 dungeonId = 1;
+}
+
+// 0x0438响应挑战世界树副本(S->C)
+message WorldTreeChallengeResp {
+	// 副本id
+	required int32 dungeonId = 1;
+	// 队伍战斗信息
+	required team.TeamFightProtoData teamFightData = 2;
+}
+
+// 0x0439请求世界树结算(C->S)
+message WorldTreeSettleReq {
+	// 副本id
+	required int32 dungeonId = 1;
+	// 结果0失败1胜利
+	required int32 result = 2;
+	// 死亡英雄id
+	repeated int32 diedHeroIds = 3;
+}
+
+// 0x0440响应世界树结算(S->C)
+message WorldTreeSettleResp {
+	// 掉落物品
+	repeated DropItem dropItems = 1;
+}
+
+// 0x0442同步世界boss开启结束时间(S->C)
+message WorldBossTimeResp {
+	// 活动是否已开启 true表示开启
+	optional bool isOpen = 1;
+	// 下次开启时间(活动未开启时设值)
+	optional int64 openTime = 2[default = -1];
+	// 上次结束时间(开启中时为结束时间)
+	optional int64 overTime = 3[default = -1];
+}
+
+// 0x0443请求世界BOSS信息(C->S)
+message WorldBossReq {
+}
+
+// 世界boss伤害排行信息
+message WorldBossHurtRankProto {
+	// 排名
+	required int32 rankNo = 1;
+	// 输出总伤害
+	required int32 totalHurt = 2;
+	// 伤害万分比
+	required int32 hurtPercent = 3;
+	// 玩家id
+	required int32 roleId = 4;	
+	// 用户名
+	required string roleName = 5;
+	// 等级
+	required int32 lv = 6;	
+	// 主角模型编号
+	required int32 playerNo = 7;
+	// 发型
+	optional int32 hairCutId = 8;
+	// 发色
+	optional int32 hairColorId = 9;
+	// 脸型
+	optional int32 faceId = 10;
+	// 头像
+	optional int32 headNo = 11;
+	// 服装
+	optional int32 skinId = 12;
+}
+
+// 0x0444响应世界BOSS信息(C->S)
+message WorldBossResp {
+	// 伤害排行榜
+	repeated WorldBossHurtRankProto rankList = 1;
+	// boss id
+	optional int32 bossId = 2;
+	// boss最大血量上限
+	optional int32 bossHpUpperLimit = 3;
+	// boss当前血量
+	optional int32 bossCurrHp = 4;
+	// 输出总伤害
+	optional int32 totalHurt = 5;
+	// 伤害万分比
+	optional int32 hurtPercent = 6;
+	// 伤害排名
+	optional int32 hurtRankNo = 7;
+	// 鼓舞次数
+	optional int32 inspireTimes = 8;
+	// 复活冷却结束时间
+	optional int64 reviveCoolingEndTime = 9;
+	// 世界boss等级
+	optional int32 bossLv = 10;
+	// 上次是否被击杀
+	optional bool isKilled = 11;
+}
+
+// 0x0445请求挑战世界BOSS(C->S)
+message WorldBossChallengeReq {
+}
+
+// 世界boss战斗信息
+message WorldBossFightProto {
+	// boss id
+	optional int32 id = 1;
+	// boss最大血量上限
+	optional int32 hpUpperLimit = 2;
+	// boss当前血量
+	optional int32 currHp = 3;
+	// boss攻击力
+	optional int32 atk = 4;
+	// boss防御力
+	optional int32 def = 5;
+	// boss伤害加成
+	optional int32 damage_add = 6;
+
+}
+
+// 0x0446响应挑战世界BOSS(S->C)
+message WorldBossChallengeResp {
+	// 队伍战斗信息
+	required team.TeamFightProtoData teamFightData = 1;
+	// 世界boss信息
+	required WorldBossFightProto boss = 2;
+
+}
+
+// 0x0447请求世界BOSS鼓舞(C->S)
+message WorldBossInspireReq {
+}
+
+// 0x0448响应世界BOSS鼓舞(S->C)
+message WorldBossInspireResp {
+	// 鼓舞次数
+	optional int32 inspireTimes = 1;
+}
+
+// 0x0449请求世界BOSS复活(C->S)
+message WorldBossReviveReq {
+}
+
+// 0x0450响应世界BOSS复活(S->C)
+message WorldBossReviveResp {
+}
+
+// 0x0451请求世界BOSS同步伤害(C->S)
+message WorldBossHurtSynReq {
+	// 间隔时间内的总伤害
+	required int32 hurt = 1;
+}
+
+// 0x0452响应世界BOSS同步伤害(S->C)
+message WorldBossHurtSynResp {
+	// boss剩余血量
+	required int32 bossRemainHp = 1;
+}
+
+// 0x0454世界BOSS被击杀通知(S->C)
+message WorldBossKilledResp {
+}
+
+// 0x0456世界BOSS活动结束通知(S->C)
+message WorldBossActivityEndResp {
+}
+
+// 0x0457请求世界BOSS结算(C->S)
+message WorldBossSettleReq {
+	// 间隔时间内的总伤害
+	required int32 hurt = 1;
+}
+
+// 0x0458响应世界BOSS结算(S->C)
+message WorldBossSettleResp {
+}
+
+// 0x0459请求Pve扫荡10次(C->S)
+message PveTenMopUpReq {
+	// 副本id
+	required int32 dungeonId = 1;
+	// 扫荡的次数
+	required int32 times = 2;
+}
+
+// pve扫荡一次掉落的物品
+message PveMopUpOnceDropProto {
+	// 掉落物品
+	repeated DropItem dropItems = 1;
+}
+
+// 0x0460响应Pve扫荡10次(S->C)
+message PveTenMopUpResp {
+	// 副本id
+	required int32 dungeonId = 1;
+	// 掉落物品
+	repeated PveMopUpOnceDropProto dropItems = 2;
+}
+
+// 0x0461请求领取星数奖励(C->S)
+// 消息号GetStarsAwardReq
+// 消息体IntProto(奖励编号)
+
+// 0x0462响应领取星数奖励(S->C)
+// 消息号GetStarsAwardResp
+// 消息体空
+
+// 0x0463请求星数奖励信息(C->S)
+// 消息号StarsAwardInfoReq
+// 消息体空
+
+// 0x0464响应请求星数奖励信息(S->C)
+message StarsAwardInfoResp {
+	// 已经领取的星数奖励编号
+	repeated int32 starsAwardNo = 6;
+}
+
+// 0x0465请求刷新副本今日挑战次数(C->S)
+// 消息号RefreshDayTimesReq
+// 消息体 IntProto (副本ID)
+
+// 0x0466请求刷新副本今日挑战次数(S->C)
+// 消息号RefreshDayTimesResp
+// 消息体空

@@ -1,0 +1,262 @@
+package team;
+option java_package = "com.game.server.jimy.common.netdata";  
+option java_outer_classname = "TeamProto";
+
+import "player.proto";
+
+// 阵型详细信息
+message LineupProtoData {
+	// 阵型编号
+	required int32 no = 1;
+	// 阵型等级，默认1级
+	optional int32 lv = 2[default = 1];
+	// 激活属性是否已激活
+	optional bool attrIsActive = 3;
+}
+
+// 站位信息
+message PosProtoData {
+	// 位置索引
+	required int32 posIndex = 1;
+	// 英雄id
+	required int32 heroId = 2;
+}
+
+// 队伍详细信息
+message TeamProtoData {
+	// 队伍编号
+	// PVETEAM1(101, "PVE队伍1"),
+	// PVETEAM2(102, "PVE队伍2"),
+	// PVETEAM3(103, "PVE队伍3"),
+	// RANKARENATEAM(201, "排名竞技场队伍"),
+	// EXPEDITIONTEAM(301, "远征队伍"),;
+	required int32 teamNo = 1;
+	// 选择的阵型编号
+	required int32 lineupNo = 2;
+	// 站位信息
+	repeated PosProtoData posList = 3;
+}
+
+// 队伍查看主角信息
+message TeamPlayerProtoData {
+	// id
+	required int32 id = 1;
+	// 站位
+	optional int32 posIndex = 2;
+	// 主角模型编号
+	optional int32 playerNo = 3;
+	// 等级
+	optional int32 lv = 4[default = 1];
+	// 星级
+	optional int32 star = 5;
+	// 强化等级
+	optional int32 aggrLv = 6[default = -1];
+	// 突破到几层
+	optional int32 breakLayer = 7;
+}
+
+// 队伍查看英雄信息
+message TeamHeroProtoData {
+	// id
+	required int32 id = 1;
+	// 站位
+	optional int32 posIndex = 2;
+	// 模型编号
+	optional int32 heroNo = 3;
+	// 等级
+	optional int32 lv = 4[default = 1];
+	// 星级
+	optional int32 star = 5;
+	// 强化等级
+	optional int32 aggrLv = 6[default = -1];
+	// 突破到几层
+	optional int32 breakLayer = 7;
+}
+
+// 队伍查看详细信息
+message TeamDetailProtoData {
+	// 主角信息
+	required TeamPlayerProtoData player = 1;
+	// 英雄信息
+	repeated TeamHeroProtoData heros = 2;
+}
+
+
+// 英雄属性
+message HeroAttrProtoData {
+	// 生命值
+	optional int32 hp = 1;
+	// 物理攻击力
+	optional int32 normal_atk = 2;
+	// 魔法攻击力
+	optional int32 magic_atk = 3;
+	// 物理防御
+	optional int32 normal_def = 4;
+	// 魔法防御
+	optional int32 magic_def = 5;
+	// 速度
+	optional int32 speed = 6;
+	// 命中
+	optional float hit = 7;
+	// 闪避
+	optional float dodge = 8;
+	// 暴击
+	optional float crit = 9;
+	// 防爆
+	optional float anti_crit = 10;
+	// 格挡
+	optional float block = 11;
+	// 破击
+	optional float anti_block = 12;
+	// 反击
+	optional float counter_atk = 13;
+	// 暴击伤害加成
+	optional float crit_hurt_add = 14;
+	// 暴击伤害减免
+	optional float crit_hurt_dec = 15;
+	// 破甲
+	optional float armor = 16;
+	// 伤害减免
+	optional float damage_dec = 17;
+	// 伤害加成
+	optional float damage_add = 18;
+	// 生命值上限
+	optional int32 hpUp = 19;
+}
+
+// 主角战斗信息
+message PlayerFightProtoData {
+	// id
+	required int32 id = 1;
+	// 站位
+	required int32 posIndex = 2;
+	// 属性
+	required HeroAttrProtoData attr = 3;
+	// 召唤兽id
+	optional int32 aeonId = 4;
+	// 模型id
+	optional int32 modelId = 5;
+	// 发型
+	optional int32 hairCutId = 6;
+	// 发色
+	optional int32 hairColorId = 7;
+	// 脸型
+	optional int32 faceId = 8;
+	// 星级
+	optional int32 star = 9;
+	// 天赋集合
+	repeated player.TalentProto talnets = 10;
+	// 选择的主动天赋
+	repeated int32 selectedTalnet = 11;
+	// 服装
+	optional int32 skinId = 12;
+}
+
+// 英雄战斗信息
+message HeroFightProtoData {
+	// id
+	required int32 id = 1;
+	// 站位
+	required int32 posIndex = 2;
+	// 属性
+	required HeroAttrProtoData attr = 3;
+	// 模型id
+	optional int32 modelId = 4;
+	// 星级
+	optional int32 star = 5; 
+}
+
+// 队伍战斗信息
+message TeamFightProtoData {
+	// 主角信息
+	optional PlayerFightProtoData player = 1;
+	// 英雄信息
+	repeated HeroFightProtoData heros = 2;
+	// 阵型信息
+	required LineupProtoData lineup = 3;
+}
+
+// 0x1501请求队伍信息(C->S)
+message TeamInfoReq {
+}
+
+
+// 0x1502响应队伍信息(S->C)
+message TeamInfoResp {
+	// 已解锁阵型
+	repeated LineupProtoData lineupList = 1;
+	// 队伍集合
+	repeated TeamProtoData teamList = 2;
+	// 培养点已购买次数
+	optional int32 bringUpPointPurcasedTimes = 3;
+	// 当前的队伍编号
+	required int32 currTeamNo = 4;
+}
+
+// 0x1503请求阵型升级(C->S)
+message LineupUpgradeReq {
+	// 阵型编号
+	required int32 no = 1;
+}
+
+// 0x1504响应阵型升级(S->C)
+message LineupUpgradeResp {
+	// 阵型编号
+	required int32 no = 1;
+	// 阵型等级
+	required int32 lv = 2;
+}
+
+// 0x1506响应新增阵型(S->C)
+message LineupAddResp {
+	// 新增的阵型
+	repeated LineupProtoData newLineupList = 1;
+}
+
+// 0x1507请求队伍变动(C->S)
+message TeamChangeReq {
+	// 队伍信息
+	required TeamProtoData team = 1;
+}
+
+// 0x1508响应队伍变动(S->C)
+message TeamChangeResp {
+}
+
+// 0x1510响应新增队伍(S->C)
+message TeamAddResp {
+	// 新增的队伍
+	repeated TeamProtoData newTeamList = 1;
+}
+
+// 0x1511请求购买培养点(C->S)
+message LineupPointBuyReq {
+}
+
+// 0x1512响应购买培养点(S->C)
+message LineupPointBuyResp {
+	// 培养点已购买次数
+	optional int32 bringUpPointPurcasedTimes = 1;
+}
+
+// 0x1513请求培养点同步(C->S)
+message LineupPointSynReq {
+}
+
+// 0x1514响应培养点同步(S->C)
+message LineupPointSynResp {
+	// 当前培养点
+	required int32 point = 1;
+	// 恢复上限
+	required int32 recoverUpperLimit = 2;
+	// 下次恢复时间（时间戳），-1表示培养点已满
+	optional int64 nextRecoverTime = 3[default = -1];
+}
+
+// 0x1515请求激活阵型属性(C->S)
+// 协议号LineupAttrActiveReq
+// 消息体IntProto(阵型编号)
+
+// 0x1516响应激活阵型属性(S->C)
+// 协议号LineupAttrActiveResp
+// 消息体空IntProto(阵型编号)

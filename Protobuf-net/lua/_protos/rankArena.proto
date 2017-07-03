@@ -1,0 +1,202 @@
+package rankArena;
+option java_package = "com.game.server.jimy.common.netdata";  
+option java_outer_classname = "RankArenaProto";
+
+import "team.proto";
+
+// 0x0801请求排名竞技场信息(C->S)
+message GetRankArenaReq {
+}
+
+// 挑战对手信息
+message RankArenaOpponentProtoData {
+	// 玩家id
+	required int32 id = 1;	
+	// 用户名
+	required string roleName = 2;
+	// 等级
+	required int32 lv = 3;	
+	// 主角模型编号
+	required int32 playerNo = 4;
+	// 排名
+	required int32 rankNo = 5;
+	// 战斗力
+	optional int32 fightingPower = 6;
+	// 发型
+	optional int32 hairCutId = 7;
+	// 发色
+	optional int32 hairColorId = 8;
+	// 脸型
+	optional int32 faceId = 9;
+	// 对手阵型
+	optional team.TeamDetailProtoData team = 10;
+	// 服装
+	optional int32 skinId = 11;
+}
+
+//0x0802响应排名竞技场信息(S->C)
+message GetRankArenaResp {
+	// 当前排名
+	required int32 rankNo = 1;
+	// 总省场数
+	required int32 totalWinTimes = 2;
+	// 挑战冷却结束时间(ms)
+	optional int64 challengeCoolingOverTime = 3;
+	// 每日挑战次数上限
+	optional int32 challengeTimesUp = 4;
+	// 剩余挑战次数
+	optional int32 remainChallengeTimes = 5;
+	// 挑战次数下次恢复时间(ms)
+	optional int64 challengeTimesNextRecoverTime = 6;
+	// 每日刷新次数上限
+	optional int32 refreshListingTimesUp = 7;
+	// 剩余刷新次数
+	optional int32 remainRefreshTimes = 8;
+	// 刷新冷却结束时间(ms)
+	optional int64 refreshTimesCoolingOverTime = 9;
+	// 下次领取奖励时间(ms)
+	optional int64 nextGetRewardTime = 10;
+	// 对手列表信息
+	repeated RankArenaOpponentProtoData opponents = 11;
+	// 上次结算排名
+	optional int32 lastSettleRankNo = 12;
+	// 战斗力
+	optional int32 fightingPower = 13;
+	// 可用胜利场数
+	optional int32 canUseWinTimes = 14;
+	// 上次排名
+	required int32 lastRankNo = 15;
+
+}
+
+// 0x0805请求战报信息(C->S)
+message GetRankArenaReportReq {
+}
+
+// 战报信息
+message RankArenaReportProtoData {
+	// 战报id
+	required int32 id = 1;	
+	// true胜利，false失败
+	required bool isWin = 2; 
+	// 原排名
+	required int32 srcRankNo = 3;
+	// 目标排名
+	required int32 desRankNo = 4; 
+	// 战斗时间
+	required int64 fightTime = 5;
+	// 是否是挑战者true是，false被挑战者
+	required bool isChallenger = 6; 
+	// 对手角色名
+	required string opponentRoleName = 7;
+}
+
+// 0x0806响应战报信息(S->C)
+message GetRankArenaReportResp {
+	// 战报集合
+	repeated RankArenaReportProtoData reports = 1;
+}
+
+// 0x0808战报信息变更(S->C)
+message RankArenaReportUpdateResp {
+	// 新添加的战报
+	required RankArenaReportProtoData newReport = 1;
+	// 删除的战报id
+	optional int32 delReportId = 2;	
+}
+
+// 0x0809请求刷新对手(C->S)
+message RefreshOpponentsReq {
+}
+
+// 0x0810响应刷新对手(S->C)
+message RefreshOpponentsResp {
+	// 对手列表信息
+	repeated RankArenaOpponentProtoData opponents = 1;
+	// 剩余刷新次数
+	optional int32 remainRefreshTimes = 2;
+	// 刷新冷却结束时间(ms)
+	optional int64 refreshTimesCoolingOverTime = 3;
+}
+
+// 0x0811请求领取奖励(C->S)
+message GetRankArenaRewardReq {
+}
+
+// 0x0812响应领取奖励(S->C)
+message GetRankArenaRewardResp {
+}
+
+//	// 0x0813请求排行榜数据(C->S)
+//	message GetRankingListReq {
+//	}
+//
+//	// 排行榜玩家信息
+//	message RankingListProtoData {
+//		// 玩家id
+//		required int32 id = 1;	
+//		// 用户名
+//		required string roleName = 2;
+//		// 等级
+//		required int32 lv = 3;	
+//		// 主角模型编号
+//		required int32 playerNo = 4;
+//		// 排名
+//		required int32 rankNo = 5;
+//		// 战斗力
+//		optional int32 fightingPower = 6;
+//		// 发型
+//		optional int32 hairCutId = 7;
+//		// 发色
+//		optional int32 hairColorId = 8;
+//		// 脸型
+//		optional int32 faceId = 9;
+//		// 阵型
+//		optional team.TeamDetailProtoData team = 10;
+//		// 头像
+//		optional int32 headNo = 11;
+//	}
+//
+//	// 0x0814响应排行榜数据(S->C)
+//	message GetRankingListResp {
+//		// 排行榜玩家集合
+//		repeated RankingListProtoData list = 1;
+//	}
+
+// 0x0815请求挑战(C->S)
+message RankArenaChallengeReq {
+	// 对手id
+	required int32 opponentId = 1;	
+	// 对手排名
+	required int32 opponentRankNo = 2;	
+}
+
+// 0x0816响应挑战(S->C)
+message RankArenaChallengeResp {
+	// 自己队伍战斗信息
+	required team.TeamFightProtoData selfTeamData = 1;
+	// 对手队伍战斗信息
+	required team.TeamFightProtoData opponentTeamData = 2;
+}
+
+// 0x0817请求挑战结算(C->S)
+message RankArenaChallengeOverReq {
+	// 结果0失败1胜利
+	required int32 result = 1;
+}
+
+// 0x0818响应挑战结算(S->C)
+message RankArenaChallengeOverResp {
+}
+
+// 0x0820同步竞技场体力(S->C)
+// 消息号SynPvpActionResp
+// 消息体IntProto（次数）
+
+// 0x0821请求领取胜利宝箱
+// 消息号GetWinTimesAwardReq
+// 消息体空
+
+// 0x0822响应领取胜利宝箱
+// 消息号GetWinTimesAwardResp
+// 消息体IntProto (剩余可用胜利场数)

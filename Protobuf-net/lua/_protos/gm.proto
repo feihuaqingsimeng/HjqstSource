@@ -1,0 +1,87 @@
+package gm;
+option java_package = "com.game.server.jimy.common.netdata";  
+option java_outer_classname = "GMProto";
+
+
+// 0x9001 向玩家发送钻石
+message SendDiamondReq {
+	// 单个玩家或者多个玩家ID
+	repeated int32 roleIds = 1;
+	// 发送数量
+	required int32 num = 2;
+	// 操作账号
+	required string gmAccount = 3;
+}
+
+// 公告信息
+message NoticeInfo {
+	// 公告内容
+	required string notice = 1;
+	// 类型 (1,立即  2定时)
+	required int32 type = 2;
+	// 发布时间 毫秒时间戳
+	optional int64 time = 3;
+}
+
+// 0x9003 发送游戏内全服公告
+message SendNoticeReq {
+	// 公告信息
+	repeated NoticeInfo noticeInfos = 1;
+	// 操作账号
+	required string gmAccount = 2;
+}
+
+// 0x9005 踢出在线玩家
+message KickRoleReq {
+	// 剔除目标的ID集合
+	repeated int32 roleIds = 1;
+	// 操作账号
+	required string gmAccount = 2;
+}
+
+// 0x9007 封停玩家账号
+message BanRoleReq {
+	// 封停目标的ID集合
+	repeated int32 roleIds = 1;
+	// 封停的类型(1永久封停 2一段时间封停)
+	required int32 type = 2;
+	// 封停的时间 到期时间 毫秒时间戳
+	optional int64 time = 3;
+	// 操作账号
+	required string gmAccount = 4;
+}
+
+// 0x9009 发送道具
+message SendItemReq {
+	// 道具ID(四段式)
+	repeated string items = 1;
+	// 发送目标的ID集合
+	repeated int32 roleIds = 2;
+	// 类型 (1,立即  2定时)
+	required int32 type = 3;
+	// 发送时间 毫秒时间戳
+	optional int64 time = 4;
+	// 操作账号
+	required string gmAccount = 5;
+}
+
+// 0x9011 发送邮件
+message SendMailReq {
+	// 邮件类型ID
+	required int32 id = 1;
+	// 邮件的标题
+	required string title = 2;
+	// 邮件正文
+	required string context = 3;
+	// 邮件附件(四段式)
+	optional string attachment = 4;
+	// 发送目标的ID集合
+	repeated int32 roleIds = 5;
+	// 类型 (1,立即  2定时)
+	required int32 type = 6;
+	// 发送时间 毫秒时间戳
+	optional int64 time = 7;
+	// 操作账号
+	required string gmAccount = 8;
+}
+

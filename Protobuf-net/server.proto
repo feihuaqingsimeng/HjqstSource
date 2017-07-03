@@ -1,0 +1,53 @@
+package server;
+option java_package = "com.game.server.engine.common.netdata";  
+option java_outer_classname = "ServerProto";
+
+//0xfffE游戏服务器端定时激活连接
+message ServerActiveReq {
+	// 服务器名称
+	required string serverName = 1;
+	// 服务器
+	optional int32 flag = 2;
+	// 保留字段
+	optional string reserve = 3;
+}
+
+//0xFFFC错误提示(S->C)
+message ErrorResp {
+	//错误码
+	required int32 errorCode = 1;
+	//关联协议号
+	optional int32 msgType = 2;
+}
+
+//0xFFF1gm命令(S->C)
+message GMReq {
+	// 命令，参数用:隔开，比如：添加金币 addgold:10000 添加英雄addhero:10001:3
+	required string command = 1;
+}
+
+//0x0009客户端离线请求(S->C)
+message UserLogoutReq {
+	//退出类型
+	required int32 type = 1;
+}
+
+//0x0010客户端离线(S->C)
+message UserLogoutResp {
+	//结果
+	required int32 result = 1;
+	//角色id
+	required int32 roleId = 2;
+}
+
+
+//0xFFF2压测命令(S->C)
+message PressureTestReq {
+	required string msg = 1;
+	optional int32 test = 2[default = -1];
+}
+
+//0xFFF4同步服务器时间(S->C)
+message ServerTimeSynResp {
+	required int64 time = 1;
+}

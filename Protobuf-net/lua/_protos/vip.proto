@@ -1,0 +1,33 @@
+package vip;
+option java_package = "com.game.server.jimy.common.netdata";  
+option java_outer_classname = "VipProto";
+
+// 0x1401请求vip消息(C->S)
+message VipInfoReq {
+}
+
+//0x1402响应vip消息(S->C)
+message VipInfoResp {
+	// 总充值额
+	required int32 totalRecharge = 1;
+	// 已领取的vip等级礼包
+	repeated int32 getGiftBagLvList = 2;
+	// 每日礼包是否已领取
+	optional bool dailyGiftIsGet = 3;
+}
+
+// 0x1403请求领取vip等级礼包(C->S)
+message VipGiftBagReq {
+	// vip等级
+	required int32 vipLv = 1;
+}
+
+//0x1404响应领取vip等级礼包(S->C)
+message VipGiftBagResp {
+}
+
+// 0x1405请求领取vip每日礼包(C->S)
+// 消息号VipDailyGiftReq
+
+//0x1406响应领取vip每日礼包(S->C)
+// 消息号VipDailyGiftResp

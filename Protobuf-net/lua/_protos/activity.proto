@@ -1,0 +1,186 @@
+package activity;
+option java_package = "com.game.server.jimy.common.netdata";  
+option java_outer_classname = "ActivityProto";
+
+import "task.proto";
+
+// 0x1601请求签到(C->S)
+message SignInReq {
+}
+
+//0x1602响应签到(S->C)
+message SignInResp {
+	// 最后一次签到的编号
+	required int32 lastSignInNo = 1;
+	// 今日是否已签到
+	optional bool isSignIn = 2;
+}
+
+//0x1603请求活动列表(C->S)ActivityListReq
+
+// 活动信息
+message ActivityInfoProto {
+	// 活动大类型
+	required int32 type = 1;
+	// 子类型
+	optional int32 subType = 2;
+	// 当前条件值
+	optional int32 conditionValue = 3;
+	// 当前状态 活动id:状态(0过期未领取，1可以领取未领取，2已领取)  100001:1;100002:0;100003:1，未传的表示还不可领取
+	optional string scheduleStus = 4;
+}
+
+//0x1604响应活动列表(S->C)
+message ActivityListResp {
+	repeated ActivityInfoProto list = 1;
+} 
+
+//0x1605请求领取活动奖励(C->S)
+message ActivityRewardReq {
+	// 活动大类型
+	required int32 type = 1;
+	// 活动id
+	optional int32 scheduleIndex = 2;
+	// 子类型
+	//optional int32 subType = 3;
+}
+
+//0x1606响应领取活动奖励(S->C)ActivityRewardResp
+
+//0x1607请求参加活动(C->S)
+message ActivityJoinReq {
+	// 活动大类型
+	required int32 type = 1;
+	// 子类型
+	optional int32 subType = 2;
+}
+
+//0x1608响应参加活动(S->C)ActivityJoinResp
+
+//0x1610活动状态更新(S->C)
+message ActivityUpdateResp {
+	// 添加一个活动
+	optional ActivityInfoProto addActivity = 1;
+	// 删除一个活动
+	optional int32 delActivity = 2;
+	// 更新活动
+	repeated ActivityInfoProto updateActivitys = 3;
+}
+
+// 0x1611请求领取在线礼包(C->S)
+// 消息号 OnlineGiftReq
+// 协议体 IntProto 第一个参数:礼包id
+
+// 0x1612响应领取在线礼包(S->C)
+// 消息号 OnlineGiftResp
+// 协议体 IntProto 第一个参数:礼包id
+
+// 0x1613请求在线礼包信息(C->S)
+// 消息号 OnlineGiftSynReq
+// 协议体 空
+
+// 0x1614同步在线礼包(S->C)
+// 消息号 OnlineGiftSynResp
+// 协议体 DoubleIntProto 第一个参数:今日总在线时长s，第二个参数：已领取到的礼包id
+
+// 0x1615请求七日活动信息
+// 消息号 SevenDayInfoReq
+// 协议体 空
+
+// 0x1616响应七日活动信息
+message SevenDayInfoResp{
+	// 开服天数
+	required int32 days = 1;
+	// 已经购买的商品
+	repeated int32 alreadyBuys = 2;
+	// 完成数量
+	required int32 completeTimes = 3;
+	// 已经接受的任务
+	repeated task.TaskProtoData hasTask = 4;
+	// 已经完成的任务
+	repeated task.TaskProtoData completeTask = 5;
+	// 已经领取的完成度奖励
+	repeated int32 alreadyGetComplete = 6;
+}	
+
+// 0x1617请求购买七日打折商品
+// 消息号 BuySevenDayGoodsReq
+// 消息体 DoubleIntProto value1 天数  value2商品编号
+
+// 0x1618响应购买七日打折商品
+// 消息号 BuySevenDayGoodsResp
+// 消息体 空
+
+// 0x1619请求领取完成度奖励
+// 消息号 GetSevenDayCompleteAwardReq
+// 消息体 IntProto 完成度
+
+// 0x1620响应领取完成度奖励
+// 消息号 GetSevenDayCompleteAwardResp
+// 消息体 空
+
+// 0x1621请求领取七日任务奖励
+// 消息号 GetSevenDayTaskAwardReq
+// 消息体 IntProto (csvID)
+
+// 0x1622响应领取七日任务奖励
+// 消息号 GetSevenDayTaskAwardResp
+// 消息体 空
+
+// 0x1623请求使用礼包码
+// 消息号 GiftCodeUseReq
+// 消息体 StringProto (礼包码)
+
+// 0x1624响应使礼包码
+// 消息号 GiftCodeUseResp
+// 消息体 StringProto(4段式)
+
+// 0x1625请求转盘信息
+// 消息号 LuckyLetteInfoReq
+// 消息体 空
+
+message LuckyLetteInfoProto {
+	// 名字
+	required string name = 1;
+	// 排名
+	required int32 no = 2;
+	// 次数
+	required int32 times = 3;
+}
+
+// 0x1626响应转盘信息
+message LuckyLetteInfoResp{
+	// 是否还有免费次数
+	required bool canFree = 1;
+	// 玩家本次已转次数
+	required int32 times = 2;
+	// 排行榜信息
+	repeated LuckyLetteInfoProto rankInfo = 3;
+}
+
+// 0x1627请求使用转盘
+// 消息号 UseLuckyLetteReq
+// 消息体 空
+
+// 0x1628响应使用转盘
+// 消息号 UseLuckyLetteResp
+// 消息体 IntProto 
+
+// 0x1629请求使用转盘多次
+// 消息号 UseLuckyRouletteTenReq
+// 消息体 空
+
+// 0x1630响应使用转盘多次
+message UseLuckyRouletteTenResp{
+	// 结果
+	repeated int32 awardsId = 1;
+}
+
+// 0x1631请求限时兑换
+// 消息号 LimitBuyReq
+// 消息体 IntProto 
+
+// 0x1632响应限时兑换
+// 消息号 LimitBuyResp
+// 消息体 空
+

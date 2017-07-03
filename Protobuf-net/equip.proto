@@ -1,0 +1,206 @@
+package equip;
+option java_package = "com.game.server.jimy.common.netdata";  
+option java_outer_classname = "EquipProto";
+
+// 0x0501请求所有装备信息(C->S)
+message GetAllEquipReq {
+}
+
+// 装备属性
+message EquipAttr {
+	// 属性类型
+	required int32 type = 1;
+	// 值
+	required float value = 2;
+}
+
+// 装备信息
+message Equip {
+	// id
+	required int32 id = 1;
+	// 模型id
+	optional int32 modelId = 2;
+	// 强化等级
+	optional int32 aggrLv = 3[default = -1];
+	// 装备基础属性
+	repeated EquipAttr baseAttr = 4;
+	// 装备随机属性
+	repeated EquipAttr randomAttr = 5;
+	// 装备专属属性
+	repeated EquipAttr specialAttr = 6;
+	// 星级属性加成百分比
+	repeated int32 starGems = 7;	
+	// 宝石槽镶嵌的宝石编号(第一个为第一个槽...),编号为0时：表示已解锁未镶嵌宝石,-1表示未解锁
+	repeated int32 inlayGems = 8;
+	// 是否更新星级
+	optional bool isUpStarGems = 9;
+
+}
+
+//0x0502响应所有装备信息(S->C)
+message GetAllEquipResp {
+	// 所有装备
+	repeated Equip equips = 1;
+}
+
+//0x0503装备信息变更(S->C)
+message EquipUpdateResp {
+	// 增加的装备
+	repeated Equip addEquips = 1;
+	// 删除的装备
+	repeated int32 delEquips = 2;
+	// 变更的装备
+	repeated Equip updateEquips = 3;
+}
+
+// 0x0505请求装备穿脱(C->S)
+message EquipWearOffReq {
+	// 装备id
+	required int32 equipId = 1;
+	// 穿脱类型 0脱，1穿
+	required int32 wearOrOff = 2;
+	// 是否销毁
+	optional bool isDestroy = 3;
+	// 英雄id
+	required int32 heroId = 4;
+}
+
+// 0x0506响应装备穿脱(S->C)
+message EquipWearOffResp {
+}
+
+// 0x0507请求装备强化(C->S)
+// 消息号EquipAggrReq
+// 消息体DoubleIntProto value1:装备实例id，value2:强化次数
+
+// 0x0508响应装备强化(S->C)
+// 消息号EquipAggrResp
+// 消息体空
+
+// 0x0509请求出售装备(C->S)
+// 消息号EquipSellReq
+// 消息体IntProto
+
+// 0x0510响应出售装备(S->C)
+// 消息号EquipSellResp
+// 消息体IntProto
+
+// 0x0511请求装备升级(C->S)
+// 消息号EquipUpgradeReq
+// 消息体IntProto
+
+// 0x0512响应装备升级(S->C)EquipUpgradeResp
+
+// 0x0513请求装备重铸(C->S)
+// 消息号EquipRecastReq
+// 消息体IntProto
+
+
+// 0x0514响应装备重铸(S->C)
+message EquipRecastResp {
+	// 装备随机属性
+	repeated EquipAttr randomAttrs = 1;
+}
+
+// 0x0515请求装备重铸确认(C->S)
+message EquipRecastAffirmReq {
+	// 装备id
+	required int32 equipId = 1;
+	// true使用，false保留
+	optional bool isUsed = 2;
+}
+
+// 0x0516响应装备重铸确认(S->C)EquipRecastAffirmResp
+
+// 0x0517请求解锁宝石槽(C->S)
+// 消息号InlayGemSlotUnlockReq
+// 消息体DoubleIntProto(第一个int:装备id，第二个int:槽的位置索引,从0开始)
+
+// 0x0518响应解锁宝石槽(S->C)
+// 消息号InlayGemSlotUnlockResp
+
+// 0x0519请求镶嵌宝石(C->S)
+// 消息号EquipInlayGemReq
+// 消息体TripleIntProto(第一个int:装备id，第二个int:槽的位置索引，第三个int:宝石编号(卸下就为0))
+
+// 0x0520响应镶嵌宝石(S->C)
+// 消息号EquipInlayGemResp
+
+// 0x0521请求镶嵌宝石合成(C->S)
+// 消息号InlayGemComposeReq
+// 消息体TripleIntProto(第一个int:材料宝石编号，第二个int:装备id（材料在该装备上），第三个int：装备槽位置)
+
+// 0x0522响应镶嵌宝石合成(S->C)
+// 消息号InlayGemComposeResp
+
+// 0x0523请求制作附魔卷轴(C->S)
+// 消息号EnchantingScrollComposeReq
+// 消息体IntProto(合成的卷轴编号)
+
+// 0x0524响应制作附魔卷轴(S->C)
+// 消息号EnchantingScrollComposeResp
+
+// 0x0525请求装备附魔(C->S)
+// 消息号EquipEnchantReq
+// 消息体DoubleIntProto(第一个int:装备id，第二个int:卷轴编号)
+
+// 0x0526响应装备附魔(S->C)
+// 消息号EquipEnchantResp
+
+// 0x0527请求升星宝石合成(C->S)
+// 消息号StarGemComposeReq
+// 消息体IntProto(材料宝石编号)
+
+// 0x0528响应升星宝石合成(S->C)
+// 消息号StarGemComposeResp
+
+// 0x0529请求升星或降星(C->S)
+// 消息号EquipStarReq
+// 消息体TripleIntProto(第一个int:装备id，第二个int:升星or降星 1：升星，第三个int:升星宝石编号)
+
+// 0x0530响应升星或降星(S->C)
+// 消息号EquipStarResp
+
+// 0x0531请求装备继承(C->S)
+message EquipInheritReq {
+	// 继承装备实例id
+	required int32 equipId = 1;
+	// 消耗的装备实例id
+	required int32 materialEquipId = 2;
+	// 继承类型（0:全部继承1：星级2：等级）
+	optional int32 type = 3;
+}
+
+// 0x0532响应装备继承(S->C)
+// 消息号EquipInheritResp
+// 消息体空
+
+// 0x0533请求装备合成(C->S)
+message EquipComposeReq {
+	// 合成品质
+	required int32 qualityId = 1;
+	// 材料装备实例id
+	repeated int32 equip = 2;
+	// 选择的货币类型（0：金币，1：钻石）
+	optional int32 currencyType = 3;
+}
+
+// 0x0534响应装备合成(S->C)
+// 消息号EquipComposeResp
+// 消息体DoubleIntProto (第一个0失败 1成功  第二个 失败时是道具是道具实例ID 成功时是 装备实例ID)
+
+// 0x0535请求装备合成(C->S)
+// 消息号 EquipPieceComposeReq 
+// 消息体 IntProto (composeId)
+
+// 0x0536响应装备合成(S->C)
+// 消息号 EquipPieceComposeResp
+// 消息体 IntProto (composeId)
+
+// 0x0537请求装备分解(C->S)
+// 消息号 EquipDeComposeReq 
+// 消息体 TripleIntProto (decomposeId   实例ID  数量)
+
+// 0x0538响应装备分解(S->C)
+// 消息号 EquipDeComposeResp
+// 消息体 空

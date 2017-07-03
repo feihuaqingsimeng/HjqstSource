@@ -1,0 +1,65 @@
+package pack;
+option java_package = "com.game.server.jimy.common.netdata";  
+option java_outer_classname = "PackProto";
+
+// 0x0305请求背包信息(C->S)(暂时不用)
+message PackReq {
+}
+
+// 0x0306响应背包信息(C->S)
+message PackResp {
+	// 英雄背包格子数
+	required int32 heroCellNum = 1;
+	// 英雄背包格子已购买次数
+	optional int32 heroCellBuyNum = 2;
+	// 装备背包格子数
+	required int32 equipCellNum = 3;
+	// 装备背包格子已购买次数
+	optional int32 equipCellBuyNum = 4;
+}
+
+// 0x0307请求购买背包格子(C->S)
+message BuyPackCellReq {
+	// 背包类型(1:英雄背包，2:装备背包)
+	required int32 packType = 1;
+}
+
+// 0x0308响应购买背包格子(C->S)
+message BuyPackCellResp {
+	// 背包类型(1:英雄背包，2:装备背包)
+	required int32 packType = 1;
+	// 购买后的格子数
+	required int32 cellNum = 2;
+}
+
+// 0x0309请求图鉴信息(C->S)
+message IllustrationReq {
+}
+
+// 图鉴英雄信息
+message IllustrationProto {
+	// 英雄编号
+	required int32 heroNo = 1;
+	// 星级集合
+	repeated int32 stars = 2;
+}
+
+// 0x0310响应图鉴信息(C->S)
+message IllustrationResp {
+	// 所有已获得的图鉴英雄
+	repeated IllustrationProto heros = 1;
+	// 所有已获得的图鉴装备
+	repeated int32 equips = 2;
+	// 所有已获得的图鉴道具
+	repeated int32 items = 3;
+}
+
+// 0x0312同步图鉴信息(C->S)
+message IllustrationSynResp {
+	// 需要同步的图鉴英雄
+	repeated IllustrationProto newHeros = 1;
+	// 所有已获得的图鉴装备
+	repeated int32 equips = 2;
+	// 所有已获得的图鉴道具
+	repeated int32 items = 3;
+}

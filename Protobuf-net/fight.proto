@@ -1,0 +1,136 @@
+package fight;
+option java_package = "com.game.server.jimy.common.netdata";  
+option java_outer_classname = "FightProto";
+
+import "team.proto";
+import "common.proto";
+
+// 0x2001请求战斗匹配(C->S)FightMatchReq
+
+message RealTimeFightProtoData {
+	// 参加战斗的队伍信息
+	required team.TeamFightProtoData teamData = 1;
+	// 角色id
+	required int32 roleId = 2;
+	// 网关id
+	required int32 gateServerId = 3;
+}
+
+// 0x2010战斗初始化(G-F)(服务器内存使用，游戏服务器发送给战斗服务器)
+message FightInit {
+	// 一方战斗队伍信息
+	required RealTimeFightProtoData side1 = 1;
+	// 另一方战斗队伍信息
+	required RealTimeFightProtoData side2 = 2;	
+	// 随机种子
+	required int32 randomSeed = 3;
+	// 战斗id
+	required int32 fightId = 4;
+}
+
+//0x2012响应战斗数据(S->C)
+message RealTimeFightDataResp {
+	// 本方战斗队伍数据
+	required team.TeamFightProtoData selfTeamData = 1;
+	// 对方方战斗队伍数据
+	required team.TeamFightProtoData opponentTeamData = 2;
+	// 随机种子
+	required int32 randomSeed = 3;
+	// 战斗id
+	required int32 fightId = 4;
+	// 是否主场
+	optional bool isHome = 5;
+
+	// 所有战斗指令
+	repeated FightCmdSynResp cmdList = 6;
+}
+
+// 受击者
+message Gethit {
+	// 受击者id
+	required int32 heroId = 1;
+	// 受到的伤害
+	required int32 hurt = 2;
+	// 
+	optional int32 judgeType = 3;
+	// 英雄剩余血量
+	optional int32 remainHp = 4;
+}
+
+// 攻击效果
+message Mechanics {
+	// 本次技能效果作用的所有目标
+	repeated Gethit gethits = 1;
+}
+
+// buff
+message Buff {
+	// buff类型
+	required int32 type = 1;
+	// 作用目标id
+	required int32 desId = 2;
+	// buff持续时间
+	optional float time = 3;
+	// 间隔时间
+	optional int32 intervalTime = 4;
+	// buff效果值
+	optional float effectValue = 5;
+	// 效果id
+	optional int32 mechanicsId = 6;
+	// 作用次数
+	optional int32 count = 7;
+}
+
+//0x2014响应战斗指令同步(S->C)
+message FightCmdSynResp {
+	// 英雄id
+	required int32 heroId = 1;
+	// 技能id
+	required int32 skillId = 2;
+	// 技能释放时间
+	optional int64 releaseTime = 3;
+	// 技能被作用者是否命中、暴击、格挡(第一个值英雄id,第二个值判断类型)
+	repeated common.DoubleIntProto effectJudgeTypes = 4;
+	// 一个技能的所有攻击效果
+	repeated Mechanics mechanicsList = 5;
+	// 一次效果产生的buff
+	repeated Buff newBuffList = 6;
+	// 一次效果删除的buff
+	repeated Buff delBuffList = 7;
+	// 本次技能效果死亡的英雄集合
+	repeated int32 diedHeroList = 8;
+	// 复活列表
+	repeated common.DoubleIntProto rebornList = 9;
+}
+
+// 0x2015请求战斗开始(C->S)
+message FightStartReq {
+	// 战斗id
+	required int32 fightId = 1;
+}
+
+// 0x2017请求释放技能(C->S)
+message SkillReq {
+	// 英雄id
+	required int32 heroId = 1;
+	// 技能id
+	required int32 skillId = 2;
+	// 战斗id
+	required int32 fightId = 3;
+}
+
+//0x2019请求修正技能同步(C->S)FightCmdSynReviseReq
+
+//0x2020通知逻辑服战斗结束(服务器内部使用，战斗服务器发送给逻辑服务器)
+message FightOver {
+	// 战斗id
+	required int32 fightId = 1;
+	// 获胜方角色id
+	required int32 winRoleId = 2;
+} 
+
+//0x2022通知客户端战斗结束(S->C)
+message FightOverResp {
+	// 是否胜利
+	required bool isWin = 1;
+} 

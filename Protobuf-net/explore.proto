@@ -1,0 +1,71 @@
+package explore;
+option java_package = "com.game.server.jimy.common.netdata";  
+option java_outer_classname = "ExploreProto";
+
+// 0x1701请求探险列表(C->S)
+// 消息号ExploreListReq
+// 空消息体
+
+// 探险任务信息
+message ExploreTaskProto {
+	// 任务编号
+	required int32 id = 1;
+	// 任务状态(0：未委派，1：委派中，2：成功未领取，3：失败未领取)
+	optional int32 status = 2;
+	// 探险的英雄id
+	repeated int32 heros = 3;
+	// 探险结束时间
+	optional int64 overTime = 4;
+}
+
+//0x1702响应探险列表(S->C)
+message ExploreListResp {
+	// 列表任务信息
+	repeated ExploreTaskProto exploreTasks = 1;
+	// 剩余探险次数
+	required int32 remainTimes = 2;
+	// 最大探险次数
+	required int32 maxTimes = 3;
+	// 免费刷新是否已用
+	optional bool freeRefreshIsUsed = 4;
+	// 今日已探险的英雄id集合
+	repeated int32 exploredHeros = 5;
+}
+
+//0x1703请求探险任务(C->S)
+message ExploreTaskReq {
+	// 任务编号
+	required int32 id = 1;
+	// 探险的英雄id
+	repeated int32 heros = 2;
+} 
+
+//0x1704响应探险任务(S->C)
+// 消息号ExploreTaskResp
+// 空消息体
+
+//0x1705请求领取任务奖励(C->S)
+// 消息号ExploreTaskRewardReq
+// 消息体IntProto
+
+//0x1706响应领取任务奖励(S->C)
+// 消息号ExploreTaskRewardResp
+// 空消息体
+
+//0x1707请求刷新任务(C->S)
+// 消息号ExploreTaskRefreshReq
+// 空消息体
+
+//0x1708响应刷新任务(S->C)
+message ExploreTaskRefreshResp {
+	// 刷新的任务信息
+	repeated ExploreTaskProto refreshTasks = 1;
+}
+
+//0x1709请求同步单个任务状态(C->S)
+// 消息号ExploreTaskSynReq
+// 消息体IntProto(任务编号)
+
+//0x1710响应同步单个任务状态(S->C)
+// 消息号ExploreTaskSynResp
+// 消息体ExploreTaskProto

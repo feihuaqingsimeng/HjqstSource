@@ -1,0 +1,82 @@
+package chat;
+option java_package = "com.game.server.jimy.common.netdata";  
+option java_outer_classname = "ChatProto";
+
+// 0x1201请求聊天消息(C->S)
+message ChatInfoReq {
+}
+
+// 聊天具体内容 
+message ChatProtoData {
+	// chat_type的含义
+	// 1代表世界聊天
+	// 2代表私聊
+	// 3代表全服公告
+	// 4代表公会聊天
+	required int32 chatType = 1;
+	// 发送者角色名称
+	optional string sendRoleName = 2;
+	// 接收者角色名称
+	optional string revRoleName = 3;
+	// 聊天内容
+	optional string content = 4;
+	// 全服公告的编号(如果没有配置编号，默认直接读取聊天内容)
+	optional int32 noticeNo = 5;
+	// 公告参数
+	repeated string noticParams = 6;
+	// 发送的时间
+	optional int64 sendTime = 7;
+}
+
+//0x1202响应聊天消息(S->C)
+message ChatInfoResp {
+	repeated ChatProtoData chatList = 1;
+	// 是否加入公会
+	optional bool hasGuild = 2;
+}
+
+// 0x1203请求聊天(C->S)
+message ChatReq {
+	// chat_type的含义
+	// 1代表世界聊天
+	// 2代表私聊
+	// 3代表全服公告
+	// 4代表公会聊天
+	required int32 chatType = 1;
+	// 接受者角色名称
+	optional string revRoleName = 2;
+	// 聊天内容
+	optional string content = 3;
+}
+
+//0x1204响应聊天(S->C)
+message ChatResp {
+	// chat_type的含义
+	// 1代表世界聊天
+	// 2代表私聊
+	// 3代表全服公告
+	// 4代表公会聊天
+	required int32 chatType = 1;
+	// 发送者角色名称
+	optional string sendRoleName = 2;
+	// 接收者角色名称
+	optional string revRoleName = 3;
+	// 聊天内容
+	optional string content = 4;
+	// 全服公告的编号(如果没有配置编号，默认直接读取聊天内容)
+	// 词条属性在公会聊天中 0表示会员 1表示会长
+	optional int32 noticeNo = 5;
+	// 公告参数
+	repeated string noticParams = 6;
+	// 发送的时间
+	optional int64 sendTime = 7;
+}
+
+// 0x1205请求查询玩家是否加入公会(C->S)
+// 消息号CheckRoleGuildReq
+// 消息体空
+
+//0x1206响应查询玩家是否加入公会消息(S->C)
+message CheckRoleGuildResp {
+	required bool isInGuild = 1;
+}
